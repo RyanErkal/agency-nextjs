@@ -1,22 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,500;1,700;1,900&family=Poppins:wght@400;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 html,
 body {
-  scroll-behavior: smooth !important;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
 }
 
-/* It makes the HTML progress bar filling smooth when value change. */
+body::-webkit-scrollbar {
+	display: none;
+}
+
 progress::-webkit-progress-value {
-  transition: 0.6s width ease-out;
+	transition: 0.6s width ease-out;
+}
+
+.link {
+	text-decoration: none;
+	background-image: linear-gradient(#fb923c, #fb923c);
+	background-position: 0% 100%;
+	background-repeat: no-repeat;
+	background-size: 0% 2px;
+	transition: background-size 0.3s;
+	transition: all 0.3s ease-in-out;
+}
+
+.link:hover,
+.group:hover .link {
+	color: #fb923c;
+	background-size: 100% 2px;
+}
+
+::selection {
+	background: #fb923cb4; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+	background: #fb923cb4; /* Gecko Browsers */
 }
 
 @layer base {
-  .btn-gradient {
-    @apply !bg-gradient !bg-[length:300%_300%] hover:saturate-[1.2] shadow duration-100 !border-0 !border-transparent !bg-transparent animate-shimmer disabled:!bg-none disabled:!bg-gray-500/30  !text-white;
-  }
-  .btn {
-    @apply !capitalize;
-  }
+	.btn-gradient {
+		@apply !bg-gradient !bg-[length:300%_300%] hover:saturate-[1.2] shadow duration-100 !border-0 !border-transparent !bg-transparent animate-shimmer disabled:!bg-none disabled:!bg-gray-500/30  !text-white;
+	}
+	.btn {
+		@apply !capitalize;
+	}
+}
+
+.playfair {
+	font-family: "Playfair Display", serif;
+}
+
+.poppins {
+	font-family: "Poppins", sans-serif;
+}
+
+.highlight {
+	background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=fb923c);
+	margin: -2px -6px;
+	padding: 2px 6px;
 }
