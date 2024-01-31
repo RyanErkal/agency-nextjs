@@ -11,7 +11,9 @@ import web4 from "@/public/web4.webp";
 export default function Services() {
 	return (
 		<>
-			<div className="flex flex-col items-center justify-center px-8 py-32 xl:px-32 overflow-hidden bg-white">
+			<div
+				id="services"
+				className="flex flex-col items-center justify-center px-8 py-32 xl:px-32 overflow-hidden bg-white">
 				<h1 className="playfair text-4xl font-bold mb-6 z-10">
 					Our Services
 				</h1>

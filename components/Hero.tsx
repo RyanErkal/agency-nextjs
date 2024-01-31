@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import hero from "@/public/hero1.png";
 
 const Hero = () => {
@@ -14,9 +15,11 @@ const Hero = () => {
 						Crafting digital experiences that elevate brand
 						awareness, boost engagement, and increase revenue.
 					</p>
-					<button className="btn btn-wide bg-white border-2 border-gray-900 hover:bg-orange-400 hover:border-orange-400 hover:text-white hover:drop-shadow-lg transition-all ease-in-out duration-300 rounded-sm">
+					<Link
+						href="/new-project"
+						className="btn btn-wide bg-white border-2 border-gray-900 hover:bg-orange-400 hover:border-orange-400 hover:text-white hover:drop-shadow-lg transition-all ease-in-out duration-300 rounded-sm">
 						Get Started
-					</button>
+					</Link>
 				</div>
 				<div className="h-full ml-32">
 					<Image
