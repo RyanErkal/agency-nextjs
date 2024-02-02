@@ -22,7 +22,7 @@ export default function Services() {
 					<h1 className="playfair text-4xl font-bold mb-12 text-left w-full">
 						A web development agency with expertise
 					</h1>
-					<div className="grid grid-cols-2 xl:grid-cols-3 gap-20 max-w-7xl">
+					<div className="grid grid-cols-1 xl:grid-cols-3 gap-20 max-w-7xl">
 						<Link href="/web-design" className="group">
 							<div className="w-auto h-auto overflow-hidden">
 								<Image
