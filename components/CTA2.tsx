@@ -21,10 +21,10 @@ export default function CTA2() {
 				</div>
 				<div className="w-full flex flex-col ml-6">
 					<h1 className="playfair text-4xl font-bold w-full text-left mb-6">
-						Let's Build Something.
+						Let&apos;s Build Something.
 					</h1>
 					<p className="mb-6 text-black/75">
-						Whether you're looking to build a new website, or
+						Whether you&apos;re looking to build a new website, or
 						redesign an existing one, we can help you.
 					</p>
 					<div className="flex items-center gap-4 mb-6">

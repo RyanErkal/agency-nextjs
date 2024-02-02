@@ -1,5 +1,6 @@
 "use client";
 
+import React from "react";
 import { ParallaxBanner } from "react-scroll-parallax";
 
 export default function ParallaxImage({

@@ -5,7 +5,7 @@ export default function Submitted({ formData }: any) {
 				Thank you {formData.name}
 			</h1>
 			<p className="text-md text-black/75">
-				We'll be in touch with you shortly to discuss your project.
+				We&apos;ll be in touch with you shortly to discuss your project.
 			</p>
 		</div>
 	);
