@@ -2,7 +2,7 @@ export default function Step1({ formData, handleInput }: any) {
 	return (
 		<div className="w-full flex flex-col">
 			<h1 className="playfair text-4xl font-bold w-full text-left mb-12">
-				Let's get started.
+				Let&apos;s get started.
 			</h1>
 			<form className="flex flex-col gap-4 mb-6">
 				<label htmlFor="name">Name</label>

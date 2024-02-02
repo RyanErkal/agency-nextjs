@@ -2,7 +2,7 @@ export default function Step1({ formData, handleInput }: any) {
 	return (
 		<div className="w-full flex flex-col">
 			<h1 className="playfair text-4xl font-bold w-full text-left mb-12">
-				Let's get started.
+				When and What?
 			</h1>
 			<form className="flex flex-col gap-4 mb-6">
 				<label htmlFor="startDate">Desired Start Date</label>
@@ -63,7 +63,7 @@ export default function Step1({ formData, handleInput }: any) {
 					</label>
 					<label className="label cursor-pointer w-fit">
 						<span className="label-text mr-2">
-							We'll take the lot
+							We&apos;ll take the lot
 						</span>
 						<input
 							type="checkbox"

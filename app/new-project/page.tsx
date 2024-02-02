@@ -3,7 +3,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Image from "next/image";
-import Link from "next/link";
 import { useState } from "react";
 import Step1 from "./_assets/components/Step1";
 import Step2 from "./_assets/components/Step2";
