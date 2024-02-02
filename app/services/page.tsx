@@ -6,6 +6,10 @@ import CTA2 from "@/components/CTA2";
 import Mailing from "@/components/Mailing";
 import Image from "next/image";
 import Link from "next/link";
+import web5 from "@/public/web5.webp";
+import web2 from "@/public/web2.webp";
+import web3 from "@/public/web3.webp";
+import web4 from "@/public/web4.webp";
 
 export default function Services() {
 	return (
@@ -22,7 +26,7 @@ export default function Services() {
 						<Link href="/web-design" className="group">
 							<div className="w-auto h-auto overflow-hidden">
 								<Image
-									src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80"
+									src={web2}
 									alt="Service Image"
 									width={300}
 									height={300}
@@ -43,7 +47,7 @@ export default function Services() {
 						<Link href="/web-dev" className="group">
 							<div className="w-auto h-auto overflow-hidden">
 								<Image
-									src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80"
+									src={web3}
 									alt="Service Image"
 									width={300}
 									height={300}
@@ -64,7 +68,7 @@ export default function Services() {
 						<Link href="/seo" className="group">
 							<div className="w-auto h-auto overflow-hidden">
 								<Image
-									src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80"
+									src={web4}
 									alt="Service Image"
 									width={300}
 									height={300}
@@ -85,7 +89,7 @@ export default function Services() {
 						<Link href="/ecom" className="group">
 							<div className="w-auto h-auto overflow-hidden">
 								<Image
-									src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80"
+									src={web5}
 									alt="Service Image"
 									width={300}
 									height={300}
@@ -106,7 +110,7 @@ export default function Services() {
 						<Link href="/shopify" className="group">
 							<div className="w-auto h-auto overflow-hidden">
 								<Image
-									src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80"
+									src={web2}
 									alt="Service Image"
 									width={300}
 									height={300}
@@ -127,7 +131,7 @@ export default function Services() {
 						<Link href="/web-hosting" className="group">
 							<div className="w-auto h-auto overflow-hidden">
 								<Image
-									src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80"
+									src={web3}
 									alt="Service Image"
 									width={300}
 									height={300}
@@ -148,7 +152,7 @@ export default function Services() {
 						<Link href="/copy" className="group">
 							<div className="w-auto h-auto overflow-hidden">
 								<Image
-									src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80"
+									src={web4}
 									alt="Service Image"
 									width={300}
 									height={300}
@@ -169,7 +173,7 @@ export default function Services() {
 						<Link href="/cms" className="group">
 							<div className="w-auto h-auto overflow-hidden">
 								<Image
-									src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80"
+									src={web5}
 									alt="Service Image"
 									width={300}
 									height={300}
@@ -190,7 +194,7 @@ export default function Services() {
 						<Link href="/cybersecurity" className="group">
 							<div className="w-auto h-auto overflow-hidden">
 								<Image
-									src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80"
+									src={web2}
 									alt="Service Image"
 									width={300}
 									height={300}
@@ -211,7 +215,7 @@ export default function Services() {
 						<Link href="/ppc" className="group">
 							<div className="w-auto h-auto overflow-hidden">
 								<Image
-									src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80"
+									src={web3}
 									alt="Service Image"
 									width={300}
 									height={300}
