@@ -59,7 +59,7 @@ const TOS = () => {
 
 1. Introduction
 
-Welcome to REDesign, accessible at https://redesignvercel.app. These Terms of Service govern your use of our website and services. By accessing or using our website, you agree to be bound by these terms.
+Welcome to REDesign, accessible at https://redesignagency.vercel.app. These Terms of Service govern your use of our website and services. By accessing or using our website, you agree to be bound by these terms.
 
 2. Website Ownership
 

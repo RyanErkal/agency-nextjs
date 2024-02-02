@@ -59,7 +59,7 @@ const PrivacyPolicy = () => {
 
 1. Introduction
 
-Welcome to REDesign. This Privacy Policy applies to our website, https://redesign.vercel.app. It governs our data collection, processing, and usage practices. By using the website, you consent to the data practices described in this policy.
+Welcome to REDesign. This Privacy Policy applies to our website, https://redesignagency.vercel.app. It governs our data collection, processing, and usage practices. By using the website, you consent to the data practices described in this policy.
 
 2. Data Collection
 
