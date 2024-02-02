@@ -26,86 +26,76 @@ import config from "@/config";
 // Please write a simple privacy policy for my site. Add the current date.  Do not add or explain your reasoning. Answer:
 
 export const metadata = getSEOTags({
-  title: `Privacy Policy | ${config.appName}`,
-  canonicalUrlRelative: "/privacy-policy",
+	title: `Privacy Policy | ${config.appName}`,
+	canonicalUrlRelative: "/privacy-policy"
 });
 
 const PrivacyPolicy = () => {
-  return (
-    <main className="max-w-xl mx-auto">
-      <div className="p-5">
-        <Link href="/" className="btn btn-ghost">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-            className="w-5 h-5"
-          >
-            <path
-              fillRule="evenodd"
-              d="M15 10a.75.75 0 01-.75.75H7.612l2.158 1.96a.75.75 0 11-1.04 1.08l-3.5-3.25a.75.75 0 010-1.08l3.5-3.25a.75.75 0 111.04 1.08L7.612 9.25h6.638A.75.75 0 0115 10z"
-              clipRule="evenodd"
-            />
-          </svg>{" "}
-          Back
-        </Link>
-        <h1 className="text-3xl font-extrabold pb-6">
-          Privacy Policy for {config.appName}
-        </h1>
+	return (
+		<main className="max-w-xl mx-auto">
+			<div className="p-5">
+				<Link href="/" className="btn btn-ghost">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 20 20"
+						fill="currentColor"
+						className="w-5 h-5">
+						<path
+							fillRule="evenodd"
+							d="M15 10a.75.75 0 01-.75.75H7.612l2.158 1.96a.75.75 0 11-1.04 1.08l-3.5-3.25a.75.75 0 010-1.08l3.5-3.25a.75.75 0 111.04 1.08L7.612 9.25h6.638A.75.75 0 0115 10z"
+							clipRule="evenodd"
+						/>
+					</svg>{" "}
+					Back
+				</Link>
+				<h1 className="text-3xl font-extrabold pb-6">
+					Privacy Policy for {config.appName}
+				</h1>
 
-        <pre
-          className="leading-relaxed whitespace-pre-wrap"
-          style={{ fontFamily: "sans-serif" }}
-        >
-          {`Last Updated: 2023-08-25
+				<pre
+					className="leading-relaxed whitespace-pre-wrap"
+					style={{ fontFamily: "sans-serif" }}>
+					{`Last Updated: February 2, 2024
 
-Thank you for visiting ShipFast ("we," "us," or "our"). This Privacy Policy outlines how we collect, use, and protect your personal and non-personal information when you use our website located at https://shipfa.st (the "Website").
+1. Introduction
 
-By accessing or using the Website, you agree to the terms of this Privacy Policy. If you do not agree with the practices described in this policy, please do not use the Website.
+Welcome to REDesign. This Privacy Policy applies to our website, https://redesign.vercel.app. It governs our data collection, processing, and usage practices. By using the website, you consent to the data practices described in this policy.
 
-1. Information We Collect
+2. Data Collection
 
-1.1 Personal Data
+We collect the following types of information:
 
-We collect the following personal information from you:
+Personal Information: name, email address, company name, and summary information about your enquiry.
+Non-personal Information: web cookies to improve your experience on our website.
+3. Purpose of Data Collection
 
-Name: We collect your name to personalize your experience and communicate with you effectively.
-Email: We collect your email address to send you important information regarding your orders, updates, and communication.
-Payment Information: We collect payment details to process your orders securely. However, we do not store your payment information on our servers. Payments are processed by trusted third-party payment processors.
+Your data is collected for the sole purpose of responding to your service enquiries and providing you with the requested information or services.
 
-1.2 Non-Personal Data
+4. Data Sharing
 
-We may use web cookies and similar technologies to collect non-personal information such as your IP address, browser type, device information, and browsing patterns. This information helps us to enhance your browsing experience, analyze trends, and improve our services.
+We respect your privacy. REDesign does not share, sell, rent, or trade personal information with third parties for their commercial purposes.
 
-2. Purpose of Data Collection
+5. Children's Privacy
 
-We collect and use your personal data for the sole purpose of order processing. This includes processing your orders, sending order confirmations, providing customer support, and keeping you updated about the status of your orders.
+Our website is not designed for, nor do we knowingly collect information from, children under the age of 13.
 
-3. Data Sharing
+6. Updates to the Privacy Policy
 
-We do not share your personal data with any third parties except as required for order processing (e.g., sharing your information with payment processors). We do not sell, trade, or rent your personal information to others.
+We may update this policy from time to time. All updates will be posted on this page, and you will be notified of any changes through the email address you have provided us.
 
-4. Children's Privacy
+7. Contact Information
 
-ShipFast is not intended for children under the age of 13. We do not knowingly collect personal information from children. If you are a parent or guardian and believe that your child has provided us with personal information, please contact us at the email address provided below.
+If you have any questions about this Privacy Policy, please contact us at ryanerkal1@gmail.com.
 
-5. Updates to the Privacy Policy
+Your Privacy Rights
 
-We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. Any updates will be posted on this page, and we may notify you via email about significant changes.
+At any time, you can inquire about the data we hold about you, and request corrections or deletions as per applicable laws.
 
-6. Contact Information
-
-If you have any questions, concerns, or requests related to this Privacy Policy, you can contact us at:
-
-Email: marc@shipfa.st
-
-For all other inquiries, please visit our Contact Us page on the Website.
-
-By using ShipFast, you consent to the terms of this Privacy Policy.`}
-        </pre>
-      </div>
-    </main>
-  );
+Please note, this policy does not cover the practices of companies we do not own or control, or people that we do not manage.`}
+				</pre>
+			</div>
+		</main>
+	);
 };
 
 export default PrivacyPolicy;

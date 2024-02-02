@@ -73,8 +73,6 @@ export default function WebDesign() {
 		setPage(page + 1);
 	}
 
-	console.log(formData);
-
 	return (
 		<>
 			<Header />
