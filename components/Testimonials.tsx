@@ -13,11 +13,11 @@ export default function Testimonials() {
 	return (
 		<div
 			id="testimonials"
-			className="flex flex-col items-center justify-center bg-white text-black px-8 py-32 xl:px-32 ">
+			className="flex flex-col items-center justify-center bg-red-100 text-black px-8 py-32 xl:px-32 ">
 			<h1 className="playfair text-4xl font-bold mb-6">
 				What Our Clients Say
 			</h1>
-			<div className="grid grid-cols-1 xl:grid-cols-2 gap-8 max-w-7xl">
+			<div className="grid grid-cols-1 xl:grid-cols-2 gap-8 max-w-7xl bg-blue-100">
 				<motion.div
 					className="xl:row-span-2 xl:row-start-1"
 					initial={{ y: "60%", opacity: 0 }}

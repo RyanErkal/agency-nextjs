@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export default function Home() {
 	return (
 		<>
-			<header className="max-h-screen xl:h-screen">
+			<header className="max-h-screen max-w-screen xl:h-screen">
 				<Header />
 				<Hero />
 			</header>

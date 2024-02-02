@@ -4,7 +4,7 @@ export default function Experience() {
 	return (
 		<div
 			id="ourwork"
-			className="flex flex-col items-center justify-center bg-white text-black px-8 py-16 xl:px-32">
+			className="flex flex-col items-center justify-center bg-white text-black px-8 py-8 xl:px-32">
 			<h1 className="playfair text-4xl font-bold mb-6"></h1>
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-7xl">
 				<div>

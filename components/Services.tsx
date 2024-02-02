@@ -13,104 +13,112 @@ export default function Services() {
 		<>
 			<div
 				id="services"
-				className="flex flex-col items-center justify-center px-8 py-32 xl:px-32 overflow-hidden bg-white">
-				<h1 className="playfair text-4xl font-bold mb-6 z-10">
+				className="flex flex-col items-center justify-center px-8 py-32 xl:px-32 overflow-hidden">
+				<h1 className="playfair text-4xl font-bold z-10">
 					Our Services
 				</h1>
-				<div className="flex flex-col items-center max-w-7xl">
-					<Link href="/web-design" className=" grid grid-cols-2">
+				<div className="flex flex-col items-center max-w-screen max-w-7xl mb-16 overflow-hidden">
+					<Link
+						href="/web-design"
+						className=" grid grid-cols-1 xl:grid-cols-2">
 						<Parallax
-							speed={10}
+							speed={5}
 							className="w-full h-auto overflow-hidden">
 							<Image
 								src={web2}
 								alt="Service Image"
 								width={600}
 								height={600}
-								className="object-fill cursor-pointer"
+								className="object-fill cursor-pointer z-0"
 							/>
 						</Parallax>
-						<Parallax className="w-full flex flex-col items-start justify-center ml-6">
+						<div className="w-full flex flex-col items-start justify-center xl:mr-6 z-30">
 							<h1 className="text-2xl font-bold w-full text-left mb-2">
 								Web Design
 							</h1>
-							<p className=" text-black/75">
+							<p className="text-sm xl:text-lg text-black/75">
 								A website is a brands most important marketing
 								tool. It is the first thing people see when they
 								search for your business. It is the first
 								impression you make on your customers.
 							</p>
-						</Parallax>
+						</div>
 					</Link>
-					<Link href="/web-dev" className=" grid grid-cols-2">
-						<Parallax className="w-full flex flex-col items-start justify-center mr-6">
+					<Link
+						href="/web-dev"
+						className=" grid grid-cols-1 xl:grid-cols-2">
+						<div className="w-full flex flex-col items-start justify-center xl:mr-6 z-30 order-2 xl:order-1">
 							<h1 className="text-2xl font-bold w-full text-left mb-2">
 								Web Development
 							</h1>
-							<p className=" text-black/75">
+							<p className="text-sm xl:text-lg text-black/75">
 								A website is a brands most important marketing
 								tool. It is the first thing people see when they
 								search for your business. It is the first
 								impression you make on your customers.
 							</p>
-						</Parallax>
+						</div>
 						<Parallax
-							speed={10}
-							className="w-full h-auto overflow-hidden">
+							speed={5}
+							className="w-full h-auto overflow-hidden order-1 xl:order-2">
 							<Image
 								src={web3}
 								alt="Service Image"
 								width={600}
 								height={600}
-								className="object-fill cursor-pointer"
+								className="object-fill cursor-pointer z-0"
 							/>
 						</Parallax>
 					</Link>
-					<Link href="/seo" className=" grid grid-cols-2">
+					<Link
+						href="/seo"
+						className=" grid grid-cols-1 xl:grid-cols-2">
 						<Parallax
-							speed={10}
+							speed={5}
 							className="w-full h-auto overflow-hidden">
 							<Image
 								src={web4}
 								alt="Service Image"
 								width={600}
 								height={600}
-								className="object-fill cursor-pointer"
+								className="object-fill cursor-pointer z-0"
 							/>
 						</Parallax>
-						<Parallax className="w-full flex flex-col items-start justify-center ml-6">
+						<div className="w-full flex flex-col items-start justify-center xl:ml-6 z-30">
 							<h1 className="text-2xl font-bold w-full text-left mb-2">
 								SEO
 							</h1>
-							<p className=" text-black/75">
+							<p className="text-sm xl:text-lg text-black/75">
 								A website is a brands most important marketing
 								tool. It is the first thing people see when they
 								search for your business. It is the first
 								impression you make on your customers.
 							</p>
-						</Parallax>
+						</div>
 					</Link>
-					<Link href="/ecom" className=" grid grid-cols-2">
-						<Parallax className="w-full flex flex-col items-start justify-center mr-6">
+					<Link
+						href="/ecom"
+						className=" grid grid-cols-1 xl:grid-cols-2">
+						<div className="w-full flex flex-col items-start justify-center xl:mr-6 z-30 order-2 xl:order-1">
 							<h1 className="text-2xl font-bold w-full text-left mb-2">
 								eCommerce
 							</h1>
-							<p className=" text-black/75">
+							<p className="text-sm xl:text-lg text-black/75">
 								A website is a brands most important marketing
 								tool. It is the first thing people see when they
 								search for your business. It is the first
 								impression you make on your customers.
 							</p>
-						</Parallax>
+						</div>
 						<Parallax
-							speed={10}
-							className="w-full h-auto overflow-hidden">
+							speed={5}
+							className="w-full h-auto overflow-hidden z-10 order-1 xl:order-2">
 							<Image
 								src={web5}
 								alt="Service Image"
 								width={600}
 								height={600}
-								className="object-fill cursor-pointer"
+								className="object-fill cursor-pointer z-10"
 							/>
 						</Parallax>
 					</Link>

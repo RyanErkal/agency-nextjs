@@ -76,9 +76,9 @@ export default function WebDesign() {
 	return (
 		<>
 			<Header />
-			<section className="relative overflow-hidden bg-white text-black px-8 py-32 xl:px-32 flex flex-col items-center">
-				<div className="max-w-7xl w-full flex items-start justify-between ">
-					<div className="w-full">
+			<section className="relative overflow-hidden bg-white text-black px-8 py-16 xl:px-32 flex flex-col items-center">
+				<div className="max-w-7xl w-full flex flex-col xl:flex-row items-start justify-between ">
+					<div className="w-full hidden xl:flex">
 						<Image
 							src="https://d6f6d0kpz0gyr.cloudfront.net/uploads/transforms/07188dc2fd9e350907e80925ab0cd493/184554/madebyshape-web-design-enquiry_2020-10-05-092502_6c0c164bd2b597ee32b68b8b5755bd2e.webp"
 							alt="Service Image"
@@ -87,7 +87,7 @@ export default function WebDesign() {
 							className="object-fill"
 						/>
 					</div>
-					<div className="w-full flex flex-col ml-6">
+					<div className="w-full flex flex-col xl:ml-6">
 						{page === 1 ? (
 							<Step1
 								formData={formData}

@@ -7,7 +7,7 @@ export default function Testimonials() {
 	return (
 		<div
 			id="testimonials"
-			className="flex flex-col items-center justify-center bg-white text-black px-8 py-32 xl:px-32">
+			className="flex flex-col items-center justify-center bg-white text-black px-8 py-32 xl:px-32 overflow-hidden">
 			<h1 className="playfair text-4xl font-bold mb-6">
 				What Our Clients Say
 			</h1>

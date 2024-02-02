@@ -4,7 +4,7 @@ import hero from "@/public/hero1.png";
 
 const Hero = () => {
 	return (
-		<section className="w-full h-full flex flex-col items-center justify-start px-8 pt-16 xl:pb-16 xl:px-32">
+		<section className="w-full h-full flex flex-col items-center justify-start px-8 pt-16 xl:pb-16 xl:px-32 overflow-hidden">
 			<div className="max-w-7xl flex flex-col xl:flex-row justify-between h-full">
 				<div className="flex flex-col items-center xl:items-start justify-center gap-10 z-10 w-full">
 					<h1 className="font-bold text-4xl lg:text-6xl playfair text-center xl:text-left">
@@ -21,13 +21,13 @@ const Hero = () => {
 						Get Started
 					</Link>
 				</div>
-				<div className="h-full ml-32">
+				<div className="h-full xl:ml-32 overflow-hidden xl:overflow-visible">
 					<Image
 						src={hero}
 						alt="Hero Image"
 						height={1000}
 						width={1000}
-						className="h-full object-cover overflow-visible"
+						className="h-full object-cover overflow-hidden xl:overflow-visible"
 					/>
 				</div>
 			</div>
