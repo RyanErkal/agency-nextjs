@@ -27,9 +27,9 @@ export default function WebDesign() {
 					</h3>
 					<div>
 						<p className="mb-12">
-							So it's essential to ensure your website design &
-							development are simple, clean and user friendly, to
-							make the users experience enjoyable.
+							So it&apos;s essential to ensure your website design
+							& development are simple, clean and user friendly,
+							to make the users experience enjoyable.
 							<br />
 							<br />
 							Whether you are a startup or a well established
@@ -51,8 +51,8 @@ export default function WebDesign() {
 				<div className="w-full max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-24 relative">
 					<div className="row-start-2 lg:row-start-1 transform -translate-y-[150px] lg:transform-none">
 						<h2 className="w-full text-left text-3xl font-bold mb-8">
-							We're proud to be recognised as a verified Craft CMS
-							and Craft Commerce partner.
+							We&apos;re proud to be recognised as a verified
+							Craft CMS and Craft Commerce partner.
 						</h2>
 						<p className="mb-12">
 							Craft states that a Craft Verified Partner has
@@ -60,8 +60,8 @@ export default function WebDesign() {
 							knowledge of Craft and exhibits professional and
 							reliable business practices. You can put your trust
 							in our team of Craft experts and have faith that
-							you're working with an agency who knows Craft CMS
-							and who has been reviewed by Pixel & Tonic
+							you&apos;re working with an agency who knows Craft
+							CMS and who has been reviewed by Pixel & Tonic
 							themselves.
 						</p>
 						<Link
@@ -192,7 +192,7 @@ export default function WebDesign() {
 							</h3>
 							<p className="mb-4">
 								The Front End of your website is what your users
-								see and interact with. It's the design, the
+								see and interact with. It&apos;s the design, the
 								layout, the colours, the fonts, the images, the
 								buttons, the forms, the navigation and the way
 								it all works together. We use the latest
@@ -225,7 +225,7 @@ export default function WebDesign() {
 							</h3>
 							<p className="mb-4">
 								The Back End of your website is the engine room
-								of your website. It's where all the data is
+								of your website. It&apos;s where all the data is
 								stored and where all the magic happens. We use
 								Craft CMS for our custom websites and Shopify
 								for our eCommerce websites.
@@ -250,7 +250,7 @@ export default function WebDesign() {
 				<div className="w-full max-w-7xl">
 					<h2 className="max-w-3xl mx-auto text-center text-3xl font-bold mb-16">
 						A team of web design experts that can help you design
-						and build a website you're proud of
+						and build a website you&apos;re proud of
 					</h2>
 					<div className="grid grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-24">
 						<div>
@@ -332,7 +332,7 @@ export default function WebDesign() {
 			{/* <section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-24 lg:px-8 py-12">
 				<div className="w-full max-w-7xl">
 					<h2 className="mx-auto text-center text-3xl font-bold mb-12">
-						Web design projects we've worked on
+						Web design projects we&apos;ve worked on
 					</h2>
 					<div className="grid grid-cols-1 md:grid-cols-2 gap-16 w-full max-w-7xl">
 						<div className="flex flex-col gap-16">

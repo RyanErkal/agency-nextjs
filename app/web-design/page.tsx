@@ -56,11 +56,11 @@ export default function WebDesign() {
 					<div className="row-start-2 lg:row-start-1 transform -translate-y-[150px] lg:transform-none">
 						<h2 className="w-full text-left text-2xl font-bold mb-12">
 							Are you a startup brand, well established company,
-							in the UK or worldwide? It doesn't matter. We work
-							with a range of clients.
+							in the UK or worldwide? It doesn&apos;t matter. We
+							work with a range of clients.
 						</h2>
 						<p className="mb-12">
-							We know it's hard for brands to setup an online
+							We know it&apos;s hard for brands to setup an online
 							experience, and budgets can be tight. We like to
 							help new brands grow and work in a long term
 							relationship.
@@ -222,13 +222,13 @@ export default function WebDesign() {
 						/>
 						<div className="mb-6 lg:mb-0 flex flex-col justify-center">
 							<h3 className="w-full text-left text-xl font-bold mb-6">
-								We like to remove the 'waffle' and design
-								beautiful, easy to use websites that are
+								We like to remove the &apos;waffle&apos; and
+								design beautiful, easy to use websites that are
 								functional.
 							</h3>
 							<p>
-								We don't just build pretty websites. Here at
-								MadeByShape we understand all aspects of a
+								We don&apos;t just build pretty websites. Here
+								at MadeByShape we understand all aspects of a
 								successful site from design through web
 								development and testing, to SEO and Hosting. We
 								tailor our service to the client and the project
@@ -244,15 +244,15 @@ export default function WebDesign() {
 						/>
 						<div className="lg:col-start-1 lg:row-start-2 lg:mb-0 flex flex-col justify-center">
 							<h3 className="w-full text-left text-xl font-bold mb-6">
-								We handle every project in-house, we don't
+								We handle every project in-house, we don&apos;t
 								outsource.
 							</h3>
 							<p>
-								We're a strong team of 16, we know how much work
-								we can take on - and we let clients know if
+								We&apos;re a strong team of 16, we know how much
+								work we can take on - and we let clients know if
 								there will be a delay. Every project we take on
 								is produced in-house, no outsourcing involved.
-								If we feel we're not the right fit for your
+								If we feel we&apos;re not the right fit for your
 								project, we will do use our digital industry
 								experience to recommend a suitable agency for
 								you.
@@ -265,7 +265,7 @@ export default function WebDesign() {
 				<div className="w-full max-w-7xl">
 					<h2 className="max-w-3xl mx-auto text-center text-3xl font-bold mb-16">
 						A team of web design experts that can help you design
-						and build a website you're proud of
+						and build a website you&apos;re proud of
 					</h2>
 					<div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-24">
 						<div>
@@ -334,7 +334,7 @@ export default function WebDesign() {
 			{/* <section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-24 lg:px-8 py-12">
 				<div className="w-full max-w-7xl">
 					<h2 className="mx-auto text-center text-3xl font-bold mb-12">
-						Web design projects we've worked on
+						Web design projects we&apos;ve worked on
 					</h2>
 					<div className="grid grid-cols-1 md:grid-cols-2 gap-16 w-full max-w-7xl">
 						<div className="flex flex-col gap-16">

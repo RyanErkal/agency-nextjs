@@ -41,10 +41,11 @@ export default function WebDesign() {
 							We have experience working across a range of sectors
 							such as Fashion, Interior Design, and Beauty for
 							start up brands as well as giving existing brands a
-							facelift. We've helped celebrities build up their
-							fashion brands such as The ODolls Collection, Riley
-							Studio and Foolish as well as furniture brand Idyll
-							Home and Killer Impression in the beauty industry.
+							facelift. We&apos;ve helped celebrities build up
+							their fashion brands such as The ODolls Collection,
+							Riley Studio and Foolish as well as furniture brand
+							Idyll Home and Killer Impression in the beauty
+							industry.
 						</p>
 						<Link
 							href="/new-project"
@@ -58,7 +59,7 @@ export default function WebDesign() {
 				{/* <div className="w-full max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-24 relative">
 					<div className="row-start-2 lg:row-start-1 transform -translate-y-[150px] lg:transform-none">
 						<h2 className="w-full text-left text-2xl font-bold mb-12">
-							We're proud to be recognised as a verified Craft CMS
+							We&apos;re proud to be recognised as a verified Craft CMS
 							and Craft Commerce partner.
 						</h2>
 						<p className="mb-12">
@@ -67,7 +68,7 @@ export default function WebDesign() {
 							knowledge of Craft and exhibits professional and
 							reliable business practices. You can put your trust
 							in our team of Craft experts and have faith that
-							you're working with an agency who knows Craft CMS
+							you&apos;re working with an agency who knows Craft CMS
 							and who has been reviewed by Pixel & Tonic
 							themselves.
 						</p>
@@ -247,7 +248,7 @@ export default function WebDesign() {
 			{/* <section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-24 lg:px-8 py-12">
 				<div className="w-full max-w-7xl">
 					<h2 className="mx-auto text-center text-3xl font-bold mb-12">
-						Web design projects we've worked on
+						Web design projects we&apos;ve worked on
 					</h2>
 					<div className="grid grid-cols-1 md:grid-cols-2 gap-16 w-full max-w-7xl">
 						<div className="flex flex-col gap-16">

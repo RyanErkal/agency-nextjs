@@ -38,7 +38,7 @@ const faqList: FAQItemProps[] = [
 				specific needs, budget, and the level of customization you
 				require. As a specialized web design agency with extensive
 				experience in Shopify development, we focus on creating custom,
-				scalable, and user-friendly e-commerce solutions. If you're
+				scalable, and user-friendly e-commerce solutions. If you&apos;re
 				looking for an agency that prioritizes understanding your
 				business goals, offers personalized service, and has a proven
 				track record of delivering successful Shopify stores, then we
@@ -65,10 +65,10 @@ const faqList: FAQItemProps[] = [
 		)
 	},
 	{
-		question: "What are the USP's of Shopify?",
+		question: "What are the USP&apos;s of Shopify?",
 		answer: (
 			<div className="space-y-2 leading-relaxed">
-				Shopify's Unique Selling Points (USPs) include:
+				Shopify&apos;s Unique Selling Points (USPs) include:
 				<br />
 				<br />
 				Ease of Use: An intuitive interface and drag-and-drop editor
@@ -89,7 +89,7 @@ const faqList: FAQItemProps[] = [
 				<br />
 				<br />
 				Extensive App Marketplace: Access to thousands of apps to extend
-				your store's functionality.
+				your store&apos;s functionality.
 				<br />
 				<br />
 				24/7 Support: Round-the-clock customer support via phone, email,
@@ -114,16 +114,16 @@ const faqList: FAQItemProps[] = [
 		)
 	},
 	{
-		question: "Can you show me some Shopify websites you've built?",
+		question: "Can you show me some Shopify websites you&apos;ve built?",
 		answer: (
 			<div className="space-y-2 leading-relaxed">
-				As a web design agency, we've had the pleasure of working on a
-				diverse range of Shopify websites across various industries.
-				While we prioritize the privacy and confidentiality of our
-				clients, we can provide a portfolio of our publicly shareable
-				projects upon request. Our work showcases our commitment to
-				creating visually appealing, highly functional, and
-				conversion-optimized online stores. We invite you to get in
+				As a web design agency, we&apos;ve had the pleasure of working
+				on a diverse range of Shopify websites across various
+				industries. While we prioritize the privacy and confidentiality
+				of our clients, we can provide a portfolio of our publicly
+				shareable projects upon request. Our work showcases our
+				commitment to creating visually appealing, highly functional,
+				and conversion-optimized online stores. We invite you to get in
 				touch with us to view our portfolio and discuss how we can bring
 				your e-commerce vision to life using Shopify.
 			</div>

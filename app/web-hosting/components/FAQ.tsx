@@ -40,9 +40,9 @@ const faqList: FAQItemProps[] = [
 				offer 24/7 monitoring and support to promptly address any issues
 				and minimize downtime. Additionally, our hosting packages come
 				with enhanced security measures to protect your website from
-				threats. By hosting with ReDesign, you're not just getting
-				server space; you're gaining a partner dedicated to ensuring
-				your online presence is robust and effective.
+				threats. By hosting with ReDesign, you&apos;re not just getting
+				server space; you&apos;re gaining a partner dedicated to
+				ensuring your online presence is robust and effective.
 			</p>
 		)
 	},
@@ -69,11 +69,11 @@ const faqList: FAQItemProps[] = [
 			<div className="space-y-2 leading-relaxed">
 				Yes, you can purchase your own domain, and we highly recommend
 				doing so to establish your brand and make your website easily
-				accessible. If you haven't already purchased a domain, we can
-				guide you through the process of choosing and registering a
+				accessible. If you haven&apos;t already purchased a domain, we
+				can guide you through the process of choosing and registering a
 				domain name that reflects your business and is memorable to your
 				audience. Additionally, we can manage the domain on your behalf,
-				ensuring that it's properly configured for your web hosting
+				ensuring that it&apos;s properly configured for your web hosting
 				setup and renewing it as needed to maintain your online
 				presence.
 			</div>

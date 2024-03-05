@@ -261,7 +261,7 @@ export default function WebDesign() {
 				<div className="w-full max-w-7xl">
 					<h2 className="max-w-3xl mx-auto text-center text-3xl font-bold mb-12">
 						A team of web design experts that can help you design
-						and build a website you're proud of
+						and build a website you&apos;re proud of
 					</h2>
 					<div className="grid grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-24">
 						<div>
@@ -330,7 +330,7 @@ export default function WebDesign() {
 			{/* <section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-24 lg:px-8 py-12">
 				<div className="w-full max-w-7xl">
 					<h2 className="mx-auto text-center text-3xl font-bold mb-12">
-						Web design projects we've worked on
+						Web design projects we&apos;ve worked on
 					</h2>
 					<div className="grid grid-cols-1 md:grid-cols-2 gap-16 w-full max-w-7xl">
 						<div className="flex flex-col gap-16">

@@ -31,12 +31,12 @@ const faqList: FAQItemProps[] = [
 			<p>
 				Yes, we are committed to helping businesses of all sizes
 				establish a strong online presence. If you have a limited
-				budget, let's discuss your project requirements and financial
-				constraints. We can work together to prioritize the project's
-				phases or streamline the features to match your budget, focusing
-				on the most impactful elements first. Our goal is to find a
-				solution that fits within your budget while still delivering a
-				quality website that meets your needs.
+				budget, let&apos;s discuss your project requirements and
+				financial constraints. We can work together to prioritize the
+				project&apos;s phases or streamline the features to match your
+				budget, focusing on the most impactful elements first. Our goal
+				is to find a solution that fits within your budget while still
+				delivering a quality website that meets your needs.
 			</p>
 		)
 	},
@@ -73,18 +73,19 @@ const faqList: FAQItemProps[] = [
 		)
 	},
 	{
-		question: "What if I don't like the website?",
+		question: "What if I don&apos;t like the website?",
 		answer: (
 			<div className="space-y-2 leading-relaxed">
 				Your satisfaction is our top priority. We involve our clients in
 				the development process from the start, including regular
 				check-ins and feedback sessions, to ensure the project aligns
 				with your vision at every stage. If there are aspects of the
-				website you're not satisfied with, we are committed to making
-				necessary revisions. Our goal is to deliver a final product that
-				meets your expectations and serves your business objectives
-				effectively. We have a revision process in place to address any
-				concerns and make adjustments as needed before the final launch.
+				website you&apos;re not satisfied with, we are committed to
+				making necessary revisions. Our goal is to deliver a final
+				product that meets your expectations and serves your business
+				objectives effectively. We have a revision process in place to
+				address any concerns and make adjustments as needed before the
+				final launch.
 			</div>
 		)
 	}

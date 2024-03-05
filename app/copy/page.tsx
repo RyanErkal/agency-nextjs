@@ -8,7 +8,6 @@ import Footer from "@/components/Footer";
 import FAQ from "./components/FAQ";
 import ph1 from "@/public/ph1.png";
 import { MdOutlineInsertLink } from "react-icons/md";
-import { MdOutlineCheck } from "react-icons/md";
 
 export default function WebDesign() {
 	return (
@@ -24,8 +23,8 @@ export default function WebDesign() {
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-24">
 					<h3 className="w-full text-left text-2xl font-bold">
 						Speak up in a crowded digital world. Whisper the right
-						things in your customer's ear. Build a reputation on the
-						voice of your brand.
+						things in your customer&apos;s ear. Build a reputation
+						on the voice of your brand.
 					</h3>
 					<div>
 						<p className="mb-12">
@@ -71,16 +70,16 @@ export default function WebDesign() {
 							simply stuffing keywords into a service page and
 							hoping for the best. Balancing SEO and your unique,
 							natural tone of voice require skill. We know just
-							how to do this, in fact, we've won awards for the
-							results we produce.
+							how to do this, in fact, we&apos;ve won awards for
+							the results we produce.
 							<br />
 							<br />
 							Every piece of content we write has a plan behind
-							it, whether it's one cog in a well-oiled content
-							optimisation plan, a perfectly timed press release
-							to enhance your backlink profile, or a witty
-							strapline that reminds your audience you're just
-							like them.
+							it, whether it&apos;s one cog in a well-oiled
+							content optimisation plan, a perfectly timed press
+							release to enhance your backlink profile, or a witty
+							strapline that reminds your audience you&apos;re
+							just like them.
 						</p>
 						<Link
 							href="/contact"
@@ -192,7 +191,7 @@ export default function WebDesign() {
 								blog content that is on-brand, on-trend,
 								meticulously researched, and flaunts your
 								intellectual authority. Blog content is also
-								integral to your site's SEO.
+								integral to your site&apos;s SEO.
 							</p>
 						</div>
 						<div>
@@ -203,9 +202,10 @@ export default function WebDesign() {
 							<p>
 								Build awareness the right way through
 								professionally written link building content
-								that champions your brand's voice. Our network
-								of journalists, bloggers, and influencers help
-								us to tap into new pools of potential customers.
+								that champions your brand&apos;s voice. Our
+								network of journalists, bloggers, and
+								influencers help us to tap into new pools of
+								potential customers.
 							</p>
 						</div>
 						<div>
@@ -239,8 +239,8 @@ export default function WebDesign() {
 							We get under the skin of your audience to understand
 							their everyday lives, from their biggest challenges
 							to insider jargon. Adapting content writing to new
-							industries is second nature to us, we've done it
-							quite a few times.
+							industries is second nature to us, we&apos;ve done
+							it quite a few times.
 						</p>
 						<Link
 							href="/contact"
@@ -260,7 +260,7 @@ export default function WebDesign() {
 			{/* <section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-24 lg:px-8 py-12">
 				<div className="w-full max-w-7xl">
 					<h2 className="mx-auto text-center text-3xl font-bold mb-12">
-						Web design projects we've worked on
+						Web design projects we&apos;ve worked on
 					</h2>
 					<div className="grid grid-cols-1 md:grid-cols-2 gap-16 w-full max-w-7xl">
 						<div className="flex flex-col gap-16">

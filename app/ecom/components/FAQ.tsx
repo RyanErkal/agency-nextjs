@@ -78,8 +78,8 @@ const faqList: FAQItemProps[] = [
 				solutions accordingly. A smaller shop benefits from a
 				personalized approach, ensuring that your online store reflects
 				the uniqueness of your brand and effectively reaches your target
-				audience. Regardless of the size of your shop, we're here to
-				help you succeed online.
+				audience. Regardless of the size of your shop, we&apos;re here
+				to help you succeed online.
 			</div>
 		)
 	}

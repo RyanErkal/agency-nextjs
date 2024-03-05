@@ -19,11 +19,12 @@ const faqList: FAQItemProps[] = [
 				SEO stands for Search Engine Optimization. It is the practice of
 				increasing the quantity and quality of traffic to your website
 				through organic search engine results. This involves optimizing
-				your website's content, structure, and on-site elements to make
-				it more attractive to search engines like Google, Bing, and
+				your website&apos;s content, structure, and on-site elements to
+				make it more attractive to search engines like Google, Bing, and
 				Yahoo. SEO strategies include keyword research, content
 				creation, link building, and technical improvements to enhance
-				your site's visibility in search engine results pages (SERPs).
+				your site&apos;s visibility in search engine results pages
+				(SERPs).
 			</div>
 		)
 	},
@@ -37,8 +38,8 @@ const faqList: FAQItemProps[] = [
 				people conduct trillions of searches every year, often with
 				commercial intent to find information about products and
 				services. Being visible as a trusted resource by Google and
-				other search engines is always going to work in a brand's favor.
-				Quality SEO and a high-quality website take brands there.
+				other search engines is always going to work in a brand&apos;s
+				favor. Quality SEO and a high-quality website take brands there.
 			</p>
 		)
 	},
@@ -58,13 +59,13 @@ const faqList: FAQItemProps[] = [
 		question: "Can you help me rank high in Google?",
 		answer: (
 			<div className="space-y-2 leading-relaxed">
-				Yes, our goal is to improve your website's ranking in Google by
-				implementing effective SEO strategies tailored to your business.
-				While we cannot guarantee specific rankings (as Google's
-				algorithms are complex and constantly changing), we have a track
-				record of improving the visibility and ranking of our clients'
-				websites in search engine results through proven SEO techniques
-				and practices.
+				Yes, our goal is to improve your website&apos;s ranking in
+				Google by implementing effective SEO strategies tailored to your
+				business. While we cannot guarantee specific rankings (as
+				Google&apos;s algorithms are complex and constantly changing),
+				we have a track record of improving the visibility and ranking
+				of our clients&apos; websites in search engine results through
+				proven SEO techniques and practices.
 			</div>
 		)
 	},
@@ -75,7 +76,7 @@ const faqList: FAQItemProps[] = [
 				Seeing significant results from SEO can vary, typically taking
 				anywhere from 3 to 6 months or more. SEO is a long-term strategy
 				because it involves building a solid foundation and accumulating
-				authoritative backlinks, which don't happen overnight. The
+				authoritative backlinks, which don&apos;t happen overnight. The
 				timeframe can also depend on the competitiveness of your
 				industry and the current state of your website. However, once
 				momentum is gained, SEO efforts often lead to sustained traffic

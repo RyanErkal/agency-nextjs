@@ -45,8 +45,8 @@ const faqList: FAQItemProps[] = [
 				Yes, we specialize in both creating new websites and redesigning
 				existing ones. A website redesign can be crucial for improving
 				usability, updating content, and enhancing SEO. We work closely
-				with you to retain your site's strengths while transforming its
-				look and functionality to meet current web standards.
+				with you to retain your site&apos;s strengths while transforming
+				its look and functionality to meet current web standards.
 			</div>
 		)
 	},
@@ -63,14 +63,15 @@ const faqList: FAQItemProps[] = [
 	},
 	{
 		question:
-			"Do you offer ongoing help with our new site once it's launched?",
+			"Do you offer ongoing help with our new site once it&apos;s launched?",
 		answer: (
 			<div className="space-y-2 leading-relaxed">
 				Yes, we provide ongoing support and maintenance services
 				post-launch to ensure your website remains updated, secure, and
 				functioning optimally. Our maintenance packages include regular
-				updates, security checks, backups, and technical support. We're
-				here to help your site continue to grow and succeed over time.
+				updates, security checks, backups, and technical support.
+				We&apos;re here to help your site continue to grow and succeed
+				over time.
 			</div>
 		)
 	},

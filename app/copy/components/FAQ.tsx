@@ -37,13 +37,14 @@ const faqList: FAQItemProps[] = [
 				Content is vital for your business for several reasons. It helps
 				to establish your brand voice and communicate your value
 				proposition to your target audience. Well-crafted content can
-				significantly improve your website's search engine optimization
-				(SEO), increasing your visibility in search engine results and
-				driving more organic traffic to your site. Additionally,
-				engaging and informative content can educate your audience,
-				build trust, and influence their purchasing decisions. Content
-				is a crucial component of digital marketing strategies, as it
-				helps to attract and retain customers by providing them value.
+				significantly improve your website&apos;s search engine
+				optimization (SEO), increasing your visibility in search engine
+				results and driving more organic traffic to your site.
+				Additionally, engaging and informative content can educate your
+				audience, build trust, and influence their purchasing decisions.
+				Content is a crucial component of digital marketing strategies,
+				as it helps to attract and retain customers by providing them
+				value.
 			</p>
 		)
 	},
@@ -54,9 +55,10 @@ const faqList: FAQItemProps[] = [
 				The cost of content writing services can vary widely depending
 				on several factors, including the length and complexity of the
 				content, the level of expertise required, the research involved,
-				and the writer's experience. Quality content is an investment
-				that can significantly benefit your business by improving your
-				online presence, engaging your audience, and driving sales.
+				and the writer&apos;s experience. Quality content is an
+				investment that can significantly benefit your business by
+				improving your online presence, engaging your audience, and
+				driving sales.
 			</div>
 		)
 	}
