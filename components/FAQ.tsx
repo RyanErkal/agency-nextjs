@@ -52,8 +52,7 @@ const faqList: FAQItemProps[] = [
 		)
 	},
 	{
-		question:
-			"Can you help improve my website&apos;s search engine ranking?",
+		question: "Can you help improve my website's search engine ranking?",
 		answer: (
 			<div className="space-y-2 leading-relaxed">
 				Yes, we offer SEO services to improve your website&apos;s

@@ -114,7 +114,7 @@ const faqList: FAQItemProps[] = [
 		)
 	},
 	{
-		question: "Can you show me some Shopify websites you&apos;ve built?",
+		question: "Can you show me some Shopify websites you've built?",
 		answer: (
 			<div className="space-y-2 leading-relaxed">
 				As a web design agency, we&apos;ve had the pleasure of working
