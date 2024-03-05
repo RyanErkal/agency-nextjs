@@ -52,15 +52,16 @@ const faqList: FAQItemProps[] = [
 		)
 	},
 	{
-		question: "Can you help improve my website's search engine ranking?",
+		question:
+			"Can you help improve my website&apos;s search engine ranking?",
 		answer: (
 			<div className="space-y-2 leading-relaxed">
-				Yes, we offer SEO services to improve your website's visibility
-				on search engines like Google. Our approach includes keyword
-				research, on-page optimization, content creation, and building
-				quality backlinks. While we aim to enhance your rankings and
-				drive more traffic, it's important to note that SEO is an
-				ongoing effort with results that build over time.
+				Yes, we offer SEO services to improve your website&apos;s
+				visibility on search engines like Google. Our approach includes
+				keyword research, on-page optimization, content creation, and
+				building quality backlinks. While we aim to enhance your
+				rankings and drive more traffic, it&apos;s important to note
+				that SEO is an ongoing effort with results that build over time.
 			</div>
 		)
 	},
@@ -84,9 +85,9 @@ const faqList: FAQItemProps[] = [
 			<div className="space-y-2 leading-relaxed">
 				We offer ongoing maintenance and support packages that can be
 				tailored to your needs. These services include regular updates
-				to your site's software, security monitoring, backups, and
-				making changes to the site's content or functionality. You can
-				choose a monthly or annual plan that best suits your
+				to your site&apos;s software, security monitoring, backups, and
+				making changes to the site&apos;s content or functionality. You
+				can choose a monthly or annual plan that best suits your
 				requirements to ensure your website remains up-to-date and
 				secure.
 			</div>
