@@ -11,12 +11,12 @@ const spring = {
 
 export default function Testimonials() {
 	return (
-		<div
+		<section
 			id="testimonials"
-			className="flex flex-col items-center justify-center bg-red-100 text-black px-8 py-32 xl:px-32 ">
-			<h1 className="playfair text-4xl font-bold mb-6">
+			className="max-w-7xl flex flex-col items-center justify-center bg-red-100 text-black px-8 py-32">
+			<h2 className="w-full text-left text-5xl bg-red-100 font-bold mb-6">
 				What Our Clients Say
-			</h1>
+			</h2>
 			<div className="grid grid-cols-1 xl:grid-cols-2 gap-8 max-w-7xl bg-blue-100">
 				<motion.div
 					className="xl:row-span-2 xl:row-start-1"
@@ -84,6 +84,6 @@ export default function Testimonials() {
 					/>
 				</motion.div>
 			</div>
-		</div>
+		</section>
 	);
 }

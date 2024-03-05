@@ -3,10 +3,10 @@ import { ConfigProps } from "./types/config";
 
 const config = {
 	// REQUIRED
-	appName: "REdesign",
+	appName: "ReDesign",
 	// REQUIRED: a short description of your app for SEO tags (can be overwritten)
 	appDescription:
-		"Crafting digital experiences that elevate brand awareness, boost engagement, and increase revenue.",
+		"Crafting digital experiences that elevate brand awareness, increase authority, and drive revenue.",
 	// REQUIRED (no https://, not trialing slash at the end, just the naked domain)
 	domainName: "redesign.vercel.app",
 	crisp: {

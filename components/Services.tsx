@@ -2,135 +2,92 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Parallax } from "react-scroll-parallax";
-import web5 from "@/public/web5.webp";
-import web2 from "@/public/web2.webp";
-import web3 from "@/public/web3.webp";
-import web4 from "@/public/web4.webp";
+import ph1 from "@/public/ph1.png";
+import ph2 from "@/public/ph2.png";
+import ph3 from "@/public/ph3.png";
+import ph4 from "@/public/ph4.png";
 
 export default function Services() {
 	return (
 		<>
-			<div
+			<section
 				id="services"
-				className="flex flex-col items-center justify-center px-8 py-32 xl:px-32 overflow-hidden">
-				<h1 className="playfair text-4xl font-bold z-10">
+				className="max-w-7xl flex flex-col items-center justify-center mx-auto text-black px-8 py-24">
+				<h2 className="w-full text-left text-5xl font-bold mb-8">
 					Our Services
-				</h1>
-				<div className="flex flex-col items-center max-w-screen max-w-7xl mb-16 overflow-hidden">
+				</h2>
+				<div className="grid grid-cols-1 md:grid-cols-2 gap-16 max-w-7xl w-full">
 					<Link
 						href="/web-design"
-						className=" grid grid-cols-1 xl:grid-cols-2">
-						<Parallax
-							speed={5}
-							className="w-full h-auto overflow-hidden">
+						className="flex flex-col items-start gap-8 w-full group">
+						<div className="w-full h-auto overflow-hidden">
 							<Image
-								src={web2}
+								src={ph1}
 								alt="Service Image"
 								width={600}
 								height={600}
-								className="object-fill cursor-pointer z-0"
+								className="w-full group-hover:scale-105 transition-all ease-in-out duration-300"
 							/>
-						</Parallax>
-						<div className="w-full flex flex-col items-start justify-center xl:mr-6 z-30">
-							<h1 className="text-2xl font-bold w-full text-left mb-2">
-								Web Design
-							</h1>
-							<p className="text-sm xl:text-lg text-black/75">
-								A website is a brands most important marketing
-								tool. It is the first thing people see when they
-								search for your business. It is the first
-								impression you make on your customers.
-							</p>
 						</div>
+						<h1 className="text-xl font-bold text-left">
+							Web Design
+						</h1>
 					</Link>
 					<Link
 						href="/web-dev"
-						className=" grid grid-cols-1 xl:grid-cols-2">
-						<div className="w-full flex flex-col items-start justify-center xl:mr-6 z-30 order-2 xl:order-1">
-							<h1 className="text-2xl font-bold w-full text-left mb-2">
-								Web Development
-							</h1>
-							<p className="text-sm xl:text-lg text-black/75">
-								A website is a brands most important marketing
-								tool. It is the first thing people see when they
-								search for your business. It is the first
-								impression you make on your customers.
-							</p>
-						</div>
-						<Parallax
-							speed={5}
-							className="w-full h-auto overflow-hidden order-1 xl:order-2">
+						className="flex flex-col items-start gap-8 w-full group">
+						<div className="w-full h-auto overflow-hidden">
 							<Image
-								src={web3}
+								src={ph2}
 								alt="Service Image"
 								width={600}
 								height={600}
-								className="object-fill cursor-pointer z-0"
+								className="w-full group-hover:scale-105 transition-all ease-in-out duration-300"
 							/>
-						</Parallax>
+						</div>
+						<h1 className="text-xl font-bold w-fit text-left">
+							Web Development
+						</h1>
 					</Link>
 					<Link
 						href="/seo"
-						className=" grid grid-cols-1 xl:grid-cols-2">
-						<Parallax
-							speed={5}
-							className="w-full h-auto overflow-hidden">
+						className="flex flex-col items-start gap-8 w-full group">
+						<div className="w-full h-auto overflow-hidden">
 							<Image
-								src={web4}
+								src={ph3}
 								alt="Service Image"
 								width={600}
 								height={600}
-								className="object-fill cursor-pointer z-0"
+								className="w-full group-hover:scale-105 transition-all ease-in-out duration-300"
 							/>
-						</Parallax>
-						<div className="w-full flex flex-col items-start justify-center xl:ml-6 z-30">
-							<h1 className="text-2xl font-bold w-full text-left mb-2">
-								SEO
-							</h1>
-							<p className="text-sm xl:text-lg text-black/75">
-								A website is a brands most important marketing
-								tool. It is the first thing people see when they
-								search for your business. It is the first
-								impression you make on your customers.
-							</p>
 						</div>
+						<h1 className="text-xl font-bold text-left">SEO</h1>
 					</Link>
 					<Link
 						href="/ecom"
-						className=" grid grid-cols-1 xl:grid-cols-2">
-						<div className="w-full flex flex-col items-start justify-center xl:mr-6 z-30 order-2 xl:order-1">
-							<h1 className="text-2xl font-bold w-full text-left mb-2">
-								eCommerce
-							</h1>
-							<p className="text-sm xl:text-lg text-black/75">
-								A website is a brands most important marketing
-								tool. It is the first thing people see when they
-								search for your business. It is the first
-								impression you make on your customers.
-							</p>
-						</div>
-						<Parallax
-							speed={5}
-							className="w-full h-auto overflow-hidden z-10 order-1 xl:order-2">
+						className="flex flex-col items-start gap-8 w-full group">
+						<div className="w-full h-auto overflow-hidden">
 							<Image
-								src={web5}
+								src={ph4}
 								alt="Service Image"
 								width={600}
 								height={600}
-								className="object-fill cursor-pointer z-10"
+								className="w-full group-hover:scale-105 transition-all ease-in-out duration-300"
 							/>
-						</Parallax>
+						</div>
+						<h1 className="text-xl font-bold text-left">
+							eCommerce
+						</h1>
 					</Link>
 				</div>
 				<div className="flex items-center justify-center w-full z-10">
 					<Link href="/services">
-						<button className="btn btn-wide px-6 bg-white border-2 border-gray-900 hover:bg-orange-400 hover:border-orange-400 hover:text-white hover:drop-shadow-lg transition-all ease-in-out duration-300 rounded-sm">
+						<button className="btn btn-wide px-6 mt-16 bg-white border-2 border-gray-900 hover:bg-orange-400 hover:border-orange-400 hover:text-white hover:drop-shadow-lg transition-all ease-in-out duration-300 rounded-sm">
 							All Services
 						</button>
 					</Link>
 				</div>
-			</div>
+			</section>
 		</>
 	);
 }

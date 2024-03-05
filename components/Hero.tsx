@@ -1,33 +1,37 @@
-import Image from "next/image";
 import Link from "next/link";
-import hero from "@/public/hero1.png";
+import Image from "next/image";
+import hero from "@/public/hero.png";
 
 const Hero = () => {
 	return (
-		<section className="w-full h-full flex flex-col items-center justify-start px-8 pt-16 xl:pb-16 xl:px-32 overflow-hidden">
-			<div className="max-w-7xl flex flex-col xl:flex-row justify-between h-full">
-				<div className="flex flex-col items-center xl:items-start justify-center gap-10 z-10 w-full">
+		<section className="w-full h-full flex flex-col items-center justify-start px-8 py-24">
+			<div className="max-w-7xl">
+				<div className="flex flex-col items-center justify-center gap-12 w-full">
 					<h1 className="font-bold text-4xl lg:text-6xl playfair text-center xl:text-left">
-						Design, Develop,{" "}
-						<span className="highlight text-black/80">Deploy</span>
+						Design, Develop, Deploy
 					</h1>
-					<p className="text-lg text-black/75 text-center xl:text-left w-full">
+					<p className="text-lg text-center">
 						Crafting digital experiences that elevate brand
-						awareness, boost engagement, and increase revenue.
+						awareness, increase authority, and drive revenue.
 					</p>
-					<Link
-						href="/new-project"
-						className="btn btn-wide bg-white border-2 border-gray-900 hover:bg-orange-400 hover:border-orange-400 hover:text-white hover:drop-shadow-lg transition-all ease-in-out duration-300 rounded-sm">
-						Get Started
-					</Link>
-				</div>
-				<div className="h-full xl:ml-32 overflow-hidden xl:overflow-visible">
+					<div className="flex items-center gap-6">
+						<Link
+							href="/#work"
+							className="btn px-6 bg-white border-2 border-gray-900 hover:bg-orange-400 hover:border-orange-400 hover:text-white hover:drop-shadow-lg transition-all ease-in-out duration-300 rounded-sm">
+							View Our Work
+						</Link>
+
+						<Link href="/#testimonials" className="link mx-6">
+							Meet Our Clients
+						</Link>
+					</div>
 					<Image
 						src={hero}
 						alt="Hero Image"
-						height={1000}
-						width={1000}
-						className="h-full object-cover overflow-hidden xl:overflow-visible"
+						priority
+						width={800}
+						height={600}
+						className="w-full"
 					/>
 				</div>
 			</div>

@@ -11,12 +11,7 @@ const Footer = () => {
 				<div className=" flex lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
 					<div className="w-72 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
 						<Link href="/#" aria-current="page" className="">
-							<h1 className="text-4xl playfair">
-								<strong className="playfair-extrabold">
-									RE
-								</strong>
-								design
-							</h1>
+							<h1 className="text-4xl font-bold">ReDesign</h1>
 						</Link>
 
 						<p className="mt-3 text-sm text-gray-900 text-opacity-75">

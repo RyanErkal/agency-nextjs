@@ -2,26 +2,24 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Parallax } from "react-scroll-parallax";
+import ph1 from "@/public/ph1.png";
 
 export default function CTA2() {
 	return (
-		<section className="overflow-hidden bg-white text-black px-8 py-8 xl:px-32 flex flex-col items-center">
+		<section className="overflow-hidden bg-white text-black px-8 py-8 flex flex-col items-center">
 			<div className="max-w-7xl w-full flex flex-col xl:flex-row items-center justify-between ">
 				<div className="w-full z-0">
-					<Parallax speed={5}>
-						<Image
-							src="https://d6f6d0kpz0gyr.cloudfront.net/uploads/transforms/07188dc2fd9e350907e80925ab0cd493/184554/madebyshape-web-design-enquiry_2020-10-05-092502_6c0c164bd2b597ee32b68b8b5755bd2e.webp"
-							alt="Service Image"
-							width={600}
-							height={600}
-							className="object-fill"
-						/>
-					</Parallax>
+					<Image
+						src={ph1}
+						alt="Service Image"
+						width={600}
+						height={600}
+						className="object-fill mb-8 xl:mb-0"
+					/>
 				</div>
 				<div className="w-full flex flex-col xl:ml-6 z-10">
-					<h1 className="playfair text-4xl font-bold w-full text-left mb-6">
-						Let&apos;s Build Something.
+					<h1 className="text-5xl font-bold w-full text-left mb-6">
+						Let&apos;s Build Something
 					</h1>
 					<p className="text-sm xl:text-lg mb-6 text-black/75">
 						Whether you&apos;re looking to build a new website, or
