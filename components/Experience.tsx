@@ -1,6 +1,6 @@
 import Link from "next/link";
 import ExperienceCard from "./ExperienceCard";
-import alliance from "@/public/alliance.png";
+import alliance from "@/public/alliance.webp";
 import ignite from "@/public/coaching3.webp";
 import resilient1 from "@/public/resilient1.png";
 import voics from "@/public/voics.png";
