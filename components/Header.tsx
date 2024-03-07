@@ -168,7 +168,7 @@ export default function Header() {
 						<div className="hidden lg:flex shrink-0">
 							<Link
 								href="/new-project"
-								className="border-2 border-black px-8 py-4 font-semibold hover:bg-orange-400 hover:border-orange-400 hover:text-white transition-all ease-in-out duration-300 rounded-full"
+								className="btn px-8 border-2 border-black hover:bg-orange-400 hover:border-orange-400 hover:text-white transition-all ease-in-out duration-300 rounded-full"
 								title="Start a new project">
 								Start A Project
 							</Link>

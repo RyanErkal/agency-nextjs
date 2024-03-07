@@ -7,7 +7,7 @@ export default function Testimonials() {
 		<section
 			id="testimonials"
 			className="max-w-7xl flex flex-col items-center justify-center mx-auto text-black px-8 py-24">
-			<h2 className="w-full text-left text-5xl font-bold mb-12">
+			<h2 className="w-full text-left text-5xl font-bold tracking-tight mb-12">
 				What Our Clients Say
 			</h2>
 			<div className="grid grid-cols-1 xl:grid-cols-2 gap-8 max-w-7xl">

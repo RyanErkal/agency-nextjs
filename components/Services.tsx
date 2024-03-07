@@ -13,14 +13,14 @@ export default function Services() {
 			<section
 				id="services"
 				className="max-w-7xl flex flex-col items-center justify-center mx-auto text-black px-8 py-24">
-				<h2 className="w-full text-left text-5xl font-bold mb-8">
+				<h2 className="w-full text-left text-5xl font-bold tracking-tight mb-8">
 					Our Services
 				</h2>
 				<div className="grid grid-cols-1 md:grid-cols-2 gap-16 max-w-7xl w-full">
 					<Link
 						href="/web-design"
 						className="flex flex-col items-start gap-8 w-full group">
-						<div className="w-full h-auto overflow-hidden">
+						<div className="w-full h-auto overflow-hidden rounded-xl">
 							<Image
 								src={ph1}
 								alt="Service Image"
@@ -36,7 +36,7 @@ export default function Services() {
 					<Link
 						href="/web-dev"
 						className="flex flex-col items-start gap-8 w-full group">
-						<div className="w-full h-auto overflow-hidden">
+						<div className="w-full h-auto overflow-hidden rounded-xl">
 							<Image
 								src={ph2}
 								alt="Service Image"
@@ -52,7 +52,7 @@ export default function Services() {
 					<Link
 						href="/seo"
 						className="flex flex-col items-start gap-8 w-full group">
-						<div className="w-full h-auto overflow-hidden">
+						<div className="w-full h-auto overflow-hidden rounded-xl">
 							<Image
 								src={ph3}
 								alt="Service Image"
@@ -66,7 +66,7 @@ export default function Services() {
 					<Link
 						href="/ecom"
 						className="flex flex-col items-start gap-8 w-full group">
-						<div className="w-full h-auto overflow-hidden">
+						<div className="w-full h-auto overflow-hidden rounded-xl">
 							<Image
 								src={ph4}
 								alt="Service Image"
@@ -82,7 +82,7 @@ export default function Services() {
 				</div>
 				<div className="flex items-center justify-center w-full z-10">
 					<Link href="/services">
-						<button className="btn btn-wide px-6 mt-16 bg-white border-2 border-gray-900 hover:bg-orange-400 hover:border-orange-400 hover:text-white hover:drop-shadow-lg transition-all ease-in-out duration-300 rounded-sm">
+						<button className="btn btn-wide px-6 mt-16 bg-white border-2 border-gray-900 hover:bg-orange-400 hover:border-orange-400 hover:text-white hover:drop-shadow-lg transition-all ease-in-out duration-300 rounded-full">
 							All Services
 						</button>
 					</Link>

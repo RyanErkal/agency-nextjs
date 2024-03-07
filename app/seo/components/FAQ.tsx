@@ -170,7 +170,7 @@ const FAQ = () => {
 					<p className="inline-block font-semibold text-orange-400 mb-4">
 						FAQ
 					</p>
-					<p className="text-3xl font-bold">
+					<p className="text-3xl font-bold tracking-tight">
 						Frequently Asked Questions
 					</p>
 				</div>

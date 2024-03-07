@@ -19,7 +19,7 @@ export default function Services() {
 				id="services"
 				className="flex flex-col items-center bg-white text-black">
 				<div className="flex flex-col items-center justify-center px-8 py-32 xl:px-32 overflow-hidden bg-white">
-					<h2 className="playfair text-4xl font-bold mb-12 text-left w-full">
+					<h2 className="playfair text-4xl font-bold tracking-tight mb-12 text-left w-full">
 						A web design agency with expertise
 					</h2>
 					<div className="grid grid-cols-1 xl:grid-cols-3 gap-20 max-w-7xl">

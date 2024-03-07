@@ -10,7 +10,7 @@ export default function Testimonial({
 	description: string;
 }) {
 	return (
-		<div className="bg-gray-100  min-h-72 p-8 flex flex-col items-left justify-start rounded-sm">
+		<div className="bg-gray-100  min-h-72 p-8 flex flex-col items-left justify-start rounded-xl">
 			<h2 className="font-bold text-xl mb-4">{title}</h2>
 			<p className="text-sm text-left text-black/80 mb-4">
 				{description}

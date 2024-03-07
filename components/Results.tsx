@@ -24,7 +24,7 @@ export default function Results() {
 		<section
 			id="results"
 			className="max-w-7xl flex flex-col items-center justify-center mx-auto text-black px-8 py-24">
-			<h2 className="w-full text-left text-5xl font-bold mb-12">
+			<h2 className="w-full text-left text-5xl font-bold tracking-tight mb-12">
 				Let the numbers talk
 			</h2>
 			<div className="grid grid-cols-1 md:grid-cols-4">

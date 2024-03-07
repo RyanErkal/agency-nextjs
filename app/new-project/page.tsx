@@ -115,7 +115,7 @@ export default function WebDesign() {
 						{page !== 5 && (
 							<button
 								onClick={checkInput}
-								className="btn btn-wide bg-white border-2 border-gray-900 hover:bg-orange-400 hover:border-orange-400 hover:text-white hover:drop-shadow-lg transition-all ease-in-out duration-300 rounded-sm">
+								className="btn btn-wide bg-white border-2 border-gray-900 hover:bg-orange-400 hover:border-orange-400 hover:text-white hover:drop-shadow-lg transition-all ease-in-out duration-300 rounded-full">
 								{page !== 4 ? "Next" : "Submit"}
 							</button>
 						)}

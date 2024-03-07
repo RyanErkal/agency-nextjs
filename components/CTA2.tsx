@@ -14,11 +14,11 @@ export default function CTA2() {
 						alt="Service Image"
 						width={600}
 						height={600}
-						className="object-fill mb-8 xl:mb-0"
+						className="object-fill mb-8 xl:mb-0 rounded-xl"
 					/>
 				</div>
 				<div className="w-full flex flex-col xl:ml-6 z-10">
-					<h1 className="text-5xl font-bold w-full text-left mb-6">
+					<h1 className="text-5xl font-bold w-full text-left tracking-tight mb-6">
 						Let&apos;s Build Something
 					</h1>
 					<p className="text-sm xl:text-lg mb-6 text-black/75">
@@ -28,7 +28,7 @@ export default function CTA2() {
 					<div className="flex items-center gap-4">
 						<Link
 							href="/new-project"
-							className="btn xl:px-6 bg-white border-2 border-gray-900 hover:bg-orange-400 hover:border-orange-400 hover:text-white hover:drop-shadow-lg transition-all ease-in-out duration-300 rounded-sm">
+							className="btn xl:px-6 bg-white border-2 border-gray-900 hover:bg-orange-400 hover:border-orange-400 hover:text-white hover:drop-shadow-lg transition-all ease-in-out duration-300 rounded-full">
 							Start a Project
 						</Link>
 						<Link href="/contact" className="link w-fit mx-6">

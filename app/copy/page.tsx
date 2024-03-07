@@ -16,7 +16,7 @@ export default function WebDesign() {
 			<section
 				id="web-design"
 				className="max-w-7xl flex flex-col items-center justify-center mx-auto text-black px-24 lg:px-8 py-24">
-				<h2 className="w-full text-left text-5xl font-bold mb-12">
+				<h2 className="w-full text-left text-5xl tracking-tight font-bold mb-12">
 					Looking for content writers to define your brand tone of
 					voice and help SEO?
 				</h2>
