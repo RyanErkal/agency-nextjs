@@ -30,14 +30,14 @@ export default function Alliance() {
 						Branding
 					</p>
 					<p className="bg-gray-100 px-4 py-2 rounded-full font-semibold tracking-tight">
-						Sales
+						Marketing
 					</p>
 				</div>
 				<h1 className="font-bold text-6xl w-full text-left mb-12 tracking-tight">
 					Resilient Intent
 				</h1>
 				<h2 className="font-semibold text-2xl w-full text-left tracking-tight mb-12">
-					An educational platform for online coaches.
+					An educational platform for online fitness coaches.
 				</h2>
 				<div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
 					<div className="flex flex-col">
