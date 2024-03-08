@@ -80,7 +80,7 @@ export default function Alliance() {
 								attention of visitors. By aligning content
 								presentation with user intent, we ensure that
 								visitors not only stay longer but are also
-								motivated to take action, whether it's
+								motivated to take action, whether it&apos;s
 								subscribing to a newsletter, downloading an
 								episode, or sharing content on social media.
 							</p>
