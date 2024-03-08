@@ -3,11 +3,11 @@ import Footer from "@/components/Footer";
 import Image from "next/image";
 import Link from "next/link";
 import alliance from "@/public/alliance/alliance.webp";
-import alliance2 from "@/public/alliance/alliance2.webp";
-import alliance3 from "@/public/alliance/alliance3.webp";
-import alliance4 from "@/public/alliance/alliance4.webp";
-import alliancemock from "@/public/alliance/alliance-layout1.webp";
-import alliancemock2 from "@/public/alliance/alliance-layout2.webp";
+import vmock1 from "@/public/voics/vmock1.webp";
+import vmock2 from "@/public/voics/vmock2.webp";
+import v1 from "@/public/voics/v1.webp";
+import v2 from "@/public/voics/v2.webp";
+import v3 from "@/public/voics/v3.webp";
 import ignite from "@/public/ignite.webp";
 import voics from "@/public/voics.webp";
 import resilient from "@/public/resilient.webp";
@@ -43,82 +43,80 @@ export default function Alliance() {
 							className="object-cover w-full rounded-xl"
 						/>
 						<Image
-							src={alliancemock}
+							src={vmock1}
 							alt="Alliance Coaching"
 							className="object-cover w-full rounded-xl mt-8"
 						/>
 						<div className="flex flex-col p-8 bg-gray-100 rounded-xl w-fit mt-8">
 							<h3 className="font-bold text-3xl mb-4 tracking-tight">
-								Brand Identity
+								Journey
 							</h3>
 							<p className="mb-4">
-								Alliance Coaching was a new brand that needed a
-								website to showcase their services and attract
-								new clients. They wanted a website that was
-								modern, professional, and easy to navigate. We
-								designed a website that was clean, modern, and
-								easy to navigate. We used a combination of
-								high-quality images and engaging copy to
-								showcase their services and attract new clients.
-								We also optimized the website for search engines
-								to help improve their online visibility.
+								Creating the client journey was a key part of
+								the project. We wanted to make sure that the
+								website was easy to navigate and that the user
+								experience was seamless. We created a clear and
+								concise user journey that made it easy for
+								visitors to find the information they needed. We
+								also made sure that the website was optimized
+								for mobile devices to ensure that it looked
+								great on all screen sizes.
 							</p>
 						</div>
 						<Image
-							src={alliance3}
+							src={v1}
 							alt="Alliance Coaching"
 							placeholder="blur"
 							className="object-cover w-full rounded-xl mt-8"
 						/>
 						<div className="flex flex-col p-8 bg-gray-100 rounded-xl w-fit mt-8">
 							<h3 className="font-bold text-3xl mb-4 tracking-tight">
-								Conversion
+								Attention
 							</h3>
 							<p className="mb-4">
-								Central to the website&apos;s design are
-								conversion pathways engineered to turn visitors
-								into leads. Calls to action beckon the visitor
-								closer to making a commitment, whether it&apos;s
-								through engaging with the free content,
-								scheduling a personal consultation, or enquiring
-								furhter. These CTAs are not just prompts but
-								bridges over the gap between interest and
-								action, carefully placed to reduce hesitation
-								and simplify the decision-making process.
+								Commanding attention was a key part of the
+								design process. We wanted to make sure that the
+								website was engaging and that it captured the
+								attention of visitors. By aligning content
+								presentation with user intent, we ensure that
+								visitors not only stay longer but are also
+								motivated to take action, whether it's
+								subscribing to a newsletter, downloading an
+								episode, or sharing content on social media.
 							</p>
 						</div>
 					</div>
 					<div className="flex flex-col ">
-						<div className="flex flex-col p-8 bg-gray-100 rounded-xl w-fit mb-8">
-							<h3 className="font-bold text-3xl mb-4 tracking-tight">
-								Social Proof
-							</h3>
-							<p className="mb-4">
-								Trust is crucial. We showcased ample social
-								proof through transformations and client
-								testimonials to demonstrate the real results
-								achieved through the coaching process. Social
-								proof builds credibility and trust, showing
-								potential clients the tangible benefits of
-								embarking on their fitness journey with Alliance
-								Coaching.
-							</p>
-						</div>
 						<Image
-							src={alliance}
+							src={v3}
 							alt="Alliance Coaching"
 							placeholder="blur"
 							className="object-cover w-full rounded-xl"
 						/>
+						<div className="flex flex-col p-8 bg-gray-100 rounded-xl w-fit mt-8">
+							<h3 className="font-bold text-3xl mb-4 tracking-tight">
+								Expertise
+							</h3>
+							<p className="mb-4">
+								We designed a website that was clean, modern,
+								and easy to navigate. We wanted to convery
+								expertise and authority in the industry. We used
+								a combination of high-quality images and
+								engaging copy to showcase their services and
+								attract new clients. We also optimized the
+								website for search engines to help improve their
+								online visibility.
+							</p>
+						</div>
 
 						<Image
-							src={alliance4}
+							src={v2}
 							alt="Alliance Coaching"
 							placeholder="blur"
 							className="object-cover w-full rounded-xl mt-8"
 						/>
 						<Image
-							src={alliancemock2}
+							src={vmock2}
 							alt="Alliance Coaching"
 							className="object-cover w-full rounded-xl mt-8"
 						/>

@@ -26,9 +26,9 @@ export default function WebDesign() {
 				className="flex flex-col items-center justify-center bg-white text-black px-8 py-16">
 				<div className="grid grid-cols-1 md:grid-cols-2 gap-10 w-full max-w-7xl">
 					<div className="flex flex-col items-left justify-start w-full">
-						<h1 className="text-4xl lg:text-6xl font-bold mb-6">
+						<h2 className="text-4xl lg:text-6xl font-bold mb-6">
 							Get in touch
-						</h1>
+						</h2>
 						<p className="text-black/75 pr-10 leading-relaxed">
 							For general enquiries, please fill out the form to
 							get in touch. Alternatively, if you know your

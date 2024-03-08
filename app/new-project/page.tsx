@@ -9,6 +9,7 @@ import Step2 from "./_assets/components/Step2";
 import Step3 from "./_assets/components/Step3";
 import Step4 from "./_assets/components/Step4";
 import Submitted from "./_assets/components/Submitted";
+import ph1 from "@/public/ph1.png";
 
 export default function WebDesign() {
 	const [page, setPage] = useState(1);
@@ -80,11 +81,11 @@ export default function WebDesign() {
 				<div className="max-w-7xl w-full flex flex-col xl:flex-row items-start justify-between ">
 					<div className="w-full hidden xl:flex">
 						<Image
-							src="https://d6f6d0kpz0gyr.cloudfront.net/uploads/transforms/07188dc2fd9e350907e80925ab0cd493/184554/madebyshape-web-design-enquiry_2020-10-05-092502_6c0c164bd2b597ee32b68b8b5755bd2e.webp"
+							src={ph1}
 							alt="Service Image"
 							width={600}
 							height={600}
-							className="object-fill"
+							className="object-fill rounded-xl"
 						/>
 					</div>
 					<div className="w-full flex flex-col xl:ml-6">

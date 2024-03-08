@@ -2,14 +2,15 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Image from "next/image";
 import Link from "next/link";
-import alliance from "@/public/alliance/alliance.webp";
-import alliance3 from "@/public/alliance/alliance3.webp";
-import alliance4 from "@/public/alliance/alliance4.webp";
+import resilient from "@/public/resilient.webp";
+import ri1 from "@/public/resilient/ri1.webp";
+import ri2 from "@/public/resilient/ri2.webp";
+import ri3 from "@/public/resilient/ri3.webp";
 import resilientmock1 from "@/public/resilient/rm1.webp";
 import resilientmock2 from "@/public/resilient/rm2.webp";
+import alliance from "@/public/alliance/alliance.webp";
 import ignite from "@/public/ignite.webp";
 import voics from "@/public/voics.webp";
-import resilient from "@/public/resilient.webp";
 
 export default function Alliance() {
 	return (
@@ -54,47 +55,56 @@ export default function Alliance() {
 						/>
 
 						<Image
-							src={alliance3}
+							src={ri1}
 							alt="Alliance Coaching"
 							placeholder="blur"
 							className="object-cover w-full rounded-xl mt-8"
 						/>
 						<div className="flex flex-col p-8 bg-gray-100 rounded-xl w-fit mt-8">
 							<h3 className="font-bold text-3xl mb-4 tracking-tight">
-								Conversion
+								Conversion Pathways
 							</h3>
 							<p className="mb-4">
-								Central to the website&apos;s design are
-								conversion pathways engineered to turn visitors
-								into leads. Calls to action beckon the visitor
-								closer to making a commitment, whether it&apos;s
-								through engaging with the free content,
-								scheduling a personal consultation, or enquiring
-								furhter. These CTAs are not just prompts but
-								bridges over the gap between interest and
-								action, carefully placed to reduce hesitation
-								and simplify the decision-making process.
+								At the heart of the website&apos;s architecture
+								are meticulously designed conversion routes,
+								crafted to transform site visitors into
+								potential leads. Strategically positioned calls
+								to action (CTAs) guide users towards deeper
+								engagement, whether that&apos;s by exploring
+								free content, booking a private consultation, or
+								making an inquiry. These CTAs serve as more than
+								mere prompts, they act as conduits, facilitating
+								a smooth transition from curiosity to definitive
+								action. By strategically positioning these
+								elements, we aim to minimize any second-guessing
+								and streamline the journey towards a decision,
+								effectively narrowing the gap between the
+								user&apos;s initial interest and their
+								subsequent action.
 							</p>
 						</div>
 					</div>
 					<div className="flex flex-col ">
 						<div className="flex flex-col p-8 bg-gray-100 rounded-xl w-fit mb-8">
 							<h3 className="font-bold text-3xl mb-4 tracking-tight">
-								Social Proof
+								Experience
 							</h3>
 							<p className="mb-4">
-								Trust is crucial. We showcased ample social
-								proof through transformations and client
-								testimonials to demonstrate the real results
-								achieved through the coaching process. Social
-								proof builds credibility and trust, showing
-								potential clients the tangible benefits of
-								embarking on their fitness journey with Alliance
-								Coaching.
+								Resilient Intent is a platform that offers
+								online fitness coaching. They wanted a website
+								that was modern, professional, and easy to
+								navigate that showcases their industry
+								experience. We designed a website that was
+								clean, modern, and easy to navigate. We used a
+								combination of high-quality images and engaging
+								copy to showcase their services and attract new
+								clients. We also optimized the website for
+								search engines to help improve their online
+								visibility.
 							</p>
 						</div>
 						<Image
-							src={alliance}
+							src={ri3}
 							alt="Alliance Coaching"
 							placeholder="blur"
 							className="object-cover w-full rounded-xl"
@@ -104,20 +114,19 @@ export default function Alliance() {
 								Brand Identity
 							</h3>
 							<p className="mb-4">
-								Alliance Coaching was a new brand that needed a
-								website to showcase their services and attract
-								new clients. They wanted a website that was
-								modern, professional, and easy to navigate. We
-								designed a website that was clean, modern, and
-								easy to navigate. We used a combination of
-								high-quality images and engaging copy to
-								showcase their services and attract new clients.
-								We also optimized the website for search engines
-								to help improve their online visibility.
+								We designed a brand identity that was modern,
+								and professional. The goal was to create a brand
+								that was memorable and would stand out in the
+								fitness industry. We used a combination of
+								modern typography and a vibrant color palette to
+								create a brand that was fresh and modern. We
+								also designed a logo that was simple, yet
+								memorable, and would be easily recognizable
+								across all platforms.
 							</p>
 						</div>
 						<Image
-							src={alliance4}
+							src={ri2}
 							alt="Alliance Coaching"
 							placeholder="blur"
 							className="object-cover w-full rounded-xl mt-8"
@@ -134,21 +143,6 @@ export default function Alliance() {
 						More Projects
 					</h2>
 					<div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full mt-12">
-						<Link href="/alliance" className="group w-full">
-							<div className="overflow-hidden rounded-xl w-full">
-								<Image
-									src={alliance}
-									alt="Alliance"
-									width={600}
-									height={600}
-									placeholder="blur"
-									className="object-fill w-full rounded-xl transition-all duration-300 ease-in-out hover:scale-105"
-								/>
-							</div>
-							<h3 className="font-bold text-2xl mt-4 tracking-tight link w-fit">
-								Alliance
-							</h3>
-						</Link>
 						<Link href="/ignite" className="group">
 							<div className="overflow-hidden rounded-xl w-fit h-fit">
 								<Image
@@ -164,7 +158,21 @@ export default function Alliance() {
 								Ignite
 							</h3>
 						</Link>
-
+						<Link href="/alliance" className="group w-full">
+							<div className="overflow-hidden rounded-xl w-full">
+								<Image
+									src={alliance}
+									alt="Alliance"
+									width={600}
+									height={600}
+									placeholder="blur"
+									className="object-fill w-full rounded-xl transition-all duration-300 ease-in-out hover:scale-105"
+								/>
+							</div>
+							<h3 className="font-bold text-2xl mt-4 tracking-tight link w-fit">
+								Alliance
+							</h3>
+						</Link>
 						<Link
 							href="/voics"
 							className="overflow-hidden rounded-xl group">

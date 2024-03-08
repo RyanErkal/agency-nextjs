@@ -31,7 +31,7 @@ export default function Alliance() {
 						Lead Generation
 					</p>
 					<p className="bg-gray-100 px-4 py-2 rounded-full font-semibold tracking-tight">
-						Marketting
+						Marketing
 					</p>
 				</div>
 				<h1 className="font-bold text-6xl w-full text-left mb-12 tracking-tight">
@@ -61,36 +61,33 @@ export default function Alliance() {
 						/>
 						<div className="flex flex-col p-8 bg-gray-100 rounded-xl w-fit mt-8">
 							<h3 className="font-bold text-3xl mb-4 tracking-tight">
-								Social Proof
+								Story Telling
 							</h3>
 							<p className="mb-4">
-								Trust is crucial. We showcased ample social
-								proof through transformations and client
-								testimonials to demonstrate the real results
-								achieved through the coaching process. Social
-								proof builds credibility and trust, showing
-								potential clients the tangible benefits of
-								embarking on their fitness journey with Team
-								Ignite.
+								We wanted to create a website that told a story.
+								At the core of every fitness journey is a story
+								- a tale of challenge, perseverance, and
+								ultimately, transformation. Recognizing this, we
+								meticulously crafted the website to capture and
+								convey these stories, making them the heartbeat
+								of Team Ignite&apos;s online presence.
 							</p>
 						</div>
 					</div>
 					<div className="flex flex-col ">
 						<div className="flex flex-col p-8 bg-gray-100 rounded-xl w-fit mb-8">
 							<h3 className="font-bold text-3xl mb-4 tracking-tight">
-								Brand Identity
+								Authority
 							</h3>
 							<p className="mb-4">
-								Team Ignite was a new brand that needed a
-								website to showcase their services and attract
-								new clients. They wanted a website that was
-								modern, professional, and easy to navigate. We
-								designed a website that was clean, modern, and
-								easy to navigate. We used a combination of
-								high-quality images and engaging copy to
-								showcase their services and attract new clients.
-								We also optimized the website for search engines
-								to help improve their online visibility.
+								Our initial focus was on building a website that
+								exuded authority and credibility. Each element
+								on the site was meticulously chosen to build a
+								narrative of expertise and proven results.
+								Authority in the fitness domain is cemented by
+								sharing knowledge. Our content strategy was
+								designed to make Team Ignite a hub of invaluable
+								information.
 							</p>
 						</div>
 						<Image
@@ -101,19 +98,17 @@ export default function Alliance() {
 						/>
 						<div className="flex flex-col p-8 bg-gray-100 rounded-xl w-fit mt-8">
 							<h3 className="font-bold text-3xl mb-4 tracking-tight">
-								Conversion
+								Community
 							</h3>
 							<p className="mb-4">
-								Central to the website&apos;s design are
-								conversion pathways engineered to turn visitors
-								into leads. Calls to action beckon the visitor
-								closer to making a commitment, whether it&apos;s
-								through engaging with the free content,
-								scheduling a personal consultation, or enquiring
-								furhter. These CTAs are not just prompts but
-								bridges over the gap between interest and
-								action, carefully placed to reduce hesitation
-								and simplify the decision-making process.
+								We recognized that authority is not just about
+								broadcasting expertise, it&apos;s about
+								fostering communities. Our goal was to highlight
+								the community aspect of Team Ignite. We wanted
+								to create a space where people could come
+								together, share their experiences, and support
+								each other. Putting the &quot;Team&quot; in Team
+								Ignite.
 							</p>
 						</div>
 						<Image

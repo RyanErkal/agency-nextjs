@@ -29,7 +29,7 @@ export default function Services() {
 								className="w-full group-hover:scale-105 transition-all ease-in-out duration-300"
 							/>
 						</div>
-						<h1 className="text-xl font-bold text-left">
+						<h1 className="text-xl font-bold text-left link">
 							Web Design
 						</h1>
 					</Link>
@@ -45,7 +45,7 @@ export default function Services() {
 								className="w-full group-hover:scale-105 transition-all ease-in-out duration-300"
 							/>
 						</div>
-						<h1 className="text-xl font-bold w-fit text-left">
+						<h1 className="text-xl font-bold w-fit text-left link">
 							Web Development
 						</h1>
 					</Link>
@@ -61,7 +61,9 @@ export default function Services() {
 								className="w-full group-hover:scale-105 transition-all ease-in-out duration-300"
 							/>
 						</div>
-						<h1 className="text-xl font-bold text-left">SEO</h1>
+						<h1 className="text-xl font-bold text-left link">
+							SEO
+						</h1>
 					</Link>
 					<Link
 						href="/ecom"
@@ -75,7 +77,7 @@ export default function Services() {
 								className="w-full group-hover:scale-105 transition-all ease-in-out duration-300"
 							/>
 						</div>
-						<h1 className="text-xl font-bold text-left">
+						<h1 className="text-xl font-bold text-left link">
 							eCommerce
 						</h1>
 					</Link>
