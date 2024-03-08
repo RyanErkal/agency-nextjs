@@ -90,7 +90,7 @@ export function Menu({
 							))}
 							<Link
 								href="/new-project"
-								className="text-lg btn btn-block bg-transparent border-2 border-gray-900 hover:bg-orange-400 hover:border-orange-400 hover:text-white hover:drop-shadow-lg transition-all ease-in-out duration-300 rounded-sm"
+								className="text-lg btn btn-block bg-transparent border-2 border-gray-900 hover:bg-orange-400 hover:border-orange-400 hover:text-white hover:drop-shadow-lg transition-all ease-in-out duration-300 rounded-full"
 								title="Start a new project">
 								Start a project
 							</Link>
@@ -117,7 +117,7 @@ export default function Header() {
 	return (
 		<>
 			<Headroom>
-				<header className="bg-gray-100/50 backdrop-blur-lg overflow-hidden z-50 max-w-7xl mt-6 rounded-full mx-auto">
+				<header className="bg-gray-100/50 backdrop-blur-lg overflow-hidden z-50 max-w-7xl mt-6 mx-6 rounded-full xl:mx-auto">
 					<nav
 						className="container flex items-center justify-between px-16 py-4 mx-auto max-w-7xl text-black"
 						aria-label="Global">

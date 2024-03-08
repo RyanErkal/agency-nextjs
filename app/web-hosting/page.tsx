@@ -16,7 +16,7 @@ export default function WebDesign() {
 			<Header />
 			<section
 				id="web-design"
-				className="max-w-7xl flex flex-col items-center justify-center mx-auto text-black px-24 lg:px-8 py-24">
+				className="max-w-7xl flex flex-col items-center justify-center mx-auto text-black px-8 py-24">
 				<h2 className="w-full text-left text-5xl font-bold tracking-tight mb-12">
 					Web Hosting that fits your needs
 				</h2>
@@ -35,13 +35,13 @@ export default function WebDesign() {
 						</p>
 						<Link
 							href="/new-project"
-							className="btn xl:px-6 bg-white border-2 border-gray-900 hover:bg-orange-400 hover:border-orange-400 hover:text-white hover:drop-shadow-lg transition-all ease-in-out duration-300 rounded-sm">
+							className="btn btn-wide xl:px-6 bg-white border-2 border-gray-900 hover:bg-orange-400 hover:border-orange-400 hover:text-white hover:drop-shadow-lg transition-all ease-in-out duration-300 rounded-full">
 							Start a Project
 						</Link>
 					</div>
 				</div>
 			</section>
-			<section className="w-full flex flex-col items-center justify-center mx-auto bg-black text-white px-24 lg:px-8 py-24">
+			<section className="w-full flex flex-col items-center justify-center mx-auto bg-black text-white px-8 py-24">
 				<div className="w-full max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-24 relative">
 					<div className="row-start-2 lg:row-start-1 transform -translate-y-[150px] lg:transform-none">
 						<h2 className="w-full text-left text-3xl font-bold mb-8">
@@ -60,7 +60,7 @@ export default function WebDesign() {
 						</p>
 						<Link
 							href="/contact"
-							className="btn xl:px-6 bg-white border-2 border-white hover:bg-orange-400 hover:border-orange-400 text-black hover:text-white transition-all ease-in-out duration-300 rounded-sm">
+							className="btn btn-wide xl:px-6 bg-white border-2 border-white hover:bg-orange-400 hover:border-orange-400 text-black hover:text-white transition-all ease-in-out duration-300 rounded-full">
 							Book a Call
 						</Link>
 					</div>
@@ -69,7 +69,7 @@ export default function WebDesign() {
 						alt="Service Image"
 						width={900}
 						height={900}
-						className="object-cover transform -translate-y-[150px] h-[700px]"
+						className="object-cover transform -translate-y-[150px] h-[700px] rounded-xl"
 					/>
 				</div>
 				<div className="w-full max-w-7xl">
@@ -130,7 +130,7 @@ export default function WebDesign() {
 					</div>
 				</div>
 			</section>
-			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-24 lg:px-8 py-24">
+			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-8 py-24">
 				<div className="w-full max-w-7xl">
 					<h2 className="max-w-3xl w-full mx-auto text-center text-3xl font-bold mb-12">
 						Our Web Development Services
@@ -171,13 +171,13 @@ export default function WebDesign() {
 					</div>
 				</div>
 			</section>
-			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-24 lg:px-8 py-24">
+			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-8 py-24">
 				<div className="w-full max-w-7xl">
 					<h2 className="max-w-3xl mx-auto text-center text-3xl font-bold mb-16">
 						A team of experts that can handle hosting and technical
 						support
 					</h2>
-					<div className="grid grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-24">
+					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-24">
 						<div>
 							<h3 className="font-bold text-xl mb-2 flex gap-2 items-center">
 								<MdOutlineInsertLink className="text-orange-400 text-3xl" />
@@ -282,58 +282,40 @@ export default function WebDesign() {
 					</div>
 				</div>
 			</section> */}
-			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-24 lg:px-8 py-12">
-				<div className="w-full max-w-7xl">
-					<h2 className="mx-auto text-center text-3xl font-bold mb-12">
+			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-8 py-12">
+				<div className="grid grid-cols-1 md:grid-cols-2 max-w-7xl w-full">
+					<h2 className="w-full text-left text-5xl font-bold tracking-tight mb-12 md:mb-0">
 						More Services
 					</h2>
-					<div className="grid grid-cols-1 lg:grid-cols-3 gap-16">
-						<Link
-							href="/web-dev"
-							className="flex flex-col items-start gap-8 w-full group">
-							<div className="w-full h-auto overflow-hidden">
-								<Image
-									src={ph1}
-									alt="Service Image"
-									width={600}
-									height={600}
-									className="w-full group-hover:scale-105 transition-all ease-in-out duration-300"
-								/>
-							</div>
-							<h1 className="text-xl font-bold text-left">
-								Web Development
-							</h1>
-						</Link>
-						<Link
-							href="/ecom"
-							className="flex flex-col items-start gap-8 w-full group">
-							<div className="w-full h-auto overflow-hidden">
-								<Image
-									src={ph1}
-									alt="Service Image"
-									width={600}
-									height={600}
-									className="w-full group-hover:scale-105 transition-all ease-in-out duration-300"
-								/>
-							</div>
-							<h1 className="text-xl font-bold text-left">
+					<div className="flex flex-col items-start w-full">
+						<div className="border-b w-full pb-6 group cursor-pointer">
+							<Link
+								href="/web-design"
+								className="text-4xl tracking-tight group-hover:pl-4 group-hover:text-orange-400 transition-all ease-in-out duration-300">
+								Web Design
+							</Link>
+						</div>
+						<div className="border-b w-full py-6 group cursor-pointer">
+							<Link
+								href="/ecom"
+								className="text-4xl tracking-tight group-hover:pl-4 group-hover:text-orange-400 transition-all ease-in-out duration-300">
 								eCommerce
-							</h1>
-						</Link>
-						<Link
-							href="/seo"
-							className="flex flex-col items-start gap-8 w-full group">
-							<div className="w-full h-auto overflow-hidden">
-								<Image
-									src={ph1}
-									alt="Service Image"
-									width={600}
-									height={600}
-									className="w-full group-hover:scale-105 transition-all ease-in-out duration-300"
-								/>
-							</div>
-							<h1 className="text-xl font-bold text-left">SEO</h1>
-						</Link>
+							</Link>
+						</div>
+						<div className="border-b w-full py-6 group cursor-pointer">
+							<Link
+								href="/seo"
+								className="text-4xl tracking-tight group-hover:pl-4 group-hover:text-orange-400 transition-all ease-in-out duration-300">
+								SEO
+							</Link>
+						</div>
+						<div className="w-full pt-6 group cursor-pointer">
+							<Link
+								href="/services"
+								className="text-4xl tracking-tight group-hover:pl-4 group-hover:text-orange-400 transition-all ease-in-out duration-300">
+								All Services
+							</Link>
+						</div>
 					</div>
 				</div>
 			</section>

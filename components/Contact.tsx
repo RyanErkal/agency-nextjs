@@ -26,7 +26,7 @@ export default function WebDesign() {
 				className="flex flex-col items-center justify-center bg-white text-black px-8 py-16">
 				<div className="grid grid-cols-1 md:grid-cols-2 gap-10 w-full max-w-7xl">
 					<div className="flex flex-col items-left justify-start w-full">
-						<h2 className="text-4xl lg:text-6xl font-bold mb-6">
+						<h2 className="text-5xl font-bold mb-6 tracking-tight">
 							Get in touch
 						</h2>
 						<p className="text-black/75 pr-10 leading-relaxed">
@@ -99,7 +99,7 @@ export default function WebDesign() {
 								</span>
 								.
 							</p>
-							<button className="btn btn-block lg:btn-wide bg-white border-2 border-gray-900 hover:bg-orange-400 hover:border-orange-400 hover:text-white hover:drop-shadow-lg transition-all ease-in-out duration-300 rounded-full">
+							<button className="btn btn-wide bg-white border-2 border-gray-900 hover:bg-orange-400 hover:border-orange-400 hover:text-white hover:drop-shadow-lg transition-all ease-in-out duration-300 rounded-full">
 								Submit
 							</button>
 						</form>

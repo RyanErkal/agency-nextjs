@@ -79,27 +79,24 @@ export default function Services() {
 							Design
 						</h3>
 						<div className="flex flex-col items-start justify-start w-full">
-							<div className="border-b w-full py-6 group cursor-pointer">
-								<Link
-									href="/web-design"
-									className="text-2xl group-hover:pl-4 group-hover:text-orange-400 transition-all ease-in-out duration-300">
+							<Link href="/web-design" className="w-full group">
+								<div className="border-b w-full py-6 group cursor-pointer text-2xl group-hover:pl-4 group-hover:text-orange-400 transition-all ease-in-out duration-300">
 									Web Design
-								</Link>
-							</div>
-							<div className="border-b w-full py-6 group cursor-pointer">
-								<Link
-									href="/shopify"
-									className="text-2xl group-hover:pl-4 group-hover:text-orange-400 transition-all ease-in-out duration-300">
+								</div>
+							</Link>
+
+							<Link href="/shopify" className="w-full group">
+								<div className="border-b w-full py-6 group cursor-pointer text-2xl group-hover:pl-4 group-hover:text-orange-400 transition-all ease-in-out duration-300">
 									Shopify
-								</Link>
-							</div>
-							<div className="w-full py-6 group cursor-pointer">
-								<Link
-									href="/content-writing"
-									className="text-2xl group-hover:pl-4 group-hover:text-orange-400 transition-all ease-in-out duration-300">
+								</div>
+							</Link>
+							<Link
+								href="/content-writing"
+								className="w-full group">
+								<div className="w-full py-6 group cursor-pointer text-2xl group-hover:pl-4 group-hover:text-orange-400 transition-all ease-in-out duration-300">
 									Content Writing
-								</Link>
-							</div>
+								</div>
+							</Link>
 						</div>
 					</div>
 					<div className="flex flex-col md:flex-row w-full md:gap-24 justify-between items-start mt-12">
@@ -107,27 +104,21 @@ export default function Services() {
 							Develop
 						</h3>
 						<div className="flex flex-col items-start justify-start w-full">
-							<div className="border-b w-full py-6 group cursor-pointer">
-								<Link
-									href="/web-dev"
-									className="text-2xl group-hover:pl-4 group-hover:text-orange-400 transition-all ease-in-out duration-300">
+							<Link href="/web-dev" className="w-full group">
+								<div className="border-b w-full py-6 group cursor-pointer text-2xl group-hover:pl-4 group-hover:text-orange-400 transition-all ease-in-out duration-300">
 									Web Development
-								</Link>
-							</div>
-							<div className="border-b w-full py-6 group cursor-pointer">
-								<Link
-									href="/ecom"
-									className="text-2xl group-hover:pl-4 group-hover:text-orange-400 transition-all ease-in-out duration-300">
+								</div>
+							</Link>
+							<Link href="/ecom" className="w-full group">
+								<div className="border-b w-full py-6 group cursor-pointer text-2xl group-hover:pl-4 group-hover:text-orange-400 transition-all ease-in-out duration-300">
 									eCommerce
-								</Link>
-							</div>
-							<div className="w-full py-6 group cursor-pointer">
-								<Link
-									href="/seo"
-									className="text-2xl group-hover:pl-4 group-hover:text-orange-400 transition-all ease-in-out duration-300">
+								</div>
+							</Link>
+							<Link href="/seo" className="w-full group">
+								<div className="border-b w-full py-6 group cursor-pointer text-2xl group-hover:pl-4 group-hover:text-orange-400 transition-all ease-in-out duration-300">
 									Technical SEO
-								</Link>
-							</div>
+								</div>
+							</Link>
 						</div>
 					</div>
 					<div className="flex flex-col md:flex-row w-full md:gap-24 justify-between items-start mt-12">
@@ -135,27 +126,21 @@ export default function Services() {
 							Support
 						</h3>
 						<div className="flex flex-col items-start justify-start w-full">
-							<div className="border-b w-full py-6 group cursor-pointer">
-								<Link
-									href="/web-hosting"
-									className="text-2xl group-hover:pl-4 group-hover:text-orange-400 transition-all ease-in-out duration-300">
+							<Link href="/web-hosting" className="w-full group">
+								<div className="border-b w-full py-6 group cursor-pointer text-2xl group-hover:pl-4 group-hover:text-orange-400 transition-all ease-in-out duration-300">
 									Web Hosting
-								</Link>
-							</div>
-							<div className="border-b w-full py-6 group cursor-pointer">
-								<Link
-									href="/seo"
-									className="text-2xl group-hover:pl-4 group-hover:text-orange-400 transition-all ease-in-out duration-300">
+								</div>
+							</Link>
+							<Link href="/seo" className="w-full group">
+								<div className="border-b w-full py-6 group cursor-pointer text-2xl group-hover:pl-4 group-hover:text-orange-400 transition-all ease-in-out duration-300">
 									Ongoing SEO
-								</Link>
-							</div>
-							<div className="w-full py-6 group cursor-pointer">
-								<Link
-									href="/lead-gen"
-									className="text-2xl group-hover:pl-4 group-hover:text-orange-400 transition-all ease-in-out duration-300">
+								</div>
+							</Link>
+							<Link href="/services" className="w-full group">
+								<div className="border-b w-full py-6 group cursor-pointer text-2xl group-hover:pl-4 group-hover:text-orange-400 transition-all ease-in-out duration-300">
 									Lead Generation
-								</Link>
-							</div>
+								</div>
+							</Link>
 						</div>
 					</div>
 					<div className="flex w-full gap-12 justify-between items-start"></div>
