@@ -157,8 +157,10 @@ const FaqItem = ({ item }: { item: FAQItemProps }) => {
 
 const FAQ = () => {
 	return (
-		<section className="bg-white text-black py-24 px-8" id="faq">
-			<div className="w-full max-w-7xl mx-auto flex flex-col md:flex-row">
+		<section
+			className="bg-white text-black max-w-7xl mx-auto  py-24 px-8"
+			id="faq">
+			<div className="w-full flex flex-col md:flex-row">
 				<div className="flex flex-col text-left basis-1/2">
 					<p className="text-5xl font-bold tracking-tight">
 						Frequently Asked Questions

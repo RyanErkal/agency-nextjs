@@ -1,11 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
-import hero from "@/public/hero.png";
+import stock2 from "@/public/stock2.webp";
 
 const Hero = () => {
 	return (
-		<section className="w-full h-full flex flex-col items-center justify-start px-8 py-24">
-			<div className="max-w-7xl">
+		<section className="w-full h-full flex flex-col items-center justify-start">
+			<div className="max-w-7xl px-8 py-24">
 				<div className="flex flex-col items-center justify-center gap-12 w-full">
 					<h1 className="font-bold text-4xl lg:text-6xl tracking-tight text-center xl:text-left">
 						Design, Develop, Deploy
@@ -26,12 +26,12 @@ const Hero = () => {
 						</Link>
 					</div>
 					<Image
-						src={hero}
+						src={stock2}
 						alt="Hero Image"
 						priority
-						width={800}
-						height={600}
-						className="w-full"
+						width={1200}
+						height={900}
+						className="w-full rounded-xl object-contain"
 					/>
 				</div>
 			</div>

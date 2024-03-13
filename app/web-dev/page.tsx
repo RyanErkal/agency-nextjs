@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 /* import ExperienceCard from "@/components/ExperienceCard"; */
 import FAQ from "./components/FAQ";
 import { getSEOTags } from "@/libs/seo";
-import ph1 from "@/public/ph1.png";
+import stock1 from "@/public/stock1.webp";
 import { MdOutlineFeaturedPlayList } from "react-icons/md";
 import { MdOutlinePeopleAlt } from "react-icons/md";
 import { MdOutlineSpeed } from "react-icons/md";
@@ -60,8 +60,8 @@ export default function WebDesign() {
 					</div>
 				</div>
 			</section>
-			<section className="w-full flex flex-col items-center justify-center mx-auto bg-black text-white px-8 py-24">
-				<div className="w-full max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-24 relative">
+			<section className="w-full flex flex-col items-center justify-center mx-auto bg-black text-white py-24">
+				<div className="w-full max-w-7xl px-8 grid grid-cols-1 lg:grid-cols-2 gap-24 relative">
 					<div className="row-start-2 lg:row-start-1 transform -translate-y-[150px] lg:transform-none">
 						<h2 className="w-full text-left text-2xl font-bold mb-8">
 							Bespoke development solutions for unique needs.
@@ -83,7 +83,7 @@ export default function WebDesign() {
 						</Link>
 					</div>
 					<Image
-						src={ph1}
+						src={stock1}
 						alt="Service Image"
 						width={900}
 						height={900}
@@ -258,8 +258,8 @@ export default function WebDesign() {
 					</div>
 				</div>
 			</section> */}
-			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-8 py-16">
-				<div className="w-full max-w-7xl">
+			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black py-16">
+				<div className="w-full max-w-7xl px-8">
 					<h2 className="max-w-3xl mx-auto text-center text-2xl font-bold mb-16">
 						We develop unique solutions for unique problems.
 					</h2>
@@ -391,8 +391,8 @@ export default function WebDesign() {
 					</div>
 				</div>
 			</section> */}
-			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-8 py-12">
-				<div className="grid grid-cols-1 md:grid-cols-2 max-w-7xl w-full">
+			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black py-12">
+				<div className="grid grid-cols-1 md:grid-cols-2 max-w-7xl px-8 w-full">
 					<h2 className="w-full text-left text-5xl font-bold tracking-tight mb-12 md:mb-0">
 						More Services
 					</h2>

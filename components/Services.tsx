@@ -5,8 +5,8 @@ export default function Services() {
 		<>
 			<section
 				id="services"
-				className="max-w-7xl flex flex-col items-center justify-center mx-auto text-black px-8 py-24">
-				<div className="grid grid-cols-1 md:grid-cols-2 max-w-7xl w-full">
+				className="flex flex-col items-center justify-center max-w-7xl mx-auto text-black px-8 py-24">
+				<div className="grid grid-cols-1 md:grid-cols-2 w-full">
 					<h2 className="w-full text-left text-5xl font-bold tracking-tight md:mb-8">
 						Our Services
 					</h2>

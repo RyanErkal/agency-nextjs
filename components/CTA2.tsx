@@ -2,22 +2,22 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import ph1 from "@/public/ph1.png";
+import stock2 from "@/public/stock2.webp";
 
 export default function CTA2() {
 	return (
-		<section className="overflow-hidden bg-white text-black px-8 py-8 flex flex-col items-center">
-			<div className="max-w-7xl w-full flex flex-col xl:flex-row items-center justify-between ">
+		<section className="overflow-hidden bg-white text-black max-w-7xl px-8 py-8 mx-auto flex flex-col items-center">
+			<div className=" w-full flex flex-col xl:flex-row items-center justify-between ">
 				<div className="w-full">
 					<Image
-						src={ph1}
+						src={stock2}
 						alt="Service Image"
 						width={600}
 						height={600}
 						className="object-fill mb-8 xl:mb-0 rounded-xl"
 					/>
 				</div>
-				<div className="w-full flex flex-col xl:ml-6">
+				<div className="w-full flex flex-col xl:pl-6">
 					<h1 className="text-5xl font-bold w-full text-left tracking-tight mb-6">
 						Let&apos;s Build Something
 					</h1>
