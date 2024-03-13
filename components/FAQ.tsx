@@ -101,14 +101,14 @@ const FaqItem = ({ item }: { item: FAQItemProps }) => {
 	return (
 		<li>
 			<button
-				className="relative flex gap-2 items-center w-full py-5 text-base font-semibold text-left border-t md:text-lg border-base-content/10"
+				className="relative flex gap-2 items-center w-full py-6 text-left border-t md:text-2xl border-base-content/10"
 				onClick={(e) => {
 					e.preventDefault();
 					setIsOpen(!isOpen);
 				}}
 				aria-expanded={isOpen}>
 				<span
-					className={`flex-1 text-base-content ${
+					className={`flex-1 text-black ${
 						isOpen ? "text-orange-400" : ""
 					}`}>
 					{item?.question}
@@ -157,8 +157,8 @@ const FaqItem = ({ item }: { item: FAQItemProps }) => {
 
 const FAQ = () => {
 	return (
-		<section className="bg-white text-black" id="faq">
-			<div className="py-24 px-8 max-w-7xl mx-auto flex flex-col md:flex-row gap-12">
+		<section className="bg-white text-black py-24 px-8" id="faq">
+			<div className="w-full max-w-7xl mx-auto flex flex-col md:flex-row">
 				<div className="flex flex-col text-left basis-1/2">
 					<p className="text-5xl font-bold tracking-tight">
 						Frequently Asked Questions

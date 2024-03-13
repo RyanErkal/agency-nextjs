@@ -6,9 +6,24 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 /* import ExperienceCard from "@/components/ExperienceCard"; */
 import FAQ from "./components/FAQ";
+import { getSEOTags } from "@/libs/seo";
 import ph1 from "@/public/ph1.png";
 import { MdOutlineCheck } from "react-icons/md";
-import { MdOutlineInsertLink } from "react-icons/md";
+import { MdOutlinePhoneIphone } from "react-icons/md";
+import { MdOutlinePinDrop } from "react-icons/md";
+import { MdOutlineLock } from "react-icons/md";
+import { MdOutlineCalculate } from "react-icons/md";
+import { MdOutlinePayments } from "react-icons/md";
+import { MdOutlineLocalShipping } from "react-icons/md";
+import gymshark from "@/public/brands/gymshark.webp";
+import huel from "@/public/brands/huel.webp";
+import redbull from "@/public/brands/redbull.webp";
+import kylie from "@/public/brands/kylie.webp";
+
+export const metadata = getSEOTags({
+	title: "Shopify Agency Manchester | ReDesign",
+	canonicalUrlRelative: "/shopify"
+});
 
 export default function WebDesign() {
 	return (
@@ -22,30 +37,21 @@ export default function WebDesign() {
 				</h2>
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-24">
 					<h3 className="w-full text-left text-2xl font-bold">
-						Our Shopify Developers can build you a fully functional
-						custom Shopify eCommerce website within 4 weeks.
-						Integrated with features you need to start, run, and
-						grow your business.
+						We build beautiful, high-performing Shopify websites
+						that are designed to convert. We can have your store up
+						and running in 2 weeks.
 					</h3>
 					<div>
 						<p className="mb-12">
 							Shopify is our cheaper option of eCommerce that we
-							offer here at MadeByShape. Our team of Shopify
-							experts help people build an online store with
-							hundreds of built-in features, and has the ability
-							to integrate with third party apps. You can sell
-							products directly on your website, and across
-							multiple marketplaces including social media.
-							<br />
-							<br />
-							We have experience working across a range of sectors
-							such as Fashion, Interior Design, and Beauty for
-							start up brands as well as giving existing brands a
-							facelift. We&apos;ve helped celebrities build up
-							their fashion brands such as The ODolls Collection,
-							Riley Studio and Foolish as well as furniture brand
-							Idyll Home and Killer Impression in the beauty
-							industry.
+							offer here at ReDesign. Our team of Shopify experts
+							help people build an online store with hundreds of
+							built-in features, and has the ability to integrate
+							with third party apps. You can sell products
+							directly on your website, and across multiple
+							marketplaces including social media. We have
+							experience across various different industries, so
+							you can trust you&apos;re in good hands.
 						</p>
 						<Link
 							href="/new-project"
@@ -55,7 +61,7 @@ export default function WebDesign() {
 					</div>
 				</div>
 			</section>
-			<section className="w-full flex flex-col items-center justify-center mx-auto bg-black text-white px-8 py-24">
+			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-8 py-16">
 				{/* <div className="w-full max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-24 relative">
 					<div className="row-start-2 lg:row-start-1 transform -translate-y-[150px] lg:transform-none">
 						<h2 className="w-full text-left text-2xl font-bold mb-12">
@@ -91,17 +97,40 @@ export default function WebDesign() {
 						Some of the biggest brands use Shopify
 					</h2>
 					<div className="flex flex-wrap justify-center gap-24">
-						<h3 className="text-xl font-bold">BRAND</h3>
-						<h3 className="text-xl font-bold">CSS3</h3>
-						<h3 className="text-xl font-bold">JavaScript</h3>
-						<h3 className="text-xl font-bold">React</h3>
-						<h3 className="text-xl font-bold">Next.js</h3>
+						<Image
+							src={gymshark}
+							alt="Gymshark"
+							width={200}
+							height={200}
+							className="object-contain"
+						/>
+						<Image
+							src={huel}
+							alt="Huel"
+							width={100}
+							height={200}
+							className="object-contain"
+						/>
+						<Image
+							src={redbull}
+							alt="Redbull"
+							width={100}
+							height={200}
+							className="object-contain"
+						/>
+						<Image
+							src={kylie}
+							alt="Kylie Cosmetics"
+							width={150}
+							height={200}
+							className="object-contain"
+						/>
 					</div>
 				</div>
 			</section>
-			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-8 py-24">
+			<section className="w-full flex flex-col items-center justify-center mx-auto bg-black text-white px-8 py-16">
 				<div className="w-full max-w-7xl">
-					<h2 className="max-w-3xl w-full mx-auto text-center text-3xl font-bold mb-12">
+					<h2 className="max-w-3xl w-full mx-auto text-center text-2xl font-bold mb-12">
 						Empowering independent business owners in the UK and
 						beyond
 					</h2>
@@ -114,9 +143,8 @@ export default function WebDesign() {
 							className="object-cover w-full rounded-xl"
 						/>
 						<div className="flex flex-col gap-4 justify-center">
-							<h3 className="w-full text-left text-2xl font-bold">
-								Our Shopify Developers give you the features you
-								want, none of the hassle.
+							<h3 className="w-full text-left text-xl font-bold">
+								Convenience without compromise.
 							</h3>
 							<p className="">
 								Shopify makes it easy to build and manage your
@@ -153,10 +181,9 @@ export default function WebDesign() {
 							className="object-cover w-full lg:col-start-2 rounded-xl"
 						/>
 						<div className="lg:col-start-1 lg:row-start-2 flex flex-col justify-center">
-							<h3 className="w-full text-left text-2xl font-bold mb-6">
-								A Shopify Agency that helps you start an online
-								store and sell online, or revamp your existing
-								Shopify website.
+							<h3 className="w-full text-left text-xl font-bold mb-6">
+								Start selling online or revamp your existing
+								store.
 							</h3>
 							<p className="mb-4">
 								Selling online with your own eCommerce website
@@ -168,16 +195,16 @@ export default function WebDesign() {
 					</div>
 				</div>
 			</section>
-			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-8 py-24">
+			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-8 py-16">
 				<div className="w-full max-w-7xl">
-					<h2 className=" mx-auto text-center text-3xl font-bold mb-16">
-						Some of the biggest brands trust Shopify
+					<h2 className=" mx-auto text-center text-2xl font-bold mb-16">
+						Shopify is ready to go out of the box.
 					</h2>
 					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-24">
 						<div>
 							<h3 className="font-bold text-xl mb-2 flex gap-2 items-center">
-								<MdOutlineInsertLink className="text-orange-400 text-3xl" />
-								Mobile commerce ready
+								<MdOutlinePhoneIphone className="text-orange-400 text-3xl" />
+								Mobile ready
 							</h3>
 							<p>
 								Your online Shopify store includes a built-in
@@ -188,8 +215,8 @@ export default function WebDesign() {
 						</div>
 						<div>
 							<h3 className="font-bold text-xl mb-2 flex gap-2 items-center">
-								<MdOutlineInsertLink className="text-orange-400 text-3xl" />
-								Track order status
+								<MdOutlinePinDrop className="text-orange-400 text-3xl" />
+								Track orders
 							</h3>
 							<p>
 								Keep track of which orders have been paid for,
@@ -200,8 +227,8 @@ export default function WebDesign() {
 						</div>
 						<div>
 							<h3 className="font-bold text-xl mb-2 flex gap-2 items-center">
-								<MdOutlineInsertLink className="text-orange-400 text-3xl" />
-								Free SSL certificate
+								<MdOutlineLock className="text-orange-400 text-3xl" />
+								Security
 							</h3>
 							<p>
 								Every Shopify store includes a free 256-bit SSL
@@ -212,7 +239,7 @@ export default function WebDesign() {
 						</div>
 						<div>
 							<h3 className="font-bold text-xl mb-2 flex gap-2 items-center">
-								<MdOutlineInsertLink className="text-orange-400 text-3xl" />
+								<MdOutlineCalculate className="text-orange-400 text-3xl" />
 								Automatic taxes
 							</h3>
 							<p>
@@ -223,18 +250,18 @@ export default function WebDesign() {
 						</div>
 						<div>
 							<h3 className="font-bold text-xl mb-2 flex gap-2 items-center">
-								<MdOutlineInsertLink className="text-orange-400 text-3xl" />
-								100 payment gateways
+								<MdOutlinePayments className="text-orange-400 text-3xl" />
+								Pay anyway
 							</h3>
 							<p>
-								From bitcoin to PayPal to iDEAL, Shopify
-								integrates with over 100 external payment
-								gateways from around the world.
+								From bitcoin to PayPal, Shopify integrates with
+								over 100 external payment gateways from around
+								the world.
 							</p>
 						</div>
 						<div>
 							<h3 className="font-bold text-xl mb-2 flex gap-2 items-center">
-								<MdOutlineInsertLink className="text-orange-400 text-3xl" />
+								<MdOutlineLocalShipping className="text-orange-400 text-3xl" />
 								Flexible shipping rates
 							</h3>
 							<p>

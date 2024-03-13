@@ -115,7 +115,7 @@ export default function Services() {
 								</div>
 							</Link>
 							<Link href="/seo" className="w-full group">
-								<div className="border-b w-full py-6 group cursor-pointer text-2xl group-hover:pl-4 group-hover:text-orange-400 transition-all ease-in-out duration-300">
+								<div className="w-full py-6 group cursor-pointer text-2xl group-hover:pl-4 group-hover:text-orange-400 transition-all ease-in-out duration-300">
 									Technical SEO
 								</div>
 							</Link>
@@ -136,8 +136,8 @@ export default function Services() {
 									Ongoing SEO
 								</div>
 							</Link>
-							<Link href="/services" className="w-full group">
-								<div className="border-b w-full py-6 group cursor-pointer text-2xl group-hover:pl-4 group-hover:text-orange-400 transition-all ease-in-out duration-300">
+							<Link href="/lead-gen" className="w-full group">
+								<div className="w-full py-6 group cursor-pointer text-2xl group-hover:pl-4 group-hover:text-orange-400 transition-all ease-in-out duration-300">
 									Lead Generation
 								</div>
 							</Link>

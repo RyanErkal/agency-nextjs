@@ -6,6 +6,7 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 /* import ExperienceCard from "@/components/ExperienceCard"; */
 import FAQ from "./components/FAQ";
+import { getSEOTags } from "@/libs/seo";
 import ph1 from "@/public/ph1.png";
 import { MdOutlineDesignServices } from "react-icons/md";
 import { MdOutlineShoppingCart } from "react-icons/md";
@@ -13,6 +14,11 @@ import { MdOutlineAccessibility } from "react-icons/md";
 import { MdOutlinePhonelink } from "react-icons/md";
 import { MdOutlineListAlt } from "react-icons/md";
 import { MdOutlineAutoGraph } from "react-icons/md";
+
+export const metadata = getSEOTags({
+	title: "Web Design Agency Manchester | ReDesign",
+	canonicalUrlRelative: "/web-design"
+});
 
 export default function WebDesign() {
 	return (
@@ -26,22 +32,24 @@ export default function WebDesign() {
 				</h2>
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-24">
 					<h3 className="w-full text-left text-2xl font-bold">
-						A Web Design Studio in Manchester who offers honest
-						advice, industry experience and a great portfolio of
-						work.
+						A Web Design Agency that understands your brand and your
+						audience is key.
 					</h3>
 					<div>
 						<p className="mb-12">
-							UI/UX, Wireframes, Research and Development - we
-							understand all areas of Web Design. We can take a
-							start-up business with nothing to a fully
-							functioning brand online and offline. We can revamp
-							an existing website, or take a successful brand to
-							the next level. Our talented and creative web design
-							team will work alongside you in collaboration to
-							create a site that reflects your brand, talks to
-							your audience with meaning and personality, and has
-							great functionality across latest devices.
+							From UI/UX design, wireframing, to thorough research
+							and development, our expertise spans all facets of
+							Web Design. Whether you&apos;re a startup looking to
+							establish your brand both online and offline from
+							the ground up, or an existing business aiming for a
+							website makeover, or even a successful brand
+							aspiring for greater heights, we've got you covered.
+							Our skilled and imaginative web design crew
+							collaborates closely with you to craft a website
+							that not only mirrors your brand&apos;s essence but
+							also engages your audience with authenticity and
+							flair, all while ensuring seamless functionality
+							across modern devices.
 						</p>
 						<Link
 							href="/new-project"
@@ -56,21 +64,24 @@ export default function WebDesign() {
 				<div className="w-full max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-24 relative">
 					<div className="row-start-2 lg:row-start-1 transform -translate-y-[150px] lg:transform-none">
 						<h2 className="w-full text-left text-2xl font-bold mb-12">
-							Are you a startup brand, well established company,
-							in the UK or worldwide? It doesn&apos;t matter. We
-							work with a range of clients.
+							Are you a startup or a well established brand? We
+							work with both.
 						</h2>
 						<p className="mb-12">
-							We know it&apos;s hard for brands to setup an online
-							experience, and budgets can be tight. We like to
-							help new brands grow and work in a long term
-							relationship.
+							We understand the challenges brands face in
+							establishing a compelling online presence,
+							especially with constrained budgets. Our goal is to
+							support emerging brands in their growth, fostering
+							long-term partnerships along the way.
 							<br />
-							And we also have the experience of designing,
-							building, testing and launching websites for large
-							global organisations. We can be an extension of your
-							in-house marketing team or take advantage of our
-							expert team to be your complete digital arm.
+							<br />
+							Our extensive experience in designing, developing,
+							testing, and launching websites for major
+							international organizations positions us as a
+							valuable asset. We can seamlessly integrate with
+							your existing marketing team or serve as your
+							full-fledged digital partner, leveraging our
+							expertise to enhance your digital strategy.
 						</p>
 						<Link
 							href="/contact"
@@ -209,10 +220,10 @@ export default function WebDesign() {
 					</div>
 				</div>
 			</section>
-			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-8 py-24">
+			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-8 py-16">
 				<div className="w-full max-w-7xl">
-					<h2 className="w-full text-center text-3xl font-bold mb-12">
-						We approach project with a clear vision.
+					<h2 className="w-full text-center text-2xl font-bold mb-12">
+						Freeing the statue from the stone.
 					</h2>
 					<div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-24">
 						<Image
@@ -224,20 +235,19 @@ export default function WebDesign() {
 						/>
 						<div className="mb-6 lg:mb-0 flex flex-col justify-center">
 							<h3 className="w-full text-left text-xl font-bold mb-6">
-								We like to remove the &apos;waffle&apos; and
-								design beautiful, easy to use websites that are
-								functional.
+								Our focus is designing beautiful websites that
+								are functional.
 							</h3>
 							<p>
-								We don&apos;t just build pretty websites. Here
-								at MadeByShape we understand all aspects of a
-								successful site from design through web
-								development and testing, to SEO and Hosting. We
-								tailor our service to the client and the project
-								requirement.
+								We believe that a website should be more than
+								just a pretty face. It should be a tool that
+								helps you achieve your business goals. We take
+								the time to understand your business and your
+								customers, so we can create a website that helps
+								you achieve your goals.
 							</p>
 						</div>
-						<Image
+						{/* <Image
 							src={ph1}
 							alt="Service Image"
 							width={600}
@@ -259,15 +269,14 @@ export default function WebDesign() {
 								experience to recommend a suitable agency for
 								you.
 							</p>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</section>
-			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-8 py-24">
+			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-8 py-16">
 				<div className="w-full max-w-7xl">
-					<h2 className="max-w-3xl mx-auto text-center text-3xl font-bold mb-16">
-						A team of web design experts that can help you design
-						and build a website you&apos;re proud of
+					<h2 className="max-w-2xl mx-auto text-center text-2xl font-bold mb-16">
+						Design a website that you&apos;re proud of.
 					</h2>
 					<div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-24">
 						<div>
@@ -371,7 +380,7 @@ export default function WebDesign() {
 					</div>
 				</div>
 			</section> */}
-			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-8 py-12">
+			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-8 py-16">
 				<div className="grid grid-cols-1 md:grid-cols-2 max-w-7xl w-full">
 					<h2 className="w-full text-left text-5xl font-bold tracking-tight mb-12 md:mb-0">
 						More Services

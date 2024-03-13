@@ -6,8 +6,19 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 /* import ExperienceCard from "@/components/ExperienceCard"; */
 import FAQ from "./components/FAQ";
+import { getSEOTags } from "@/libs/seo";
 import ph1 from "@/public/ph1.png";
-import { MdOutlineInsertLink } from "react-icons/md";
+import { MdOutlineFeaturedPlayList } from "react-icons/md";
+import { MdOutlinePeopleAlt } from "react-icons/md";
+import { MdOutlineSpeed } from "react-icons/md";
+import { MdOutlinePhonelink } from "react-icons/md";
+import { MdOutlineAutoGraph } from "react-icons/md";
+import { MdOutlineLock } from "react-icons/md";
+
+export const metadata = getSEOTags({
+	title: "Web Development Agency Manchester | ReDesign",
+	canonicalUrlRelative: "/web-dev"
+});
 
 export default function WebDesign() {
 	return (
@@ -21,23 +32,25 @@ export default function WebDesign() {
 				</h2>
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-24">
 					<h3 className="w-full text-left text-2xl font-bold">
-						Any brand knows that a website is their most important
-						marketing tool. It can deliver rich content, to a wide
-						audience in a short period of time.
+						Every brand recognizes that their website is their most
+						vital marketing instrument, capable of broadcasting
+						engaging content to a large audience instantly.
 					</h3>
 					<div>
 						<p className="mb-12">
-							So it&apos;s essential to ensure your website design
-							& development are simple, clean and user friendly,
-							to make the users experience enjoyable.
+							Ensuring your website&apos;s design and development
+							prioritize simplicity, clarity, and
+							user-friendliness is crucial for providing a
+							pleasant user experience.
 							<br />
 							<br />
-							Whether you are a startup or a well established
-							brand, Shape place thought in to every stage of a
-							website from research and planning, to design &
-							development right through to user and browser
-							testing. Making sure your website is on brand and
-							achieves your goals.
+							Regardless of whether you&apos;re just starting out
+							or are an established brand, ReDesign meticulously
+							considers each phase of a website&apos;s
+							journey—from research and planning, through design
+							and development, to user and browser testing. Our
+							goal is to create a website that not only aligns
+							with your brand but also fulfills your objectives.
 						</p>
 						<Link
 							href="/new-project"
@@ -50,19 +63,18 @@ export default function WebDesign() {
 			<section className="w-full flex flex-col items-center justify-center mx-auto bg-black text-white px-8 py-24">
 				<div className="w-full max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-24 relative">
 					<div className="row-start-2 lg:row-start-1 transform -translate-y-[150px] lg:transform-none">
-						<h2 className="w-full text-left text-3xl font-bold mb-8">
-							We&apos;re proud to be recognised as a verified
-							Craft CMS and Craft Commerce partner.
+						<h2 className="w-full text-left text-2xl font-bold mb-8">
+							Bespoke development solutions for unique needs.
 						</h2>
 						<p className="mb-12">
-							Craft states that a Craft Verified Partner has
-							proven Craft CMS development experience, deep
-							knowledge of Craft and exhibits professional and
-							reliable business practices. You can put your trust
-							in our team of Craft experts and have faith that
-							you&apos;re working with an agency who knows Craft
-							CMS and who has been reviewed by Pixel & Tonic
-							themselves.
+							We tackle each project with a unique approach, as we
+							understand that every business has its own set of
+							requirements. Our team of developers and designers
+							work closely with you to understand your business,
+							your goals, and your target audience. We then create
+							a website that is tailored to your specific needs,
+							ensuring that it is not only visually appealing but
+							also functional and user-friendly.
 						</p>
 						<Link
 							href="/contact"
@@ -246,84 +258,96 @@ export default function WebDesign() {
 					</div>
 				</div>
 			</section> */}
-			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-8 py-24">
+			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-8 py-16">
 				<div className="w-full max-w-7xl">
-					<h2 className="max-w-3xl mx-auto text-center text-3xl font-bold mb-16">
-						A team of web design experts that can help you design
-						and build a website you&apos;re proud of
+					<h2 className="max-w-3xl mx-auto text-center text-2xl font-bold mb-16">
+						We develop unique solutions for unique problems.
 					</h2>
 					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-24">
 						<div>
 							<h3 className="font-bold text-xl mb-2 flex gap-2 items-center">
-								<MdOutlineInsertLink className="text-orange-400 text-3xl" />
-								Link Building
+								<MdOutlinePeopleAlt className="text-orange-400 text-3xl" />
+								User Experience
 							</h3>
 							<p>
-								Increasing the number and quality of inbound
-								links to a webpage with the goal of increasing
-								the search engine rankings of that page or
-								website.
+								Our custom web development service leverages the
+								power of Next.js and Tailwind CSS to create
+								bespoke user experiences. We solve the problem
+								of generic, unengaging user interfaces by
+								crafting websites that are as unique as your
+								brand, ensuring your site stands out and
+								resonates with your audience.
 							</p>
 						</div>
 						<div>
 							<h3 className="font-bold text-xl mb-2 flex gap-2 items-center">
-								<MdOutlineInsertLink className="text-orange-400 text-3xl" />
-								Digital PR
+								<MdOutlineFeaturedPlayList className="text-orange-400 text-3xl" />
+								SEO Optimization
 							</h3>
 							<p>
-								An online marketing strategy used by businesses
-								to increase their online presence. We network
-								with journalists, bloggers and influencers to
-								gain high-quality backlinks and social media
-								mentions to improve SEO.
+								A common problem many businesses face is poor
+								visibility on search engines. Our service
+								tackles this head-on by integrating SEO best
+								practices from the ground up, ensuring your
+								website is optimized for search engines,
+								enhancing your site's discoverability and
+								driving more organic traffic.
 							</p>
 						</div>
 						<div>
 							<h3 className="font-bold text-xl mb-2 flex gap-2 items-center">
-								<MdOutlineInsertLink className="text-orange-400 text-3xl" />
-								On-Site Content
+								<MdOutlinePhonelink className="text-orange-400 text-3xl" />
+								Responsive
 							</h3>
 							<p>
-								Without relevant content on your website, there
-								is no reason for users to stick around, or for
-								Google to rank your site accordingly. Make sure
-								your website content is relevant and targeted
-								towards your desired search terms.
+								With the increasing variety of devices used to
+								access the web, a one-size-fits-all approach
+								doesn't work. Our custom web development ensures
+								your website is fully responsive, providing an
+								optimal viewing experience across all devices,
+								from desktops to smartphones.
 							</p>
 						</div>
 						<div>
 							<h3 className="font-bold text-xl mb-2 flex gap-2 items-center">
-								<MdOutlineInsertLink className="text-orange-400 text-3xl" />
-								Keyword Research
+								<MdOutlineAutoGraph className="text-orange-400 text-3xl" />
+								Scalability
 							</h3>
 							<p>
-								Research the keyword terms that work best for
-								your business. Base this decision on volume and
-								difficulty, alongside your offering.
+								Businesses grow, and so should their websites.
+								We solve the problem of limited scalability
+								offered by off-the-shelf solutions by building
+								custom websites that are designed to grow with
+								your business, ensuring that your online
+								presence can easily expand as your needs evolve.
 							</p>
 						</div>
 						<div>
 							<h3 className="font-bold text-xl mb-2 flex gap-2 items-center">
-								<MdOutlineInsertLink className="text-orange-400 text-3xl" />
-								Page Performance
+								<MdOutlineSpeed className="text-orange-400 text-3xl" />
+								Performance
 							</h3>
 							<p>
-								Making your website perform is vital in terms of
-								search visibility. Improving code, image
-								compression, server setup is one of the most
-								important aspects of SEO.
+								Slow websites lead to higher bounce rates and
+								lost opportunities. We specialize in performance
+								optimization, using advanced techniques to
+								minimize load times, improve responsiveness, and
+								keep your users engaged, solving the problem of
+								lost engagement due to sluggish performance.
 							</p>
 						</div>
 						<div>
 							<h3 className="font-bold text-xl mb-2 flex gap-2 items-center">
-								<MdOutlineInsertLink className="text-orange-400 text-3xl" />
-								Meta Data
+								<MdOutlineLock className="text-orange-400 text-3xl" />
+								Security
 							</h3>
 							<p>
-								Inserting relevant Meta Data including Titles,
-								Descriptions, and Keywords based around keyword
-								research is one of the first things you should
-								do in terms of SEO.
+								In an era where cyber threats are rampant, we
+								ensure your website is built with robust
+								security measures to protect against
+								vulnerabilities. Our custom development approach
+								includes the implementation of advanced security
+								protocols to safeguard your site and user data.
 							</p>
 						</div>
 					</div>

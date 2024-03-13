@@ -42,7 +42,8 @@ const faqList: FAQItemProps[] = [
 		question: "Do you redesign existing websites?",
 		answer: (
 			<div className="space-y-2 leading-relaxed">
-				Yes, we specialize in both creating new websites and redesigning
+				Yes, we do &quot;ReDesign&quot; websites (excuse the pun), we
+				specialize in both creating new websites and redesigning
 				existing ones. A website redesign can be crucial for improving
 				usability, updating content, and enhancing SEO. We work closely
 				with you to retain your site&apos;s strengths while transforming
@@ -63,7 +64,7 @@ const faqList: FAQItemProps[] = [
 	},
 	{
 		question:
-			"Do you offer ongoing help with our new site once it&apos;s launched?",
+			"Do you offer ongoing help with our new site once it's launched?",
 		answer: (
 			<div className="space-y-2 leading-relaxed">
 				Yes, we provide ongoing support and maintenance services
@@ -122,14 +123,14 @@ const FaqItem = ({ item }: { item: FAQItemProps }) => {
 	return (
 		<li>
 			<button
-				className="relative flex gap-2 items-center w-full py-5 text-base font-semibold text-left border-t md:text-lg border-base-content/10"
+				className="relative flex gap-2 items-center w-full py-6 text-left border-t md:text-2xl border-base-content/10"
 				onClick={(e) => {
 					e.preventDefault();
 					setIsOpen(!isOpen);
 				}}
 				aria-expanded={isOpen}>
 				<span
-					className={`flex-1 text-base-content ${
+					className={`flex-1 text-black ${
 						isOpen ? "text-orange-400" : ""
 					}`}>
 					{item?.question}
@@ -179,9 +180,9 @@ const FaqItem = ({ item }: { item: FAQItemProps }) => {
 const FAQ = () => {
 	return (
 		<section className="bg-white text-black py-24 px-8" id="faq">
-			<div className="w-full max-w-7xl mx-auto flex flex-col md:flex-row gap-12">
+			<div className="w-full max-w-7xl mx-auto flex flex-col md:flex-row">
 				<div className="flex flex-col text-left basis-1/2">
-					<p className="text-5xl font-bold tracking-tight">
+					<p className="text-5xl font-bold tracking-tight mb-12 md:mb-0">
 						Frequently Asked Questions
 					</p>
 				</div>

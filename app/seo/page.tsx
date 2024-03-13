@@ -6,15 +6,28 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 /* import ExperienceCard from "@/components/ExperienceCard"; */
 import FAQ from "./components/FAQ";
+import { getSEOTags } from "@/libs/seo";
 import ph1 from "@/public/ph1.png";
 import { MdOutlineInsertLink } from "react-icons/md";
+import { MdOutlineSpeed } from "react-icons/md";
+import { MdOutlineDataArray } from "react-icons/md";
+import { MdOutlineVpnKey } from "react-icons/md";
+import { MdOutlineLibraryBooks } from "react-icons/md";
+import { MdOutlineFeaturedPlayList } from "react-icons/md";
+import { MdOutlinePeopleAlt } from "react-icons/md";
+import { MdOutlineLeaderboard } from "react-icons/md";
 
-export default function WebDesign() {
+export const metadata = getSEOTags({
+	title: "SEO Agency Manchester | ReDesign",
+	canonicalUrlRelative: "/seo"
+});
+
+export default function SEO() {
 	return (
 		<>
 			<Header />
 			<section
-				id="web-design"
+				id="seo"
 				className="max-w-7xl flex flex-col items-center justify-center mx-auto text-black px-8 py-24">
 				<h2 className="w-full text-left text-5xl tracking-tight font-bold mb-12">
 					SEO
@@ -28,7 +41,7 @@ export default function WebDesign() {
 						<p className="mb-12">
 							SEO is very important if your website is a tool to
 							generate business, whether that be selling services
-							or products. The SEO agency team here at MadeByShape
+							or products. The SEO agency team here at ReDesign
 							have extensive experience managing SEO campaigns for
 							businesses looking to outrank competitors and
 							compete in search engines for relevant search terms.
@@ -52,7 +65,7 @@ export default function WebDesign() {
 			<section className="w-full flex flex-col items-center justify-center mx-auto bg-black text-white px-8 py-24">
 				<div className="w-full max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-24 relative">
 					<div className="row-start-2 lg:row-start-1 transform -translate-y-[150px] lg:transform-none">
-						<h2 className="w-full text-left text-3xl font-bold mb-8">
+						<h2 className="w-full text-left text-2xl font-bold mb-8">
 							A digital marketing agency who understand SEO from
 							all angles.
 						</h2>
@@ -61,12 +74,12 @@ export default function WebDesign() {
 							Whether that be Technical SEO, Link Building,
 							Content Creation or Digital PR. Your SEO campaign
 							will have a bespoke strategy based upon research.
-							And as an award-winning digital agency, you have the
-							confidence that our web design agency can make
-							technical SEO improvements in conjunction with our
-							SEO team. Working together with the best results in
-							mind, as a collaboration between the development
-							team, SEO, and the clients goals and expectations.
+							Our goal is to allow you to have the confidence that
+							our web design agency can make technical SEO
+							improvements in conjunction with our SEO team.
+							Working together with the best results in mind, as a
+							collaboration between the development team, SEO, and
+							the clients goals and expectations.
 						</p>
 						<Link
 							href="/contact"
@@ -252,11 +265,10 @@ export default function WebDesign() {
 					</div>
 				</div>
 			</section> */}
-			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-8 py-24">
+			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-8 py-16">
 				<div className="w-full max-w-7xl">
-					<h2 className="max-w-3xl mx-auto text-center text-3xl font-bold mb-16">
-						A team of web design experts that can help you design
-						and build a website you&apos;re proud of
+					<h2 className="max-w-3xl mx-auto text-center text-2xl font-bold mb-16">
+						Stand out from the crowd.
 					</h2>
 					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-24">
 						<div>
@@ -273,7 +285,7 @@ export default function WebDesign() {
 						</div>
 						<div>
 							<h3 className="font-bold text-xl mb-2 flex gap-2 items-center">
-								<MdOutlineInsertLink className="text-orange-400 text-3xl" />
+								<MdOutlinePeopleAlt className="text-orange-400 text-3xl" />
 								Digital PR
 							</h3>
 							<p>
@@ -286,7 +298,7 @@ export default function WebDesign() {
 						</div>
 						<div>
 							<h3 className="font-bold text-xl mb-2 flex gap-2 items-center">
-								<MdOutlineInsertLink className="text-orange-400 text-3xl" />
+								<MdOutlineFeaturedPlayList className="text-orange-400 text-3xl" />
 								On-Site Content
 							</h3>
 							<p>
@@ -299,7 +311,7 @@ export default function WebDesign() {
 						</div>
 						<div>
 							<h3 className="font-bold text-xl mb-2 flex gap-2 items-center">
-								<MdOutlineInsertLink className="text-orange-400 text-3xl" />
+								<MdOutlineVpnKey className="text-orange-400 text-3xl" />
 								Keyword Research
 							</h3>
 							<p>
@@ -310,7 +322,7 @@ export default function WebDesign() {
 						</div>
 						<div>
 							<h3 className="font-bold text-xl mb-2 flex gap-2 items-center">
-								<MdOutlineInsertLink className="text-orange-400 text-3xl" />
+								<MdOutlineSpeed className="text-orange-400 text-3xl" />
 								Page Performance
 							</h3>
 							<p>
@@ -322,7 +334,7 @@ export default function WebDesign() {
 						</div>
 						<div>
 							<h3 className="font-bold text-xl mb-2 flex gap-2 items-center">
-								<MdOutlineInsertLink className="text-orange-400 text-3xl" />
+								<MdOutlineDataArray className="text-orange-400 text-3xl" />
 								Meta Data
 							</h3>
 							<p>
@@ -335,7 +347,7 @@ export default function WebDesign() {
 
 						<div>
 							<h3 className="font-bold text-xl mb-2 flex gap-2 items-center">
-								<MdOutlineInsertLink className="text-orange-400 text-3xl" />
+								<MdOutlineLibraryBooks className="text-orange-400 text-3xl" />
 								Blogging
 							</h3>
 							<p>
@@ -349,7 +361,7 @@ export default function WebDesign() {
 						</div>
 						<div>
 							<h3 className="font-bold text-xl mb-2 flex gap-2 items-center">
-								<MdOutlineInsertLink className="text-orange-400 text-3xl" />
+								<MdOutlineLeaderboard className="text-orange-400 text-3xl" />
 								Thought Leadership
 							</h3>
 							<p>

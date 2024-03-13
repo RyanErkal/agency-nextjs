@@ -6,8 +6,19 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 /* import ExperienceCard from "@/components/ExperienceCard"; */
 import FAQ from "./components/FAQ";
+import { getSEOTags } from "@/libs/seo";
 import ph1 from "@/public/ph1.png";
-import { MdOutlineInsertLink } from "react-icons/md";
+import { MdOutlineSpatialAudioOff } from "react-icons/md";
+import { MdOutlinePlaylistAddCheck } from "react-icons/md";
+import { MdOutlineFeaturedPlayList } from "react-icons/md";
+import { MdOutlineLibraryBooks } from "react-icons/md";
+import { MdOutlineNewspaper } from "react-icons/md";
+import { MdOutlineVpnKey } from "react-icons/md";
+
+export const metadata = getSEOTags({
+	title: "Content Writing Agency Manchester | ReDesign",
+	canonicalUrlRelative: "/content-writing"
+});
 
 export default function WebDesign() {
 	return (
@@ -17,32 +28,35 @@ export default function WebDesign() {
 				id="web-design"
 				className="max-w-7xl flex flex-col items-center justify-center mx-auto text-black px-8 py-24">
 				<h2 className="w-full text-left text-5xl tracking-tight font-bold mb-12">
-					Looking for content writers to define your brand tone of
-					voice and help SEO?
+					Content writing to build your reputation and authority.
 				</h2>
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-24">
 					<h3 className="w-full text-left text-2xl font-bold">
-						Speak up in a crowded digital world. Whisper the right
-						things in your customer&apos;s ear. Build a reputation
-						on the voice of your brand.
+						Speak up in a crowded digital world. We build websites
+						that not only look great, but also communicate your
+						brand&apos;s voice.
 					</h3>
 					<div>
 						<p className="mb-12">
-							Brands are more than just great looking websites.
-							The voice of your brand is integral in the journey
-							your customers take to discover you, get to know
-							you, identify with you, and stay loyal. Effectively
-							written content gives you the power to tell a story
-							and build relationships with the people you want to.
+							Brands transcend beyond visually appealing websites;
+							the essence of your brand&apos;s voice plays a
+							crucial role in guiding your customers&apos;
+							journey—from discovery and acquaintance to
+							identification and loyalty. Masterfully crafted
+							content empowers you to weave compelling narratives
+							and foster meaningful connections with your desired
+							audience.
 							<br />
 							<br />
-							Today we are bombarded with more content on a daily
-							basis than ever before. How do you speak up over the
-							noise of a saturated digital world and get your
-							audience to stop scrolling and start reading? Our
-							content writing team use perceptive and intuitive
-							approaches to building brand reputation and
-							establishing rapport with your target audience.
+							In an era where we&apos;re inundated with content
+							like never before, standing out in the crowded
+							digital landscape poses a significant challenge. How
+							can you ensure your message resonates loudly,
+							compelling your audience to pause their endless
+							scrolling and engage with your content? Our team of
+							content writers employs insightful and empathetic
+							strategies to enhance your brand&apos;s presence and
+							cultivate a strong bond with your target market.
 						</p>
 						<Link
 							href="/new-project"
@@ -56,30 +70,31 @@ export default function WebDesign() {
 				<div className="w-full max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-24 relative">
 					<div className="row-start-2 lg:row-start-1 transform -translate-y-[150px] lg:transform-none">
 						<h2 className="w-full text-left text-3xl font-bold mb-8">
-							Content that works hand-in-hand with SEO
+							Content that synergizes perfectly with SEO
 						</h2>
 						<p className="mb-12">
-							Without a solid SEO strategy, your content risks
-							getting gets swallowed up without even being seen.
-							Half the success of any content relies on
-							positioning it in right the right places to get
-							noticed and consumed by relevant customers.
+							Without a robust SEO foundation, your content might
+							never reach its intended audience, getting lost in
+							the digital void. The effectiveness of your content
+							is significantly dependent on its strategic
+							placement, ensuring it captures the attention of
+							relevant customers.
 							<br />
 							<br />
-							Writing successful, optimised content is more than
-							simply stuffing keywords into a service page and
-							hoping for the best. Balancing SEO and your unique,
-							natural tone of voice require skill. We know just
-							how to do this, in fact, we&apos;ve won awards for
-							the results we produce.
+							Crafting content that&apos;s both impactful and
+							SEO-optimized goes beyond mere keyword insertion
+							into a webpage and hoping for visibility. Achieving
+							a harmony between SEO practices and maintaining your
+							brand&apos;s authentic voice is an art.
 							<br />
 							<br />
-							Every piece of content we write has a plan behind
-							it, whether it&apos;s one cog in a well-oiled
-							content optimisation plan, a perfectly timed press
-							release to enhance your backlink profile, or a witty
-							strapline that reminds your audience you&apos;re
-							just like them.
+							Behind every content piece we create lies a
+							strategic plan, whether it&apos;s an integral part
+							of a comprehensive content optimization strategy, a
+							timely press release aimed at boosting your backlink
+							profile, or a clever tagline that resonates with
+							your audience, reminding them of your brand's
+							relatability.
 						</p>
 						<Link
 							href="/contact"
@@ -140,13 +155,12 @@ export default function WebDesign() {
 			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-8 py-24">
 				<div className="w-full max-w-7xl">
 					<h2 className="max-w-3xl mx-auto text-center text-3xl font-bold mb-16">
-						A team of experts that can handle hosting and technical
-						support
+						Have your brand&apos;s voice heard
 					</h2>
 					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-24">
 						<div>
 							<h3 className="font-bold text-xl mb-2 flex gap-2 items-center">
-								<MdOutlineInsertLink className="text-orange-400 text-3xl" />
+								<MdOutlineSpatialAudioOff className="text-orange-400 text-3xl" />
 								Tone of Voice
 							</h3>
 							<p>
@@ -158,7 +172,7 @@ export default function WebDesign() {
 						</div>
 						<div>
 							<h3 className="font-bold text-xl mb-2 flex gap-2 items-center">
-								<MdOutlineInsertLink className="text-orange-400 text-3xl" />
+								<MdOutlinePlaylistAddCheck className="text-orange-400 text-3xl" />
 								SEO Content
 							</h3>
 							<p>
@@ -170,7 +184,7 @@ export default function WebDesign() {
 						</div>
 						<div>
 							<h3 className="font-bold text-xl mb-2 flex gap-2 items-center">
-								<MdOutlineInsertLink className="text-orange-400 text-3xl" />
+								<MdOutlineFeaturedPlayList className="text-orange-400 text-3xl" />
 								On-Page Content
 							</h3>
 							<p>
@@ -183,7 +197,7 @@ export default function WebDesign() {
 						</div>
 						<div>
 							<h3 className="font-bold text-xl mb-2 flex gap-2 items-center">
-								<MdOutlineInsertLink className="text-orange-400 text-3xl" />
+								<MdOutlineLibraryBooks className="text-orange-400 text-3xl" />
 								Blog Content
 							</h3>
 							<p>
@@ -196,7 +210,7 @@ export default function WebDesign() {
 						</div>
 						<div>
 							<h3 className="font-bold text-xl mb-2 flex gap-2 items-center">
-								<MdOutlineInsertLink className="text-orange-400 text-3xl" />
+								<MdOutlineNewspaper className="text-orange-400 text-3xl" />
 								Press
 							</h3>
 							<p>
@@ -210,7 +224,7 @@ export default function WebDesign() {
 						</div>
 						<div>
 							<h3 className="font-bold text-xl mb-2 flex gap-2 items-center">
-								<MdOutlineInsertLink className="text-orange-400 text-3xl" />
+								<MdOutlineVpnKey className="text-orange-400 text-3xl" />
 								Keyword Research
 							</h3>
 							<p>
@@ -226,21 +240,22 @@ export default function WebDesign() {
 				<div className="w-full max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-24 relative">
 					<div className="row-start-2 lg:row-start-1 transform -translate-y-[150px] lg:transform-none">
 						<h2 className="w-full text-left text-3xl font-bold mb-8">
-							We know how to write like an expert in pretty much
-							anything
+							Write like an expert in pretty much anything
 						</h2>
 						<p className="mb-12">
-							Since every company and every audience is unique, so
-							are our strategies. We start every content writing
-							project by getting to know your brand and goals
-							inside out.
+							Our approach is as distinct as each company and its
+							audience. Every content writing endeavor begins with
+							a deep dive into understanding your brand and
+							objectives thoroughly.
 							<br />
 							<br />
-							We get under the skin of your audience to understand
-							their everyday lives, from their biggest challenges
-							to insider jargon. Adapting content writing to new
-							industries is second nature to us, we&apos;ve done
-							it quite a few times.
+							We immerse ourselves in your audience&apos;s world,
+							grasping everything from their significant
+							challenges to the specific language they use.
+							Tailoring our content writing to fit various
+							industries is something we excel at, having
+							successfully navigated this process on numerous
+							occasions.
 						</p>
 						<Link
 							href="/contact"

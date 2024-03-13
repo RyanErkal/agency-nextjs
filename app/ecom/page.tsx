@@ -6,8 +6,14 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 /* import ExperienceCard from "@/components/ExperienceCard"; */
 import FAQ from "./components/FAQ";
+import { getSEOTags } from "@/libs/seo";
 import ph1 from "@/public/ph1.png";
 import { MdOutlineCheck } from "react-icons/md";
+
+export const metadata = getSEOTags({
+	title: "eCommerce Agency Manchester | ReDesign",
+	canonicalUrlRelative: "/ecom"
+});
 
 export default function WebDesign() {
 	return (
@@ -26,13 +32,14 @@ export default function WebDesign() {
 					</h3>
 					<div>
 						<p className="mb-12">
-							Shape have the ability to research your competition,
-							the industry and create a shopping experience that
-							will convert sales. Online you can target specific
-							customers in various locations, and adapt your
-							marketing spend to your needs. Having an online
-							presence in the modern day is a given, but having a
-							website that performs well is more important.
+							ReDesign have the ability to research your
+							competition, the industry and create a shopping
+							experience that will convert sales. Online you can
+							target specific customers in various locations, and
+							adapt your marketing spend to your needs. Having an
+							online presence in the modern day is a given, but
+							having a website that performs well is more
+							important.
 						</p>
 						<Link
 							href="/new-project"
@@ -45,7 +52,7 @@ export default function WebDesign() {
 			<section className="w-full flex flex-col items-center justify-center mx-auto bg-black text-white px-8 py-24">
 				<div className="w-full max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-24 relative">
 					<div className="row-start-2 lg:row-start-1 transform -translate-y-[150px] lg:transform-none">
-						<h2 className="w-full text-left text-3xl font-bold mb-8">
+						<h2 className="w-full text-left text-2xl font-bold mb-8">
 							10 products, or 10,000 products?
 						</h2>
 						<p className="mb-12">
@@ -181,11 +188,10 @@ export default function WebDesign() {
 					</div>
 				</div>
 			</section>
-			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-8 py-24">
+			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-8 py-16">
 				<div className="w-full max-w-7xl">
-					<h2 className="max-w-3xl w-full mx-auto text-center text-3xl font-bold mb-12">
-						Our preferred content management systems of choice
-						include Craft Commerce and Shopify
+					<h2 className="max-w-3xl w-full mx-auto text-center text-2xl font-bold mb-12">
+						Fully custom or Shopify?
 					</h2>
 					<div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-24">
 						<Image
@@ -201,10 +207,11 @@ export default function WebDesign() {
 							</h3>
 							<p className="mb-4">
 								Our custom Shopify sites are a cheaper and
-								faster option than Craft Commerce. We start with
-								an existing Shopify template and customise as
-								much as possible. You could have an eCommerce
-								store online within 3 weeks.
+								faster option than our custom eCommerce
+								solution. We start with an existing Shopify
+								template and customise as much as possible. You
+								could have an eCommerce store online within 2
+								weeks.
 							</p>
 							<Link
 								href="/shopify"
@@ -213,7 +220,7 @@ export default function WebDesign() {
 							</Link>
 							<p className="mb-2 mt-4 flex gap-2 items-center">
 								<MdOutlineCheck className="text-orange-400 text-xl flex-shrink-0" />
-								Built in 3 weeks
+								Built in 2 weeks
 							</p>
 							<p className="mb-2 flex gap-2 items-center">
 								<MdOutlineCheck className="text-orange-400 text-xl flex-shrink-0" />

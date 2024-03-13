@@ -2,14 +2,13 @@
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 import Step1 from "./_assets/components/Step1";
 import Step2 from "./_assets/components/Step2";
 import Step3 from "./_assets/components/Step3";
 import Step4 from "./_assets/components/Step4";
 import Submitted from "./_assets/components/Submitted";
-import ph1 from "@/public/ph1.png";
 
 export default function WebDesign() {
 	const [page, setPage] = useState(1);
@@ -79,14 +78,23 @@ export default function WebDesign() {
 			<Header />
 			<section className="relative overflow-hidden bg-white text-black px-8 py-16 xl:px-32 flex flex-col items-center">
 				<div className="max-w-7xl w-full flex flex-col xl:flex-row items-start justify-between ">
-					<div className="w-full hidden xl:flex">
-						<Image
-							src={ph1}
-							alt="Service Image"
-							width={600}
-							height={600}
-							className="object-fill rounded-xl"
-						/>
+					<div className="flex flex-col items-left justify-start w-full">
+						<h2 className="text-5xl font-bold mb-6 tracking-tight">
+							Let&apos;s build something
+						</h2>
+						<p className="text-black/75 pr-10 leading-relaxed">
+							For general enquiries, please fill out the form to
+							get in touch. Alternatively, if you know your
+							project details - head over to our{" "}
+							<span>
+								<Link
+									href="/new-project"
+									className="cursor-pointer text-orange-400 underline">
+									project planner{" "}
+								</Link>
+							</span>
+							for a more refined step-by-step process.
+						</p>
 					</div>
 					<div className="w-full flex flex-col xl:ml-6">
 						{page === 1 ? (

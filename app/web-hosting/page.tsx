@@ -6,9 +6,20 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 /* import ExperienceCard from "@/components/ExperienceCard"; */
 import FAQ from "./components/FAQ";
+import { getSEOTags } from "@/libs/seo";
 import ph1 from "@/public/ph1.png";
-import { MdOutlineInsertLink } from "react-icons/md";
 import { MdOutlineCheck } from "react-icons/md";
+import { MdOutlineRouter } from "react-icons/md";
+import { MdOutlineLock } from "react-icons/md";
+import { MdOutlineCloud } from "react-icons/md";
+import { MdOutlineGroups } from "react-icons/md";
+import { MdOutlineSupportAgent } from "react-icons/md";
+import { MdOutlineWeb } from "react-icons/md";
+
+export const metadata = getSEOTags({
+	title: "Web Hosting Agency Manchester | ReDesign",
+	canonicalUrlRelative: "/web-hosting"
+});
 
 export default function WebDesign() {
 	return (
@@ -22,16 +33,14 @@ export default function WebDesign() {
 				</h2>
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-24">
 					<h3 className="w-full text-left text-2xl font-bold">
-						We want to take all the technical pressure off you so
-						that you can concentrate on more important aspects of
-						your business and use your time more efficiently.
+						We take the technical pressure off you so that you can
+						concentrate on more important aspects of your business
+						and use your time more efficiently.
 					</h3>
 					<div>
 						<p className="mb-12">
-							We have partnerships with leading UK and US hosting
-							providers, offering great services at the right
-							price. This means we can offer different solutions
-							to different sizes of businesses.
+							We offer different solutons for different needs. We
+							ensure your website is secure, fast and reliable.
 						</p>
 						<Link
 							href="/new-project"
@@ -44,19 +53,18 @@ export default function WebDesign() {
 			<section className="w-full flex flex-col items-center justify-center mx-auto bg-black text-white px-8 py-24">
 				<div className="w-full max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-24 relative">
 					<div className="row-start-2 lg:row-start-1 transform -translate-y-[150px] lg:transform-none">
-						<h2 className="w-full text-left text-3xl font-bold mb-8">
-							Server setup perfect for your project
+						<h2 className="w-full text-left text-2xl font-bold mb-8">
+							Speedy and Dependable
 						</h2>
 						<p className="mb-12">
-							It&apos;s so important to setup a server thats fit
-							for purpose and has all the capabilities your CMS /
-							Website needs. It needs to be secure, scalable and
-							robust enough to allow your website to grow in the
-							future. It&apos;s not just a case of picking the
-							right size of server, here at Shape we are able to
-							deal with the setup, CMS integration, testing and
-							launch. Taking all the pressure off you as a
-							business.
+							Achieving 100% uptime and swift page loads is
+							essential for ensuring a positive user experience.
+							At our agency, we understand that each website has
+							unique requirements, which is why we provide a
+							variety of hosting solutions tailored to meet
+							diverse needs. We prioritize making your website
+							secure, speedy, and dependable, guaranteeing an
+							optimal online presence for your brand.
 						</p>
 						<Link
 							href="/contact"
@@ -130,10 +138,10 @@ export default function WebDesign() {
 					</div>
 				</div>
 			</section>
-			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-8 py-24">
+			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-8 py-16">
 				<div className="w-full max-w-7xl">
-					<h2 className="max-w-3xl w-full mx-auto text-center text-3xl font-bold mb-12">
-						Our Web Development Services
+					<h2 className="max-w-3xl w-full mx-auto text-center text-2xl font-bold mb-12">
+						Our Web Hosting Services
 					</h2>
 					<div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-24">
 						<Image
@@ -141,7 +149,7 @@ export default function WebDesign() {
 							alt="Service Image"
 							width={600}
 							height={600}
-							className="object-cover w-full"
+							className="object-cover w-full rounded-xl"
 						/>
 						<div className="flex flex-col justify-center">
 							<h3 className="w-full text-left text-xl font-bold mb-6">
@@ -171,16 +179,16 @@ export default function WebDesign() {
 					</div>
 				</div>
 			</section>
-			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-8 py-24">
+			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black px-8 py-16">
 				<div className="w-full max-w-7xl">
-					<h2 className="max-w-3xl mx-auto text-center text-3xl font-bold mb-16">
+					<h2 className="max-w-3xl mx-auto text-center text-2xl font-bold mb-16">
 						A team of experts that can handle hosting and technical
 						support
 					</h2>
 					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-24">
 						<div>
 							<h3 className="font-bold text-xl mb-2 flex gap-2 items-center">
-								<MdOutlineInsertLink className="text-orange-400 text-3xl" />
+								<MdOutlineRouter className="text-orange-400 text-3xl" />
 								Dedicated Servers
 							</h3>
 							<p>
@@ -191,7 +199,7 @@ export default function WebDesign() {
 						</div>
 						<div>
 							<h3 className="font-bold text-xl mb-2 flex gap-2 items-center">
-								<MdOutlineInsertLink className="text-orange-400 text-3xl" />
+								<MdOutlineLock className="text-orange-400 text-3xl" />
 								Security
 							</h3>
 							<p>
@@ -202,7 +210,7 @@ export default function WebDesign() {
 						</div>
 						<div>
 							<h3 className="font-bold text-xl mb-2 flex gap-2 items-center">
-								<MdOutlineInsertLink className="text-orange-400 text-3xl" />
+								<MdOutlineCloud className="text-orange-400 text-3xl" />
 								Cloud Hosting
 							</h3>
 							<p>
@@ -213,7 +221,7 @@ export default function WebDesign() {
 						</div>
 						<div>
 							<h3 className="font-bold text-xl mb-2 flex gap-2 items-center">
-								<MdOutlineInsertLink className="text-orange-400 text-3xl" />
+								<MdOutlineGroups className="text-orange-400 text-3xl" />
 								Shared Hosting
 							</h3>
 							<p>
@@ -223,7 +231,7 @@ export default function WebDesign() {
 						</div>
 						<div>
 							<h3 className="font-bold text-xl mb-2 flex gap-2 items-center">
-								<MdOutlineInsertLink className="text-orange-400 text-3xl" />
+								<MdOutlineSupportAgent className="text-orange-400 text-3xl" />
 								Technical Support
 							</h3>
 							<p>
@@ -233,7 +241,7 @@ export default function WebDesign() {
 						</div>
 						<div>
 							<h3 className="font-bold text-xl mb-2 flex gap-2 items-center">
-								<MdOutlineInsertLink className="text-orange-400 text-3xl" />
+								<MdOutlineWeb className="text-orange-400 text-3xl" />
 								New Website
 							</h3>
 							<p>
