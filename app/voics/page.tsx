@@ -24,9 +24,6 @@ export default function Alliance() {
 					<p className="bg-gray-100 px-4 py-2 rounded-full font-semibold tracking-tight">
 						Web Development
 					</p>
-					<p className="bg-gray-100 px-4 py-2 rounded-full font-semibold tracking-tight">
-						SEO
-					</p>
 				</div>
 				<h1 className="font-bold text-6xl w-full text-left mb-12 tracking-tight">
 					Voics

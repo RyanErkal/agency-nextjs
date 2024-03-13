@@ -83,17 +83,16 @@ export default function WebDesign() {
 							Let&apos;s build something
 						</h2>
 						<p className="text-black/75 pr-10 leading-relaxed">
-							For general enquiries, please fill out the form to
-							get in touch. Alternatively, if you know your
-							project details - head over to our{" "}
+							If you&apos;re unsure how we can help you - head
+							over to our{" "}
 							<span>
 								<Link
-									href="/new-project"
+									href="/contact"
 									className="cursor-pointer text-orange-400 underline">
-									project planner{" "}
+									contact page{" "}
 								</Link>
 							</span>
-							for a more refined step-by-step process.
+							where we can arrange a call to discuss your needs.
 						</p>
 					</div>
 					<div className="w-full flex flex-col xl:ml-6">

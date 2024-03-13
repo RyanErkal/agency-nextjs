@@ -26,6 +26,7 @@ export default function Work() {
 							id={"alliance"}
 							title="Alliance Coaching"
 							description="Website & SEO for an online coaching brand"
+							services={["Web Design", "Web Development", "SEO"]}
 							img={alliance}
 						/>
 
@@ -33,6 +34,7 @@ export default function Work() {
 							id={"voics"}
 							title="Voics"
 							description="Podcast agency website & SEO"
+							services={["Web Design", "Web Development"]}
 							img={voics}
 						/>
 					</div>
@@ -41,12 +43,25 @@ export default function Work() {
 							id={"ignite"}
 							title="Team Ignite"
 							description="Bodybuilding coaching brand website & marketing"
+							services={[
+								"Web Design",
+								"Web Development",
+								"SEO",
+								"Lead Generation",
+								"Marketing"
+							]}
 							img={ignite}
 						/>
 						<ExperienceCard
 							id={"resilient"}
 							title="Resilient Intent"
 							description="An educational platform for fitness professionals"
+							services={[
+								"Web Design",
+								"Web Development",
+								"Branding",
+								"Makreting"
+							]}
 							img={resilient}
 						/>
 					</div>
