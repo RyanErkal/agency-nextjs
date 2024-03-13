@@ -43,8 +43,8 @@ export default function WebDesign() {
 							establish your brand both online and offline from
 							the ground up, or an existing business aiming for a
 							website makeover, or even a successful brand
-							aspiring for greater heights, we've got you covered.
-							Our skilled and imaginative web design crew
+							aspiring for greater heights, we&apos;ve got you
+							covered. Our skilled and imaginative web design crew
 							collaborates closely with you to craft a website
 							that not only mirrors your brand&apos;s essence but
 							also engages your audience with authenticity and

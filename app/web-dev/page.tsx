@@ -290,7 +290,7 @@ export default function WebDesign() {
 								tackles this head-on by integrating SEO best
 								practices from the ground up, ensuring your
 								website is optimized for search engines,
-								enhancing your site's discoverability and
+								enhancing your site&apos;s discoverability and
 								driving more organic traffic.
 							</p>
 						</div>
@@ -302,10 +302,10 @@ export default function WebDesign() {
 							<p>
 								With the increasing variety of devices used to
 								access the web, a one-size-fits-all approach
-								doesn't work. Our custom web development ensures
-								your website is fully responsive, providing an
-								optimal viewing experience across all devices,
-								from desktops to smartphones.
+								doesn&apos;t work. Our custom web development
+								ensures your website is fully responsive,
+								providing an optimal viewing experience across
+								all devices, from desktops to smartphones.
 							</p>
 						</div>
 						<div>
