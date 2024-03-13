@@ -36,7 +36,7 @@ export default function ExperienceCard({
 				<h3 className="text-black/80">{description}</h3>
 			</div>
 			<div className="absolute top-0 left-0 p-4 flex flex-col justify-start items-start gap-2 z-20 ">
-				{services.map((service, i) => (
+				{services.map((service) => (
 					<h3 className="font-semibold bg-white/25 backdrop-blur-sm text-black px-4 py-2 rounded-full opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-300">
 						{service}
 					</h3>
