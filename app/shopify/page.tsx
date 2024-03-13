@@ -140,6 +140,7 @@ export default function WebDesign() {
 							alt="Service Image"
 							width={600}
 							height={600}
+							placeholder="blur"
 							className="object-cover w-full rounded-xl"
 						/>
 						<div className="flex flex-col gap-4 justify-center">
@@ -178,6 +179,7 @@ export default function WebDesign() {
 							alt="Service Image"
 							width={600}
 							height={600}
+							placeholder="blur"
 							className="object-cover w-full lg:col-start-2 rounded-xl"
 						/>
 						<div className="lg:col-start-1 lg:row-start-2 flex flex-col justify-center">

@@ -7,7 +7,7 @@ import voics from "@/public/logos/voics.webp";
 
 export default function LogoCloud() {
 	return (
-		<div className="bg-white py-8">
+		<div className="bg-white py-4">
 			<div className="mx-auto max-w-7xl px-8">
 				<h2 className="text-center text-lg font-semibold leading-8 text-black">
 					Trusted by industry experts

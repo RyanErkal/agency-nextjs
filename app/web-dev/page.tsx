@@ -87,6 +87,7 @@ export default function WebDesign() {
 						alt="Service Image"
 						width={900}
 						height={900}
+						placeholder="blur"
 						className="object-cover transform -translate-y-[150px] h-[700px] rounded-xl"
 					/>
 				</div>

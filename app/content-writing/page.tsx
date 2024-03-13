@@ -107,6 +107,7 @@ export default function WebDesign() {
 						alt="Service Image"
 						width={900}
 						height={900}
+						placeholder="blur"
 						className="object-cover transform -translate-y-[150px] h-[700px] rounded-xl"
 					/>
 				</div>
@@ -243,6 +244,7 @@ export default function WebDesign() {
 						alt="Service Image"
 						width={900}
 						height={900}
+						placeholder="blur"
 						className="object-cover transform -translate-y-[150px] h-[700px] rounded-xl"
 					/>
 					<div className=" -translate-y-[150px] lg:transform-none">
