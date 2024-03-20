@@ -23,7 +23,7 @@ export default function WebDesign() {
 		<>
 			<div
 				id="contact"
-				className="flex flex-col items-center justify-center bg-white text-black max-w-7xl px-8 py-16 mx-auto">
+				className="flex flex-col items-center justify-center bg-white text-black max-w-7xl px-4 md:px-8 py-16 mx-auto">
 				<div className="grid grid-cols-1 md:grid-cols-2 w-full">
 					<div className="flex flex-col items-left justify-start w-full">
 						<h2 className="text-5xl font-bold mb-6 tracking-tight">

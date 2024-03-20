@@ -1,6 +1,6 @@
 export default function Mailing() {
 	return (
-		<div className="flex flex-col items-center justify-center bg-white text-black max-w-7xl px-8 py-16 mx-auto">
+		<div className="flex flex-col items-center justify-center bg-white text-black max-w-7xl px-4 md:px-8 py-16 mx-auto">
 			<div className="w-full">
 				<h1 className="text-5xl font-bold mb-6 w-full tracking-tight text-left">
 					Subscribe to our newsletter

@@ -76,7 +76,7 @@ export default function WebDesign() {
 	return (
 		<>
 			<Header />
-			<section className="relative overflow-hidden bg-white text-black px-8 py-16 xl:px-32 flex flex-col items-center">
+			<section className="relative overflow-hidden bg-white text-black px-4 md:px-8 py-16 xl:px-32 flex flex-col items-center">
 				<div className="max-w-7xl w-full flex flex-col xl:flex-row items-start justify-between ">
 					<div className="flex flex-col items-left justify-start w-full">
 						<h2 className="text-5xl font-bold mb-6 tracking-tight">

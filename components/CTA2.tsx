@@ -6,7 +6,7 @@ import stock2 from "@/public/stock2.webp";
 
 export default function CTA2() {
 	return (
-		<section className="overflow-hidden bg-white text-black max-w-7xl px-8 py-8 mx-auto flex flex-col items-center">
+		<section className="overflow-hidden bg-white text-black max-w-7xl px-4 md:px-8 py-8 mx-auto flex flex-col items-center">
 			<div className=" w-full flex flex-col xl:flex-row items-center justify-between ">
 				<div className="w-full">
 					<Image

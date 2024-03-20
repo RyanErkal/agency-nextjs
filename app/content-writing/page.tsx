@@ -26,7 +26,7 @@ export default function WebDesign() {
 			<Header />
 			<section
 				id="web-design"
-				className="max-w-7xl flex flex-col items-center justify-center mx-auto text-black px-8 py-24">
+				className="max-w-7xl flex flex-col items-center justify-center mx-auto text-black px-4 md:px-8 py-24">
 				<h2 className="w-full text-left text-5xl tracking-tight font-bold mb-12">
 					Content writing to build your reputation and authority.
 				</h2>
@@ -67,7 +67,7 @@ export default function WebDesign() {
 				</div>
 			</section>
 			<section className="w-full flex flex-col items-center justify-center mx-auto bg-black text-white pt-24 pb-0">
-				<div className="w-full max-w-7xl px-8 grid grid-cols-1 lg:grid-cols-2 gap-24 relative">
+				<div className="w-full max-w-7xl px-4 md:px-8 grid grid-cols-1 lg:grid-cols-2 gap-24 relative">
 					<div className="row-start-2 lg:row-start-1 transform -translate-y-[150px] lg:transform-none">
 						<h2 className="w-full text-left text-3xl font-bold mb-8">
 							Content that synergizes perfectly with SEO
@@ -154,7 +154,7 @@ export default function WebDesign() {
 				</div>
 			</section> */}
 			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black py-24">
-				<div className="w-full max-w-7xl px-8">
+				<div className="w-full max-w-7xl px-4 md:px-8">
 					<h2 className="max-w-3xl mx-auto text-center text-3xl font-bold mb-16">
 						Have your brand&apos;s voice heard
 					</h2>
@@ -238,7 +238,7 @@ export default function WebDesign() {
 				</div>
 			</section>
 			<section className="w-full flex flex-col items-center justify-center mx-auto bg-black text-white pt-24 pb-0">
-				<div className="w-full max-w-7xl px-8 grid grid-cols-1 lg:grid-cols-2 gap-24 relative">
+				<div className="w-full max-w-7xl px-4 md:px-8 grid grid-cols-1 lg:grid-cols-2 gap-24 relative">
 					<Image
 						src={stock1}
 						alt="Service Image"
@@ -313,7 +313,7 @@ export default function WebDesign() {
 				</div>
 			</section> */}
 			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black pt-24 pb-12">
-				<div className="grid grid-cols-1 md:grid-cols-2 max-w-7xl px-8 w-full">
+				<div className="grid grid-cols-1 md:grid-cols-2 max-w-7xl px-4 md:px-8 w-full">
 					<h2 className="w-full text-left text-5xl font-bold tracking-tight mb-12 md:mb-0">
 						More Services
 					</h2>

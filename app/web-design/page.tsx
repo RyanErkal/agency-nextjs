@@ -27,7 +27,7 @@ export default function WebDesign() {
 			<Header />
 			<section
 				id="web-design"
-				className="max-w-7xl flex flex-col items-center justify-center mx-auto text-black px-8 py-24">
+				className="max-w-7xl flex flex-col items-center justify-center mx-auto text-black px-4 md:px-8 py-24">
 				<h2 className="w-full text-left text-5xl font-bold tracking-tight mb-12">
 					Web Design
 				</h2>
@@ -62,7 +62,7 @@ export default function WebDesign() {
 				</div>
 			</section>
 			<section className="w-full flex flex-col items-center justify-center mx-auto bg-black text-white py-24">
-				<div className="w-full max-w-7xl px-8 grid grid-cols-1 lg:grid-cols-2 gap-24 relative">
+				<div className="w-full max-w-7xl px-4 md:px-8 grid grid-cols-1 lg:grid-cols-2 gap-24 relative">
 					<div className="row-start-2 lg:row-start-1 transform -translate-y-[150px] lg:transform-none">
 						<h2 className="w-full text-left text-2xl font-bold mb-12">
 							Are you a startup or a well established brand? We
@@ -223,7 +223,7 @@ export default function WebDesign() {
 				</div>
 			</section>
 			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black py-16">
-				<div className="w-full max-w-7xl px-8">
+				<div className="w-full max-w-7xl px-4 md:px-8">
 					<h2 className="w-full text-center text-2xl font-bold mb-12">
 						Freeing the statue from the stone.
 					</h2>
@@ -277,7 +277,7 @@ export default function WebDesign() {
 				</div>
 			</section>
 			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black py-16">
-				<div className="w-full max-w-7xl px-8">
+				<div className="w-full max-w-7xl px-4 md:px-8">
 					<h2 className="max-w-2xl mx-auto text-center text-2xl font-bold mb-16">
 						Design a website that you&apos;re proud of.
 					</h2>
@@ -384,7 +384,7 @@ export default function WebDesign() {
 				</div>
 			</section> */}
 			<section className="w-full flex flex-col items-center justify-center mx-auto bg-white text-black py-16">
-				<div className="grid grid-cols-1 md:grid-cols-2 max-w-7xl px-8 w-full">
+				<div className="grid grid-cols-1 md:grid-cols-2 max-w-7xl px-4 md:px-8 w-full">
 					<h2 className="w-full text-left text-5xl font-bold tracking-tight mb-12 md:mb-0">
 						More Services
 					</h2>

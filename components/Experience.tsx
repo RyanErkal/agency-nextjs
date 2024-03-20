@@ -9,7 +9,7 @@ export default function Experience() {
 	return (
 		<section
 			id="work"
-			className="max-w-7xl flex flex-col items-center justify-center mx-auto text-black px-8 py-24">
+			className="max-w-7xl flex flex-col items-center justify-center mx-auto text-black px-4 md:px-8 py-24">
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-16 w-full max-w-7xl">
 				<div className="flex flex-col gap-16">
 					<ExperienceCard

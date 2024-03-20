@@ -70,7 +70,7 @@ export default function Services() {
 			<section
 				id="services"
 				className="flex flex-col items-center bg-white text-black w-full max-w-7xl mx-auto">
-				<div className="flex flex-col items-center justify-center px-8 py-24 w-full ">
+				<div className="flex flex-col items-center justify-center px-4 md:px-8 py-24 w-full ">
 					{/* <h2 className="playfair text-4xl font-bold tracking-tight mb-12 text-left w-full">
 						A web design agency with expertise
 					</h2> */}

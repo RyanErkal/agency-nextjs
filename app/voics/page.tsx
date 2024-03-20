@@ -16,7 +16,7 @@ export default function Alliance() {
 	return (
 		<>
 			<Header />
-			<section className="w-full max-w-7xl bg-white flex flex-col items-center mx-auto px-8 py-24">
+			<section className="w-full max-w-7xl bg-white flex flex-col items-center mx-auto px-4 md:px-8 py-24">
 				<div className="flex flex-wrap gap-6 w-full mb-12">
 					<p className="bg-gray-100 px-4 py-2 rounded-full font-semibold tracking-tight">
 						Web Design

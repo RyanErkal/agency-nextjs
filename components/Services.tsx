@@ -5,9 +5,9 @@ export default function Services() {
 		<>
 			<section
 				id="services"
-				className="flex flex-col items-center justify-center max-w-7xl mx-auto text-black px-8 py-24">
+				className="flex flex-col items-center justify-center max-w-7xl mx-auto text-black px-4 md:px-8 py-24">
 				<div className="grid grid-cols-1 md:grid-cols-2 w-full">
-					<h2 className="w-full text-left text-5xl font-bold tracking-tight md:mb-8">
+					<h2 className="w-full text-left text-5xl font-bold tracking-tight mb-8 md:mb-0">
 						Our Services
 					</h2>
 					<div className="flex flex-col items-start w-full">
