@@ -162,7 +162,7 @@ const FAQ = () => {
 			id="faq">
 			<div className="w-full flex flex-col md:flex-row">
 				<div className="flex flex-col text-left basis-1/2">
-					<p className="text-5xl font-bold tracking-tight">
+					<p className="text-5xl font-bold tracking-tight mb-12 md:mb-0">
 						Frequently Asked Questions
 					</p>
 				</div>
