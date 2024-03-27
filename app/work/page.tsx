@@ -3,12 +3,16 @@ import Header from "@/components/Header";
 import ExperienceCard from "@/components/ExperienceCard";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-import Image from "next/image";
-import Link from "next/link";
 import alliance from "@/public/alliance.webp";
 import ignite from "@/public/ignite.webp";
 import resilient from "@/public/resilient.webp";
 import voics from "@/public/voics.webp";
+import { getSEOTags } from "@/libs/seo";
+
+export const metadata = getSEOTags({
+	title: "ReDesign | Our Work",
+	canonicalUrlRelative: "/work"
+});
 
 export default function Work() {
 	return (

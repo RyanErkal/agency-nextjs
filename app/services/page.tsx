@@ -1,15 +1,18 @@
-"use client";
-
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CTA2 from "@/components/CTA2";
 import Mailing from "@/components/Mailing";
-import Image from "next/image";
 import Link from "next/link";
 import ph1 from "@/public/ph1.png";
 import ph2 from "@/public/ph2.png";
 import ph3 from "@/public/ph3.png";
 import ph4 from "@/public/ph4.png";
+import { getSEOTags } from "@/libs/seo";
+
+export const metadata = getSEOTags({
+	title: "ReDesign | Services",
+	canonicalUrlRelative: "/services"
+});
 
 const ServicesList = [
 	{

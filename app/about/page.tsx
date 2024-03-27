@@ -1,5 +1,11 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { getSEOTags } from "@/libs/seo";
+
+export const metadata = getSEOTags({
+	title: "ReDesign | About",
+	canonicalUrlRelative: "/about"
+});
 
 export default function About() {
 	return (

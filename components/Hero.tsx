@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import stock2 from "@/public/stock2.webp";
+import canvagif from "@/public/canvagif.gif";
 
 const Hero = () => {
 	return (
@@ -26,12 +27,12 @@ const Hero = () => {
 						</Link>
 					</div>
 					<Image
-						src={stock2}
-						alt="Hero Image"
+						src={canvagif}
+						alt="Hero Gif"
 						priority
 						width={1200}
 						height={900}
-						className="w-full rounded-xl object-contain"
+						className="w-full rounded-xl object-fill shadow-xl"
 					/>
 				</div>
 			</div>

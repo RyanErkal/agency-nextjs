@@ -1,23 +1,30 @@
+import Image from "next/image";
+import web2 from "@/public/web2.webp";
+
 export default function Testimonial({
 	name,
 	position,
-	title,
 	description
 }: {
 	name: string;
 	position: string;
-	title: string;
 	description: string;
 }) {
 	return (
 		<div className="bg-gray-100  min-h-72 p-8 flex flex-col items-left justify-start rounded-xl">
-			<h2 className="font-bold text-xl mb-4">{title}</h2>
-			<p className="text-sm text-left text-black/80 mb-4">
+			<p className="text-lg text-left text-black/80 mb-4">
 				{description}
 			</p>
-			<div className="flex w-full justify-between items-center border-t border-base-content/5 pt-4">
+			<div className="flex w-full justify-start items-center border-t border-base-content/5 pt-4">
+				<Image
+					src={web2}
+					alt="avatar"
+					width={60}
+					height={60}
+					className="rounded-full object-cover mr-4"
+				/>
 				<div>
-					<h2 className="text-base font-bold">{name}</h2>
+					<h2 className="text-lg font-bold">{name}</h2>
 					<h3 className="text-sm text-black/80">{position}</h3>
 				</div>
 			</div>
