@@ -1,7 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CTA2 from "@/components/CTA2";
-import Mailing from "@/components/Mailing";
 import Link from "next/link";
 import ph1 from "@/public/ph1.png";
 import ph2 from "@/public/ph2.png";
@@ -150,7 +149,6 @@ export default function Services() {
 				</div>
 			</section>
 			<CTA2 />
-			<Mailing />
 			<Footer />
 		</>
 	);

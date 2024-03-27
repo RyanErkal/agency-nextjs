@@ -1,5 +1,4 @@
 import Image from "next/image";
-import web2 from "@/public/web2.webp";
 import joe from "@/public/joe.jpeg";
 import cian from "@/public/cian.jpeg";
 import dallen from "@/public/dallen.jpeg";
@@ -22,11 +21,11 @@ export default function Testimonials() {
 							<span className="font-semibold text-orange-400">
 								game-changer
 							</span>{" "}
-							for our online presence. They didn't just design a
-							website; they crafted an engaging digital experience
-							that has significantly boosted our customer
-							engagement and sales. Their attention to detail and
-							innovative approach sets them apart.
+							for our online presence. They didn&apos;t just
+							design a website; they crafted an engaging digital
+							experience that has significantly boosted our
+							customer engagement and sales. Their attention to
+							detail and innovative approach sets them apart.
 						</p>
 						<div className="flex w-full justify-start items-center border-t border-base-content/5 pt-4">
 							<Image
@@ -68,7 +67,7 @@ export default function Testimonials() {
 							/>
 							<div>
 								<h2 className="text-lg font-bold">
-									Cian O'Brien
+									Cian O&apos;Brien
 								</h2>
 								<h3 className="text-base text-black/80">
 									Founder of Team CBC
@@ -148,12 +147,12 @@ export default function Testimonials() {
 							<span className="font-semibold text-orange-400">
 								crucial role
 							</span>{" "}
-							in the expansion of our online services. They didn't
-							just meet our expectations; they exceeded them by
-							providing innovative solutions and proactive
-							support. Their understanding of web development
-							trends and customer-focused approach has been a
-							major factor in our success.
+							in the expansion of our online services. They
+							didn&apos;t just meet our expectations; they
+							exceeded them by providing innovative solutions and
+							proactive support. Their understanding of web
+							development trends and customer-focused approach has
+							been a major factor in our success.
 						</p>
 						<div className="flex w-full justify-start items-center border-t border-base-content/5 pt-4">
 							<Image
