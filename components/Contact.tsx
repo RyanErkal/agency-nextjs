@@ -2,14 +2,25 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import FormData from "form-data";
+import Mailgun from "mailgun.js";
+
+const mailgun = new Mailgun(FormData);
+
+const API_KEY = process.env.MAILGUN_API_KEY || "";
+const DOMAIN = process.env.MAILGUN_DOMAIN || "";
+
+const mg = mailgun.client({
+	username: "api",
+	key: API_KEY || "key-yourkeyhere"
+});
 
 export default function WebDesign() {
 	const [formData, setFormData] = useState({
 		name: "",
 		email: "",
 		company: "",
-		summary: "",
-		challenge: ""
+		summary: ""
 	});
 
 	function handleInput(e: any) {
@@ -17,6 +28,19 @@ export default function WebDesign() {
 			...formData,
 			[e.target.name]: e.target.value
 		});
+	}
+
+	async function handleSubmit(e: any) {
+		e.preventDefault();
+		const res = await fetch("/api/send", {
+			method: "POST",
+			headers: {
+				"Content-Type": "application/json"
+			},
+			body: JSON.stringify(formData)
+		});
+		const data = await res.json();
+		console.log(data);
 	}
 
 	return (
@@ -44,7 +68,7 @@ export default function WebDesign() {
 						</p>
 					</div>
 					<div className="flex flex-col items-left justify-start w-full">
-						<form>
+						<form onSubmit={handleSubmit}>
 							<input
 								onChange={handleInput}
 								value={formData.name}
@@ -80,14 +104,6 @@ export default function WebDesign() {
 								id="summary"
 								className="bg-white text-black text-opacity-75 focus:ring-transparent focus:outline-none focus:border-orange-400 border-b-2 border-gray-100 text-lg py-4 transition-all ease-in-out duration-300 w-full mb-4"
 							/>
-							<textarea
-								onChange={handleInput}
-								value={formData.challenge}
-								placeholder="Tell us about our project"
-								name="challenge"
-								id="challenge"
-								className="bg-white text-black text-opacity-75 focus:ring-transparent focus:outline-none focus:border-orange-400 border-b-2 border-gray-100 text-lg py-4 transition-all ease-in-out duration-300 w-full mb-8"
-							/>
 							<p className="text-black/75 mb-8">
 								By submitting this form, you agree to our{" "}
 								<span>
@@ -99,7 +115,9 @@ export default function WebDesign() {
 								</span>
 								.
 							</p>
-							<button className="btn btn-wide bg-white border-2 border-gray-900 hover:bg-orange-400 hover:border-orange-400 hover:text-white hover:drop-shadow-lg transition-all ease-in-out duration-300 rounded-full">
+							<button
+								type="submit"
+								className="btn btn-wide bg-white border-2 border-gray-900 hover:bg-orange-400 hover:border-orange-400 hover:text-white hover:drop-shadow-lg transition-all ease-in-out duration-300 rounded-full">
 								Submit
 							</button>
 						</form>
