@@ -26,13 +26,12 @@ const Hero = () => {
 							Meet Our Clients
 						</Link>
 					</div>
-					<Image
-						src={canvagif}
-						alt="Hero Gif"
-						priority
-						width={1200}
-						height={900}
-						className="w-full rounded-xl object-fill shadow-xl"
+					<video
+						autoPlay
+						loop
+						muted
+						src="https://redesign-media.s3.eu-north-1.amazonaws.com/redesignmov.mov"
+						className="w-full h-full rounded-xl"
 					/>
 				</div>
 			</div>
