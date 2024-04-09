@@ -1,7 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
-import stock2 from "@/public/stock2.webp";
-import canvagif from "@/public/canvagif.gif";
 
 const Hero = () => {
 	return (
@@ -30,6 +27,7 @@ const Hero = () => {
 						autoPlay
 						loop
 						muted
+						playsInline
 						src="https://redesign-media.s3.eu-north-1.amazonaws.com/redesignmov.mov"
 						className="w-full h-full rounded-xl"
 					/>
