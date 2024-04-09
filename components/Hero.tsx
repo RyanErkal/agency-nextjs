@@ -28,7 +28,7 @@ const Hero = () => {
 						loop
 						muted
 						playsInline
-						src="https://redesign-media.s3.eu-north-1.amazonaws.com/redesignmov.mov"
+						src="https://redesign-media.s3.eu-north-1.amazonaws.com/redesigncompressed.mp4"
 						className="w-full h-full rounded-xl"
 					/>
 				</div>
