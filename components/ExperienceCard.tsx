@@ -35,7 +35,7 @@ export default function ExperienceCard({
 				</h2>
 				<h3 className="text-black/80">{description}</h3>
 			</div>
-			<div className="absolute top-0 left-0 p-4 flex flex-col justify-start items-start gap-2 z-20 ">
+			<div className="absolute top-0 left-0 p-4 flex flex-col justify-start items-start gap-2 z-20">
 				{services.map((service) => (
 					<h3
 						key={title}

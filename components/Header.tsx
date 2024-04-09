@@ -117,7 +117,7 @@ export default function Header() {
 	return (
 		<>
 			<Headroom>
-				<header className="bg-gray-100/50 backdrop-blur-lg overflow-hidden z-50 max-w-7xl mt-6 mx-4 rounded-full xl:mx-auto">
+				<header className="bg-gray-100/50 backdrop-blur-lg overflow-hidden max-w-7xl mt-6 mx-4 rounded-full xl:mx-auto">
 					<nav
 						className="container flex items-center justify-between px-16 py-4 mx-auto max-w-7xl text-black"
 						aria-label="Global">

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import ExperienceCard from "./ExperienceCard";
+import ExperienceCard2 from "./ExperienceCard2";
 import alliance from "@/public/alliance.webp";
 import ignite from "@/public/ignite.webp";
 import resilient from "@/public/resilient.webp";
@@ -10,29 +11,25 @@ export default function Experience() {
 		<section
 			id="work"
 			className="max-w-7xl flex flex-col items-center justify-center mx-auto text-black px-4 md:px-8 py-24">
-			<div className="grid grid-cols-1 md:grid-cols-2 gap-16 w-full max-w-7xl">
-				<div className="flex flex-col gap-16">
-					<ExperienceCard
+			<div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 w-full max-w-7xl">
+				<div className="flex flex-col gap-12 lg:gap-20">
+					<ExperienceCard2
 						id={"alliance"}
 						title="Alliance Coaching"
-						description="Website & SEO for an online coaching brand"
 						services={["Web Design", "Web Development", "SEO"]}
-						img={alliance}
+						image={alliance}
 					/>
-
-					<ExperienceCard
+					<ExperienceCard2
 						id={"voics"}
 						title="Voics"
-						description="Podcast agency website & SEO"
 						services={["Web Design", "Web Development"]}
-						img={voics}
+						image={voics}
 					/>
 				</div>
-				<div className="flex flex-col gap-16">
-					<ExperienceCard
+				<div className="flex flex-col gap-12 lg:gap-20">
+					<ExperienceCard2
 						id={"ignite"}
 						title="Team Ignite"
-						description="Bodybuilding coaching brand website & marketing"
 						services={[
 							"Web Design",
 							"Web Development",
@@ -40,19 +37,18 @@ export default function Experience() {
 							"Lead Generation",
 							"Marketing"
 						]}
-						img={ignite}
+						image={ignite}
 					/>
-					<ExperienceCard
+					<ExperienceCard2
 						id={"resilient"}
 						title="Resilient Intent"
-						description="An educational platform for fitness professionals"
 						services={[
 							"Web Design",
 							"Web Development",
 							"Branding",
 							"Makreting"
 						]}
-						img={resilient}
+						image={resilient}
 					/>
 				</div>
 			</div>
