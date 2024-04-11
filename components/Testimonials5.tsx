@@ -77,7 +77,7 @@ export default function Testimonials() {
 							We&apos;ve been working with this web development
 							team for a few months now and they have been{" "}
 							<span className="font-semibold text-orange-400">
-								easy to work with{" "}
+								easy to work with
 							</span>
 							. I&apos;m not super technical but they explained
 							everything in a way that I could understand. They
