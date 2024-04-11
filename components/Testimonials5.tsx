@@ -13,19 +13,19 @@ export default function Testimonials() {
 			<h2 className="w-full text-left text-5xl font-bold tracking-tight mb-12">
 				What Our Clients Say
 			</h2>
-			<div className="grid grid-cols-1 xl:grid-cols-2 gap-8 max-w-7xl">
-				<div className="xl:row-span-2 xl:row-start-1">
-					<div className="bg-gray-100  min-h-72 p-8 flex flex-col items-left justify-start rounded-xl">
+			<div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-7xl">
+				<div className="flex flex-col gap-8">
+					<div className="bg-gray-100 p-8 flex flex-col items-left justify-start rounded-xl">
 						<p className="text-lg text-left text-black/80 mb-4">
-							Working with this team was a{" "}
+							Working with the team was a{" "}
 							<span className="font-semibold text-orange-400">
 								game-changer
 							</span>{" "}
-							for our online presence. They didn&apos;t just
-							design a website; they crafted an engaging digital
-							experience that has significantly boosted our
-							customer engagement and sales. Their attention to
-							detail and innovative approach sets them apart.
+							for our online presence. Their attention to detail
+							was excellent. Very professional but fun to work
+							with. They didn&apos;t just make a website they
+							through how it would generate more leads and more
+							clients.
 						</p>
 						<div className="flex w-full justify-start items-center border-t border-base-content/5 pt-4">
 							<Image
@@ -43,51 +43,16 @@ export default function Testimonials() {
 							</div>
 						</div>
 					</div>
-				</div>
-				<div className="xl:row-span-2 xl:row-start-2">
-					<div className="bg-gray-100  min-h-72 p-8 flex flex-col items-left justify-start rounded-xl">
+					<div className="bg-gray-100 p-8 flex flex-col items-left justify-start rounded-xl">
 						<p className="text-lg text-left text-black/80 mb-4">
-							This agency played a crucial role in the expansion
-							of our online services. They{" "}
+							The website was{" "}
 							<span className="font-semibold text-orange-400">
-								exceeded expectations
+								clean, fresh and professional
 							</span>{" "}
-							by providing innovative solutions and proactive
-							support. Their understanding of web development
-							trends and customer-focused approach has been a
-							major factor in our success.
-						</p>
-						<div className="flex w-full justify-start items-center border-t border-base-content/5 pt-4">
-							<Image
-								src={cian}
-								alt="avatar"
-								width={60}
-								height={60}
-								className="rounded-full object-cover mr-4"
-							/>
-							<div>
-								<h2 className="text-lg font-bold">
-									Cian O&apos;Brien
-								</h2>
-								<h3 className="text-base text-black/80">
-									Founder of Team CBC
-								</h3>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div className="xl:row-span-2">
-					<div className="bg-gray-100  min-h-72 p-8 flex flex-col items-left justify-start rounded-xl">
-						<p className="text-lg text-left text-black/80 mb-4">
-							The creativity and technical expertise of this web
-							development agency are second to none. They
-							delivered a stunning website that not only looks
-							great but also performs exceptionally in terms of
-							speed and SEO. Our web traffic and customer{" "}
-							<span className="font-semibold text-orange-400">
-								engagement has skyrocketed
-							</span>{" "}
-							since the launch.
+							looking. It performs great in terms of speed and SEO
+							which we didnt have before with a previous web
+							development agency. Would highly recommend the team
+							here.
 						</p>
 						<div className="flex w-full justify-start items-center border-t border-base-content/5 pt-4">
 							<Image
@@ -107,15 +72,74 @@ export default function Testimonials() {
 							</div>
 						</div>
 					</div>
-				</div>
-				<div className="xl:row-span-2">
-					<div className="bg-gray-100  min-h-72 p-8 flex flex-col items-left justify-start rounded-xl">
+					<div className="bg-gray-100 p-8 flex flex-col items-left justify-start rounded-xl">
 						<p className="text-lg text-left text-black/80 mb-4">
-							This web development agency is a true partner in our
-							business growth. They re-engineered our old website
-							into a modern, responsive, and highly effective tool
-							for our marketing efforts. Their attention to user
-							experience and SEO has{" "}
+							We&apos;ve been working with this web development
+							team for a few months now and they have been{" "}
+							<span className="font-semibold text-orange-400">
+								easy to work with{" "}
+							</span>
+							. I&apos;m not super technical but they explained
+							everything in a way that I could understand. They
+							have been very responsive and have helped us to get
+							our website up and running quickly.
+						</p>
+						<div className="flex w-full justify-start items-center border-t border-base-content/5 pt-4">
+							<Image
+								src={mike}
+								alt="avatar"
+								width={60}
+								height={60}
+								className="rounded-full object-cover mr-4"
+							/>
+							<div className="flex flex-col">
+								<h2 className="text-lg font-bold">
+									Mike Geary
+								</h2>
+								<h3 className="text-base text-black/80">
+									Founder of Equalise Coaching
+								</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="flex flex-col gap-8 lg:pt-36">
+					<div className="bg-gray-100 p-8 flex flex-col items-left justify-start rounded-xl">
+						<p className="text-lg text-left text-black/80 mb-4">
+							The team helped us flesh out our offer to serve more
+							clients at scale. They{" "}
+							<span className="font-semibold text-orange-400">
+								exceeded expectations
+							</span>{" "}
+							by with both the design and the functionality of the
+							site. Their understanding of web development trends
+							and customer-focused approach has been a major
+							factor in our success.
+						</p>
+						<div className="flex w-full justify-start items-center border-t border-base-content/5 pt-4">
+							<Image
+								src={cian}
+								alt="avatar"
+								width={60}
+								height={60}
+								className="rounded-full object-cover mr-4"
+							/>
+							<div>
+								<h2 className="text-lg font-bold">
+									Cian O&apos;Brien
+								</h2>
+								<h3 className="text-base text-black/80">
+									Founder of Team CBC
+								</h3>
+							</div>
+						</div>
+					</div>
+					<div className="bg-gray-100 p-8 flex flex-col items-left justify-start rounded-xl">
+						<p className="text-lg text-left text-black/80 mb-4">
+							This web development agency has been great to work
+							with. They redesigned our old website into a clean,
+							responsive and functional one. Their attention to
+							user experience and SEO has{" "}
 							<span className="font-semibold text-orange-400">
 								dramatically increased our lead generation
 							</span>
@@ -135,39 +159,6 @@ export default function Testimonials() {
 								</h2>
 								<h3 className="text-base text-black/80">
 									Founder of Team Ignite
-								</h3>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div className="xl:row-span-2">
-					<div className="bg-gray-100  min-h-72 p-8 flex flex-col items-left justify-start rounded-xl">
-						<p className="text-lg text-left text-black/80 mb-4">
-							This agency played a{" "}
-							<span className="font-semibold text-orange-400">
-								crucial role
-							</span>{" "}
-							in the expansion of our online services. They
-							didn&apos;t just meet our expectations; they
-							exceeded them by providing innovative solutions and
-							proactive support. Their understanding of web
-							development trends and customer-focused approach has
-							been a major factor in our success.
-						</p>
-						<div className="flex w-full justify-start items-center border-t border-base-content/5 pt-4">
-							<Image
-								src={mike}
-								alt="avatar"
-								width={60}
-								height={60}
-								className="rounded-full object-cover mr-4"
-							/>
-							<div className="flex flex-col">
-								<h2 className="text-lg font-bold">
-									Mike Geary
-								</h2>
-								<h3 className="text-base text-black/80">
-									Founder of Equalise Coaching
 								</h3>
 							</div>
 						</div>

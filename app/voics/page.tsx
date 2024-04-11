@@ -24,6 +24,9 @@ export default function Alliance() {
 					<p className="bg-gray-100 px-4 py-2 rounded-full font-semibold tracking-tight">
 						Web Development
 					</p>
+					<p className="bg-gray-100 px-4 py-2 rounded-full font-semibold tracking-tight">
+						Case Study
+					</p>
 				</div>
 				<h1 className="font-bold text-6xl w-full text-left mb-12 tracking-tight">
 					Voics
@@ -78,8 +81,8 @@ export default function Alliance() {
 								presentation with user intent, we ensure that
 								visitors not only stay longer but are also
 								motivated to take action, whether it&apos;s
-								subscribing to a newsletter, downloading an
-								episode, or sharing content on social media.
+								subscribing to a newsletter, listening to an
+								episode, or sharing on social media.
 							</p>
 						</div>
 					</div>

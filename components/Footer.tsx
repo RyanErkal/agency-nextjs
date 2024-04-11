@@ -29,23 +29,14 @@ const Footer = () => {
 							</div>
 
 							<div className="flex flex-col justify-center items-center md:items-start gap-2 mb-10 text-sm">
-								{config.mailgun.supportEmail && (
-									<a
-										href={`mailto:${config.mailgun.supportEmail}`}
-										target="_blank"
-										className="link"
-										aria-label="Contact Support">
-										Support
-									</a>
-								)}
 								<Link href="/services" className="link">
 									Services
 								</Link>
 								<Link href="/projects" className="link">
-									Work
+									Our Work
 								</Link>
-								<Link href="/blog" className="link">
-									Blog
+								<Link href="/about" className="link">
+									About
 								</Link>
 								<Link href="/contact" className="link">
 									Contact

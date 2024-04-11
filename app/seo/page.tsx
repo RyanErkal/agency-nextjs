@@ -72,15 +72,14 @@ export default function SEO() {
 						</h2>
 						<p className="mb-12">
 							We are proud to have created a team of seo experts.
-							Whether that be Technical SEO, Link Building,
-							Content Creation or Digital PR. Your SEO campaign
-							will have a bespoke strategy based upon research.
-							Our goal is to allow you to have the confidence that
-							our web design agency can make technical SEO
-							improvements in conjunction with our SEO team.
-							Working together with the best results in mind, as a
-							collaboration between the development team, SEO, and
-							the clients goals and expectations.
+							Whether that be Technical SEO or Ongoing SEO. Your
+							SEO campaign will have a bespoke strategy based upon
+							research. Our goal is to allow you to have the
+							confidence that our web design agency can make
+							technical SEO improvements in conjunction with our
+							SEO team. Working together with the best results in
+							mind, as a collaboration between the development
+							team, SEO, and the clients goals and expectations.
 						</p>
 						<Link
 							href="/contact"

@@ -172,7 +172,7 @@ export default function Services() {
 									className="object-cover rounded-3xl lg:transform origin-left lg:scale-x-[0%] lg:opacity-0 lg:group-hover:opacity-100 lg:group-hover:scale-x-[100%] transition-all ease-in-out duration-300 h-16 w-24"
 								/>
 								<h3 className="text-3xl tracking-tight text-left pl-4 lg:pl-0 lg:group-hover:pl-4 lg:group-hover:text-orange-400 transition-all ease-in-out duration-300 lg:ml-[-100px] lg:group-hover:ml-0">
-									Technical SEO
+									SEO
 								</h3>
 							</Link>
 						</div>
@@ -196,7 +196,7 @@ export default function Services() {
 									Web Hosting
 								</h3>
 							</Link>
-							<Link
+							{/* <Link
 								href="/seo"
 								className="flex w-full items-center group relative py-6 border-b border-gray-950/10 cursor-pointer">
 								<Image
@@ -209,7 +209,7 @@ export default function Services() {
 								<h3 className="text-3xl tracking-tight text-left pl-4 lg:pl-0 lg:group-hover:pl-4 lg:group-hover:text-orange-400 transition-all ease-in-out duration-300 lg:ml-[-100px] lg:group-hover:ml-0">
 									Ongoing SEO
 								</h3>
-							</Link>
+							</Link> */}
 							<Link
 								href="/lead-gen"
 								className="flex w-full items-center group relative pt-6 cursor-pointer">

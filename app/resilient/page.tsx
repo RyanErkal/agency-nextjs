@@ -69,13 +69,10 @@ export default function Alliance() {
 								are meticulously designed conversion routes,
 								crafted to transform site visitors into
 								potential leads. Strategically positioned calls
-								to action (CTAs) guide users towards deeper
-								engagement, whether that&apos;s by exploring
-								free content, booking a private consultation, or
-								making an inquiry. These CTAs serve as more than
-								mere prompts, they act as conduits, facilitating
-								a smooth transition from curiosity to definitive
-								action. By strategically positioning these
+								to action guide users towards deeper engagement,
+								whether that&apos;s by exploring free content,
+								booking a private consultation, or making an
+								inquiry. By strategically positioning these
 								elements, we aim to minimize any second-guessing
 								and streamline the journey towards a decision,
 								effectively narrowing the gap between the
@@ -91,16 +88,13 @@ export default function Alliance() {
 							</h3>
 							<p className="mb-4">
 								Resilient Intent is a platform that offers
-								online fitness coaching. They wanted a website
-								that was modern, professional, and easy to
-								navigate that showcases their industry
-								experience. We designed a website that was
-								clean, modern, and easy to navigate. We used a
-								combination of high-quality images and engaging
-								copy to showcase their services and attract new
-								clients. We also optimized the website for
-								search engines to help improve their online
-								visibility.
+								online fitness coaching. We designed a website
+								that was clean, modern, and easy to navigate. We
+								used a combination of high-quality images and
+								engaging copy to showcase their services and
+								attract new clients. We also optimized the
+								website for search engines to help improve their
+								online visibility.
 							</p>
 						</div>
 						<Image

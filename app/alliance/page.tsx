@@ -86,12 +86,11 @@ export default function Alliance() {
 								website to showcase their services and attract
 								new clients. They wanted a website that was
 								modern, professional, and easy to navigate. We
-								designed a website that was clean, modern, and
-								easy to navigate. We used a combination of
-								high-quality images and engaging copy to
-								showcase their services and attract new clients.
-								We also optimized the website for search engines
-								to help improve their online visibility.
+								used a combination of high-quality images and
+								engaging copy to showcase their services and
+								attract new clients. We also optimized the
+								website for search engines to help improve their
+								online visibility.
 							</p>
 						</div>
 						<Image

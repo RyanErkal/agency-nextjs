@@ -112,22 +112,6 @@ const faqList: FAQItemProps[] = [
 				resources to solve any issues that arise.
 			</div>
 		)
-	},
-	{
-		question: "Can you show me some Shopify websites you've built?",
-		answer: (
-			<div className="space-y-2 leading-relaxed">
-				As a web design agency, we&apos;ve had the pleasure of working
-				on a diverse range of Shopify websites across various
-				industries. While we prioritize the privacy and confidentiality
-				of our clients, we can provide a portfolio of our publicly
-				shareable projects upon request. Our work showcases our
-				commitment to creating visually appealing, highly functional,
-				and conversion-optimized online stores. We invite you to get in
-				touch with us to view our portfolio and discuss how we can bring
-				your e-commerce vision to life using Shopify.
-			</div>
-		)
 	}
 ];
 

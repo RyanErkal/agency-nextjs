@@ -50,14 +50,14 @@ const faqList: FAQItemProps[] = [
 		question: "How much does Web Hosting cost?",
 		answer: (
 			<div className="space-y-2 leading-relaxed">
-				The cost of web hosting with Shape varies depending on the type
-				of hosting service you require (shared, VPS, dedicated, or cloud
-				hosting), as well as the resources needed for your website, such
-				as disk space, bandwidth, and additional features like SSL
-				certificates, email hosting, and more. Our hosting plans start
-				at a competitive price point for basic websites and scale up
-				based on your specific needs and traffic demands. We offer
-				transparent pricing with no hidden fees and can provide a
+				The cost of web hosting with ReDesign varies depending on the
+				type of hosting service you require (shared, VPS, dedicated, or
+				cloud hosting), as well as the resources needed for your
+				website, such as disk space, bandwidth, and additional features
+				like SSL certificates, email hosting, and more. Our hosting
+				plans start at a competitive price point for basic websites and
+				scale up based on your specific needs and traffic demands. We
+				offer transparent pricing with no hidden fees and can provide a
 				tailored quote based on an evaluation of your hosting
 				requirements.
 			</div>

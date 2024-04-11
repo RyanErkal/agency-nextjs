@@ -76,13 +76,10 @@ export default function WebDesign() {
 							long-term partnerships along the way.
 							<br />
 							<br />
-							Our extensive experience in designing, developing,
-							testing, and launching websites for major
-							international organizations positions us as a
-							valuable asset. We can seamlessly integrate with
-							your existing marketing team or serve as your
-							full-fledged digital partner, leveraging our
-							expertise to enhance your digital strategy.
+							We can seamlessly integrate with your existing
+							marketing team or serve as your full-fledged digital
+							partner, leveraging our expertise to enhance your
+							digital strategy.
 						</p>
 						<Link
 							href="/contact"
