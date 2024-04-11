@@ -22,7 +22,7 @@ export default function WorkCard({ id, image, title, services }: any) {
 					<p className="bg-gray-100 text-black px-2 lg:px-4 py-1.5 lg:py-3 mb-2 text-left rounded-xl lg:opacity-0 lg:group-hover:opacity-100 transition-all ease-in-out duration-200">
 						{services[1]}
 					</p>
-					{services.length > 0 && (
+					{services.length > 2 && (
 						<p className="bg-gray-100 text-black px-2 lg:px-4 py-1.5 lg:py-3 mb-2 text-left rounded-xl lg:opacity-0 lg:group-hover:opacity-100 transition-all ease-in-out duration-200">
 							+{services.length - 2}
 						</p>
