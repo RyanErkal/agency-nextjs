@@ -78,10 +78,11 @@ export default function About() {
 				</h3>
 				<p className="text-lg lg:text-xl w-full text-left mb-12">
 					We understand that a website&apos;s success is not solely
-					measured by its aesthetic appeal or technical prowess; it's
-					also about its ability to generate tangible results for your
-					business. That&apos;s why we are relentless in our pursuit
-					of strategies that drive revenue and maximize ROI.
+					measured by its aesthetic appeal or technical prowess;
+					it&apos;s also about its ability to generate tangible
+					results for your business. That&apos;s why we are relentless
+					in our pursuit of strategies that drive revenue and maximize
+					ROI.
 					<br /> <br />
 					Our approach to revenue generation is rooted in a deep
 					understanding of your business objectives and target
