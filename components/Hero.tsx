@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Hero = () => {
 	return (
-		<section className="w-full h-full flex flex-col items-center justify-start">
+		<section className="w-full flex flex-col items-center justify-start">
 			<div className="max-w-7xl px-4 md:px-8 py-24">
 				<div className="flex flex-col items-center justify-center gap-12 w-full">
 					<h1 className="font-bold text-4xl lg:text-6xl tracking-tight text-center xl:text-left">
@@ -28,7 +28,8 @@ const Hero = () => {
 						loop
 						muted
 						playsInline
-						src="https://redesign-media.s3.eu-north-1.amazonaws.com/redesigncompressed.mp4"
+						preload="auto"
+						src="https://redesign-media.s3.eu-north-1.amazonaws.com/redesignmovnew.mp4"
 						className="w-full h-full rounded-xl"
 					/>
 				</div>
