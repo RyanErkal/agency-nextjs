@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function WorkCard({ id, image, title, services }: any) {
+export default function WorkCard({ id, image, title, name, services }: any) {
 	return (
 		<Link href={`/${id}`} className="relative group w-full cursor-pointer">
 			<div className="overflow-hidden rounded-3xl w-full ">
@@ -45,7 +45,7 @@ export default function WorkCard({ id, image, title, services }: any) {
 					</svg>
 				</div>
 			</div>
-			<div className="absolute bottom-[-1px] right-[-1px] flex items-end justify-end transition-all duration-200 ease-in-out">
+			{/* <div className="absolute bottom-[-1px] right-[-1px] flex items-end justify-end transition-all duration-200 ease-in-out">
 				<div className="relative text-lg l:text-xl font-bold h-fit px-3 lg:px-4 py-1 lg:py-2 bg-white font-gray-950 rounded-tl-2xl lg:transform lg:translate-y-[80px] lg:group-hover:translate-y-[0px] transition-all ease-in-out duration-300">
 					<p className="bg-gray-100 text-black px-3 lg:px-4 py-1.5 lg:py-3 mt-2 text-left rounded-xl lg:opacity-0 lg:group-hover:opacity-100 transition-all ease-in-out duration-200">
 						{title}
@@ -67,6 +67,14 @@ export default function WorkCard({ id, image, title, services }: any) {
 						<path d="M98.1 0h1.9v51.9h-1.9c0-27.6-22.4-50-50-50V0h50z"></path>
 					</svg>
 				</div>
+			</div> */}
+			<div className="flex flex-col">
+				<h3 className="text-sm font-bold text-black/80 mt-4 lg:mt-6">
+					2024 - {name}{" "}
+				</h3>
+				<h2 className="text-xl lg:text-2xl font-bold text-gray-950 mt-2 lg:mt-4">
+					{title}
+				</h2>
 			</div>
 		</Link>
 	);

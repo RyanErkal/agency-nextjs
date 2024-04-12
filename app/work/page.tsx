@@ -7,6 +7,7 @@ import alliance from "@/public/alliance.webp";
 import ignite from "@/public/ignite.webp";
 import resilient from "@/public/resilient.webp";
 import voics from "@/public/voics.webp";
+import massy from "@/public/massy.webp";
 import { getSEOTags } from "@/libs/seo";
 
 export const metadata = getSEOTags({
@@ -27,14 +28,28 @@ export default function Work() {
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 w-full max-w-7xl">
 					<div className="flex flex-col gap-12 lg:gap-20">
 						<ExperienceCard2
+							id={"massy-media"}
+							name="Massy Media"
+							title="A portfolio for a media company"
+							services={[
+								"Web Design",
+								"Web Development",
+								"Branding",
+								"SEO"
+							]}
+							image={massy}
+						/>
+						<ExperienceCard2
 							id={"alliance"}
-							title="Alliance Coaching"
+							name="Alliance Coaching"
+							title="Crafting a digital presence for a coaching business"
 							services={["Web Design", "Web Development", "SEO"]}
 							image={alliance}
 						/>
 						<ExperienceCard2
 							id={"voics"}
-							title="Voics"
+							name="Voics"
+							title="A case study for a B2B Podcast Agency"
 							services={["Web Design", "Web Development"]}
 							image={voics}
 						/>
@@ -42,7 +57,8 @@ export default function Work() {
 					<div className="flex flex-col gap-12 lg:gap-20">
 						<ExperienceCard2
 							id={"ignite"}
-							title="Team Ignite"
+							name="Team Ignite"
+							title="Creating a digital presence for a bodybuilding team"
 							services={[
 								"Web Design",
 								"Web Development",
@@ -54,12 +70,13 @@ export default function Work() {
 						/>
 						<ExperienceCard2
 							id={"resilient"}
-							title="Resilient Intent"
+							name="Resilient Intent"
+							title="Building a place to educate and inspire"
 							services={[
 								"Web Design",
 								"Web Development",
 								"Branding",
-								"Makreting"
+								"Marketing"
 							]}
 							image={resilient}
 						/>
