@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
 import { Viewport } from "next";
 import PlausibleProvider from "next-plausible";
+import { Analytics } from "@vercel/analytics/react";
 import { getSEOTags } from "@/libs/seo";
 import ClientLayout from "@/components/LayoutClient";
 import config from "@/config";
@@ -26,6 +27,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 				</head>
 			)}
 			<body>
+				<Analytics />
 				{/* ClientLayout contains all the client wrappers (Crisp chat support, toast messages, tooltips, etc.) */}
 				<ClientLayout>{children}</ClientLayout>
 			</body>

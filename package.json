@@ -16,6 +16,7 @@
     "@mdx-js/react": "^2.3.0",
     "@next/mdx": "^13.4.19",
     "@uidotdev/usehooks": "^2.4.1",
+    "@vercel/analytics": "^1.2.2",
     "axios": "^1.4.0",
     "contentful": "^10.6.18",
     "crisp-sdk-web": "^1.0.21",
