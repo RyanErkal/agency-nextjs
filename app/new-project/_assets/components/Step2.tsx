@@ -1,4 +1,4 @@
-export default function Step1({ formData, handleInput }: any) {
+export default function Step1({ formData, handleInput, handleCheckbox }: any) {
 	return (
 		<div className="w-full flex flex-col">
 			<h1 className="playfair text-4xl font-bold w-full text-left mb-12">
@@ -28,6 +28,7 @@ export default function Step1({ formData, handleInput }: any) {
 					<label className="label cursor-pointer w-fit">
 						<span className="label-text mr-2">Web Design</span>
 						<input
+							onChange={handleCheckbox}
 							type="checkbox"
 							name="webDesign"
 							id="webDesign"
@@ -37,8 +38,9 @@ export default function Step1({ formData, handleInput }: any) {
 					<label className="label cursor-pointer w-fit">
 						<span className="label-text mr-2">Web Development</span>
 						<input
+							onChange={handleCheckbox}
 							type="checkbox"
-							name="webDevelopment"
+							name="webDev"
 							id="webDevelopment"
 							className="checkbox"
 						/>
@@ -46,8 +48,9 @@ export default function Step1({ formData, handleInput }: any) {
 					<label className="label cursor-pointer w-fit">
 						<span className="label-text mr-2">SEO</span>
 						<input
+							onChange={handleCheckbox}
 							type="checkbox"
-							name="SEO"
+							name="seo"
 							id="SEO"
 							className="checkbox"
 						/>
@@ -55,6 +58,7 @@ export default function Step1({ formData, handleInput }: any) {
 					<label className="label cursor-pointer w-fit">
 						<span className="label-text mr-2">eCommerce</span>
 						<input
+							onChange={handleCheckbox}
 							type="checkbox"
 							name="eCommerce"
 							id="eCommerce"
@@ -66,6 +70,7 @@ export default function Step1({ formData, handleInput }: any) {
 							We&apos;ll take the lot
 						</span>
 						<input
+							onChange={handleCheckbox}
 							type="checkbox"
 							name="all"
 							id="all"

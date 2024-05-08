@@ -7,7 +7,6 @@ import { useState } from "react";
 import Step1 from "./_assets/components/Step1";
 import Step2 from "./_assets/components/Step2";
 import Step3 from "./_assets/components/Step3";
-import Step4 from "./_assets/components/Step4";
 import Submitted from "./_assets/components/Submitted";
 
 export default function WebDesign() {
@@ -35,6 +34,30 @@ export default function WebDesign() {
 		setFormData({ ...formData, [e.target.name]: e.target.value });
 	}
 
+	function handleCheckbox(e: any) {
+		setFormData({
+			...formData,
+			services: {
+				...formData.services,
+				[e.target.name]: e.target.checked
+			}
+		});
+	}
+
+	const handleSubmit = async () => {
+		try {
+			fetch("/api/mailgun", {
+				method: "POST",
+				headers: {
+					"Content-Type": "application/json"
+				},
+				body: JSON.stringify(formData)
+			});
+		} catch (error) {
+			console.error(error);
+		}
+	};
+
 	function checkInput() {
 		if (page === 1) {
 			if (formData.name === "") {
@@ -61,11 +84,9 @@ export default function WebDesign() {
 				setErrorMessage("Please enter a summary");
 			} else {
 				setErrorMessage("");
+				handleSubmit();
 				nextPage();
 			}
-		} else {
-			console.log("submitted");
-			nextPage();
 		}
 	}
 
@@ -105,14 +126,10 @@ export default function WebDesign() {
 							<Step2
 								formData={formData}
 								handleInput={handleInput}
+								handleCheckbox={handleCheckbox}
 							/>
 						) : page === 3 ? (
 							<Step3
-								formData={formData}
-								handleInput={handleInput}
-							/>
-						) : page === 4 ? (
-							<Step4
 								formData={formData}
 								handleInput={handleInput}
 							/>
@@ -120,11 +137,11 @@ export default function WebDesign() {
 							<Submitted formData={formData} />
 						)}
 
-						{page !== 5 && (
+						{page !== 4 && (
 							<button
 								onClick={checkInput}
 								className="btn btn-wide bg-white border-2 border-gray-900 hover:bg-orange-400 hover:border-orange-400 hover:text-white hover:drop-shadow-lg transition-all ease-in-out duration-300 rounded-full">
-								{page !== 4 ? "Next" : "Submit"}
+								{page !== 3 ? "Next" : "Submit"}
 							</button>
 						)}
 						{errorMessage !== "" && (

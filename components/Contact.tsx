@@ -2,26 +2,17 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import FormData from "form-data";
-import Mailgun from "mailgun.js";
-
-const mailgun = new Mailgun(FormData);
-
-const API_KEY = process.env.MAILGUN_API_KEY || "";
-const DOMAIN = process.env.MAILGUN_DOMAIN || "";
-
-const mg = mailgun.client({
-	username: "api",
-	key: API_KEY || "key-yourkeyhere"
-});
+import { useRouter } from "next/navigation";
 
 export default function WebDesign() {
 	const [formData, setFormData] = useState({
 		name: "",
+		phone: "",
 		email: "",
 		company: "",
 		summary: ""
 	});
+	const router = useRouter();
 
 	function handleInput(e: any) {
 		setFormData({
@@ -30,18 +21,21 @@ export default function WebDesign() {
 		});
 	}
 
-	async function handleSubmit(e: any) {
+	const handleSubmit = async (e: any) => {
 		e.preventDefault();
-		const res = await fetch("/api/send", {
-			method: "POST",
-			headers: {
-				"Content-Type": "application/json"
-			},
-			body: JSON.stringify(formData)
-		});
-		const data = await res.json();
-		console.log(data);
-	}
+		try {
+			fetch("/api/mailgun", {
+				method: "POST",
+				headers: {
+					"Content-Type": "application/json"
+				},
+				body: JSON.stringify(formData)
+			});
+			router.push("/thank-you");
+		} catch (error) {
+			console.error(error);
+		}
+	};
 
 	return (
 		<>
@@ -77,6 +71,15 @@ export default function WebDesign() {
 								name="name"
 								id="name"
 								className="bg-white text-black text-opacity-75 focus:ring-transparent focus:outline-none focus:border-orange-400 border-b-2 border-gray-100 text-lg py-2 transition-all ease-in-out duration-300 w-full mb-4"
+							/>
+							<input
+								onChange={handleInput}
+								value={formData.phone}
+								placeholder="Phone Number"
+								type="text"
+								name="phone"
+								id="phone"
+								className="bg-white text-black text-opacity-75 focus:ring-transparent focus:outline-none focus:border-orange-400 border-b-2 border-gray-100 text-lg py-4 transition-all ease-in-out duration-300 w-full mb-4"
 							/>
 							<input
 								onChange={handleInput}
