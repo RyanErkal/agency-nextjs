@@ -27,9 +27,9 @@ export default function Services() {
 								alt="corporate"
 								height={100}
 								width={100}
-								className="object-cover rounded-3xl lg:transform origin-left lg:scale-x-[0%] lg:opacity-0 lg:group-hover:opacity-100 lg:group-hover:scale-x-[100%] transition-all ease-in-out duration-300 h-16 w-24"
+								className="object-cover hidden lg:block rounded-3xl lg:transform origin-left lg:scale-x-[0%] lg:opacity-0 lg:group-hover:opacity-100 lg:group-hover:scale-x-[100%] transition-all ease-in-out duration-300 h-16 w-24"
 							/>
-							<h3 className="text-3xl tracking-tight text-left pl-4 lg:pl-0 lg:group-hover:pl-4 lg:group-hover:text-orange-400 transition-all ease-in-out duration-300 lg:ml-[-100px] lg:group-hover:ml-0">
+							<h3 className="text-3xl tracking-tight text-left lg:pl-0 lg:group-hover:pl-4 lg:group-hover:text-orange-400 transition-all ease-in-out duration-300 lg:ml-[-100px] lg:group-hover:ml-0">
 								Web Design
 							</h3>
 						</Link>
@@ -41,9 +41,9 @@ export default function Services() {
 								alt="corporate"
 								height={100}
 								width={100}
-								className="object-cover rounded-3xl lg:transform origin-left lg:scale-x-[0%] lg:opacity-0 lg:group-hover:opacity-100 lg:group-hover:scale-x-[100%] transition-all ease-in-out duration-300 h-16 w-24"
+								className="object-cover hidden lg:block rounded-3xl lg:transform origin-left lg:scale-x-[0%] lg:opacity-0 lg:group-hover:opacity-100 lg:group-hover:scale-x-[100%] transition-all ease-in-out duration-300 h-16 w-24"
 							/>
-							<h3 className="text-3xl tracking-tight text-left pl-4 lg:pl-0 lg:group-hover:pl-4 lg:group-hover:text-orange-400 transition-all ease-in-out duration-300 lg:ml-[-100px] lg:group-hover:ml-0">
+							<h3 className="text-3xl tracking-tight text-left lg:pl-0 lg:group-hover:pl-4 lg:group-hover:text-orange-400 transition-all ease-in-out duration-300 lg:ml-[-100px] lg:group-hover:ml-0">
 								Web Development
 							</h3>
 						</Link>
@@ -55,9 +55,9 @@ export default function Services() {
 								alt="corporate"
 								height={100}
 								width={100}
-								className="object-cover rounded-3xl lg:transform origin-left lg:scale-x-[0%] lg:opacity-0 lg:group-hover:opacity-100 lg:group-hover:scale-x-[100%] transition-all ease-in-out duration-300 h-16 w-24"
+								className="object-cover hidden lg:block rounded-3xl lg:transform origin-left lg:scale-x-[0%] lg:opacity-0 lg:group-hover:opacity-100 lg:group-hover:scale-x-[100%] transition-all ease-in-out duration-300 h-16 w-24"
 							/>
-							<h3 className="text-3xl tracking-tight text-left pl-4 lg:pl-0 lg:group-hover:pl-4 lg:group-hover:text-orange-400 transition-all ease-in-out duration-300 lg:ml-[-100px] lg:group-hover:ml-0">
+							<h3 className="text-3xl tracking-tight text-left lg:pl-0 lg:group-hover:pl-4 lg:group-hover:text-orange-400 transition-all ease-in-out duration-300 lg:ml-[-100px] lg:group-hover:ml-0">
 								eCommerce
 							</h3>
 						</Link>
@@ -69,9 +69,9 @@ export default function Services() {
 								alt="corporate"
 								height={100}
 								width={100}
-								className="object-cover rounded-3xl lg:transform origin-left lg:scale-x-[0%] lg:opacity-0 lg:group-hover:opacity-100 lg:group-hover:scale-x-[100%] transition-all ease-in-out duration-300 h-16 w-24"
+								className="object-cover hidden lg:block rounded-3xl lg:transform origin-left lg:scale-x-[0%] lg:opacity-0 lg:group-hover:opacity-100 lg:group-hover:scale-x-[100%] transition-all ease-in-out duration-300 h-16 w-24"
 							/>
-							<h3 className="text-3xl tracking-tight text-left pl-4 lg:pl-0 lg:group-hover:pl-4 lg:group-hover:text-orange-400 transition-all ease-in-out duration-300 lg:ml-[-100px] lg:group-hover:ml-0">
+							<h3 className="text-3xl tracking-tight text-left lg:pl-0 lg:group-hover:pl-4 lg:group-hover:text-orange-400 transition-all ease-in-out duration-300 lg:ml-[-100px] lg:group-hover:ml-0">
 								SEO
 							</h3>
 						</Link>
@@ -83,9 +83,9 @@ export default function Services() {
 								alt="corporate"
 								height={100}
 								width={100}
-								className="object-cover rounded-3xl lg:transform origin-left lg:scale-x-[0%] lg:opacity-0 lg:group-hover:opacity-100 lg:group-hover:scale-x-[100%] transition-all ease-in-out duration-300 h-16 w-24"
+								className="object-cover hidden lg:block rounded-3xl lg:transform origin-left lg:scale-x-[0%] lg:opacity-0 lg:group-hover:opacity-100 lg:group-hover:scale-x-[100%] transition-all ease-in-out duration-300 h-16 w-24"
 							/>
-							<h3 className="text-3xl tracking-tight text-left pl-4 lg:pl-0 lg:group-hover:pl-4 lg:group-hover:text-orange-400 transition-all ease-in-out duration-300 lg:ml-[-100px] lg:group-hover:ml-0">
+							<h3 className="text-3xl tracking-tight text-left lg:pl-0 lg:group-hover:pl-4 lg:group-hover:text-orange-400 transition-all ease-in-out duration-300 lg:ml-[-100px] lg:group-hover:ml-0">
 								All Services
 							</h3>
 						</Link>

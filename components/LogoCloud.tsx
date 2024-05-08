@@ -3,7 +3,7 @@ import Image from "next/image";
 import alliance1 from "@/public/logos/alliance1.webp";
 import ignite from "@/public/logos/ignite.webp";
 import resilient from "@/public/logos/resilient.webp";
-import voics from "@/public/logos/voics.webp";
+import massy from "@/public/massy.png";
 
 export default function LogoCloud() {
 	return (
@@ -36,7 +36,7 @@ export default function LogoCloud() {
 					/>
 					<Image
 						className="object-contain"
-						src={voics}
+						src={massy}
 						alt="Voics Logo"
 						width={200}
 						height={200}
